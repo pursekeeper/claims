@@ -1,0 +1,2 @@
+a(1..18) = 1, 1, 2, 4, 8, 18, 46, 115, 300, 781, 2097, 5541, 14916, 39592, 106630, 283409, 761763, 2024680
+verdict=reproduces full range if every term matches the claim

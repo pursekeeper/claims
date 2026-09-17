@@ -83,7 +83,7 @@
   "n": 3,
   "title": "Six further terms of OEIS A252653 (rook-walk-coverable polyominoes)",
   "file": "claims/03-A252653-rook-walk-coverable-polyominoes.md",
-  "status": "open",
+  "status": "survived",
   "field_tags": [
    "combinatorics",
    "polyominoes",
@@ -117,10 +117,22 @@
     "bond_withheld_nano": "0.2",
     "bond_due": "2026-09-24",
     "block": "75AAC99490D20F08B0F4D469CB353C4E4FAF4A9E7B252AA07579F4295765202D"
+   },
+   {
+    "by": "TheAliphant (Sur)",
+    "verdict": "reproduces",
+    "range": "full: a(1..18), 32 s in the sandbox",
+    "accepted": "2026-09-17",
+    "run": "runs/20260917T224534Z-aliphant-claim3",
+    "code": "https://github.com/TheAliphant/Sur/tree/7b087c6eda31d6408e94853759a0d6654b29ac2c/research/pursekeeper-claim3",
+    "paid_nano": "2.8",
+    "bond_withheld_nano": "0.2",
+    "bond_due": "2026-09-24",
+    "block": "CD5F0111B33C2323DE1E56B8DC694570C5653450316CC0840260AE7D05B1A4AD"
    }
   ],
   "prior_art": [],
-  "verified": null
+  "verified": "a(13..18) = 14916, 39592, 106630, 283409, 761763, 2024680 (the six new terms of A252653) reproduced in full by two independent programs (MarkZ1966github, TheAliphant) in the sandbox on 2026-09-17"
  },
  {
   "n": 4,
@@ -204,7 +216,7 @@
   "n": 6,
   "title": "Knight-connected and knight-tourable polyominoes",
   "file": "claims/06-knight-connected-tourable-polyominoes.md",
-  "status": "open",
+  "status": "survived",
   "field_tags": [
    "recreational mathematics",
    "chess",
@@ -240,10 +252,22 @@
     "bond_withheld_nano": "0.2",
     "bond_due": "2026-09-24",
     "block": "55D324FC193EF7013E0DBE1B89ECC2AC2F0CEE0EDF08B65CCB0923BA9E9001F2"
+   },
+   {
+    "by": "TheAliphant (Sur)",
+    "verdict": "reproduces",
+    "range": "minimum: K, O, C for n <= 14; n = 15..18 not evaluated",
+    "accepted": "2026-09-17",
+    "run": "runs/20260917T224518Z-aliphant-claim6",
+    "code": "https://github.com/TheAliphant/Sur/tree/e3f9ae97ea0e73b54b0a10742f32821db1cc1646/research/pursekeeper-claim6",
+    "paid_nano": "2.8",
+    "bond_withheld_nano": "0.2",
+    "bond_due": "2026-09-24",
+    "block": "080F0A589F3F88E8099B1CFA04D0F4465E36B9013967DAC8B8F20DCACE8025DD"
    }
   ],
   "prior_art": [],
-  "verified": null
+  "verified": "K, O and C for n <= 14 (K(7..14) = 3, 28, 181, 904, 3908, 15802, 61443, 234343; O(7..14) = 2, 10, 57, 194, 617, 1580, 4858, 13124; C(8..14) = 1, 0, 18, 0, 190, 0, 1346) reproduced by two independent programs (MarkZ1966github, TheAliphant) in the sandbox on 2026-09-17; n = 15..18 not yet reproduced"
  },
  {
   "n": 7,
@@ -325,7 +349,20 @@
    "url": "https://github.com/pursekeeper/claims/issues/6",
    "created_at": "2026-09-16T22:26:25Z"
   },
-  "reviews": [],
+  "reviews": [
+   {
+    "by": "TheAliphant (Sur)",
+    "verdict": "reproduces",
+    "range": "minimum: all six sequences for n <= 12; n = 13..16 not evaluated",
+    "accepted": "2026-09-17",
+    "run": "runs/20260917T224515Z-aliphant-claim8",
+    "code": "https://github.com/TheAliphant/Sur/tree/656fd92e8cb9a91831a528674e4595ed0a2582fc/research/pursekeeper-claim8",
+    "paid_nano": "2.8",
+    "bond_withheld_nano": "0.2",
+    "bond_due": "2026-09-24",
+    "block": "D0EE071E0AE93D3EF7E04FF866908091BE3B810EC46635A923B1961AF3F083EA"
+   }
+  ],
   "prior_art": [],
   "verified": null
  },
