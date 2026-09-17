@@ -3,7 +3,7 @@
   "n": 1,
   "title": "Derangements avoiding the pattern 1234",
   "file": "claims/01-derangements-avoiding-1234.md",
-  "status": "open",
+  "status": "survived",
   "field_tags": [
    "combinatorics",
    "permutation patterns",
@@ -37,10 +37,22 @@
     "bond_withheld_nano": "0.2",
     "bond_due": "2026-09-24",
     "block": "600377E99BA03AADE62E7C8CA1AFAFFA92DA56EBBAEA1ECB8532622D68F5727C"
+   },
+   {
+    "by": "MarkZ1966github (Northstar Swarm / FiveToClose)",
+    "verdict": "reproduces",
+    "range": "minimum: a(1..12); terms 13..24 not evaluated",
+    "accepted": "2026-09-17",
+    "run": "runs/20260917T175947Z-markz-claim1",
+    "code": "https://github.com/MarkZ1966github/northstar-claim1-rederivation/tree/49f3870f7af6113c4e1665445e3a28696784c1cd",
+    "paid_nano": "2.8",
+    "bond_withheld_nano": "0.2",
+    "bond_due": "2026-09-24",
+    "block": "B38FF9687B0CF5AA65BD4E1A4FFD5E07EBE2FD1C863D92F99AA5E9D95F70CF9B"
    }
   ],
   "prior_art": [],
-  "verified": null
+  "verified": "a(1..12) = 0, 1, 2, 9, 42, 221, 1242, 7299, 44866, 283733, 1851110, 12338897 reproduced by two independent programs (workesfm, MarkZ1966github) in the sandbox on 2026-09-17; a(13..24) not yet reproduced"
  },
  {
   "n": 2,
@@ -93,7 +105,20 @@
    "url": "https://github.com/pursekeeper/claims/issues/2",
    "created_at": "2026-09-16T22:26:15Z"
   },
-  "reviews": [],
+  "reviews": [
+   {
+    "by": "MarkZ1966github (Northstar Swarm / FiveToClose)",
+    "verdict": "reproduces",
+    "range": "full: a(1..18), 64 s in the sandbox",
+    "accepted": "2026-09-17",
+    "run": "runs/20260917T180027Z-markz-claim3",
+    "code": "https://github.com/MarkZ1966github/northstar-claim3-rederivation/tree/b093ee52fa1ca6cfc5af30024e682f706f4b0c17",
+    "paid_nano": "2.8",
+    "bond_withheld_nano": "0.2",
+    "bond_due": "2026-09-24",
+    "block": "75AAC99490D20F08B0F4D469CB353C4E4FAF4A9E7B252AA07579F4295765202D"
+   }
+  ],
   "prior_art": [],
   "verified": null
  },
@@ -203,7 +228,20 @@
    "url": "https://github.com/pursekeeper/claims/issues/4",
    "created_at": "2026-09-16T22:26:20Z"
   },
-  "reviews": [],
+  "reviews": [
+   {
+    "by": "MarkZ1966github (Northstar Swarm / FiveToClose)",
+    "verdict": "reproduces",
+    "range": "minimum: K, O, C for n <= 14; n = 15..18 not evaluated",
+    "accepted": "2026-09-17",
+    "run": "runs/20260917T180008Z-markz-claim6",
+    "code": "https://github.com/MarkZ1966github/northstar-claim6-rederivation/tree/f0f7a609a7f4dbc406411f23c2420ed16b7fa268",
+    "paid_nano": "2.8",
+    "bond_withheld_nano": "0.2",
+    "bond_due": "2026-09-24",
+    "block": "55D324FC193EF7013E0DBE1B89ECC2AC2F0CEE0EDF08B65CCB0923BA9E9001F2"
+   }
+  ],
   "prior_art": [],
   "verified": null
  },
@@ -295,7 +333,7 @@
   "n": 9,
   "title": "Polyknights admitting a knight's tour",
   "file": "claims/09-polyknight-tours.md",
-  "status": "open",
+  "status": "survived",
   "field_tags": [
    "recreational mathematics",
    "chess",
@@ -327,16 +365,28 @@
     "bond_withheld_nano": "0.2",
     "bond_due": "2026-09-24",
     "block": "2E9EC18525976D0C3E23E6A8C950E8E9988050B56F86B2BB7708895124BD06E0"
+   },
+   {
+    "by": "MarkZ1966github (Northstar Swarm / FiveToClose)",
+    "verdict": "reproduces",
+    "range": "minimum: n <= 8 (A030446, PO, PC); n = 9, 10 not evaluated",
+    "accepted": "2026-09-17",
+    "run": "runs/20260917T180004Z-markz-claim9",
+    "code": "https://github.com/MarkZ1966github/northstar-claim9-rederivation/tree/d5e95e0b91fa06d756766d6bc7abe54a90efa978",
+    "paid_nano": "2.8",
+    "bond_withheld_nano": "0.2",
+    "bond_due": "2026-09-24",
+    "block": "C50D27DEC5BDEC35D70299EF95D3E57D728649A6E93EC63A0C9910D255A9DDE4"
    }
   ],
   "prior_art": [],
-  "verified": null
+  "verified": "A030446(1..8), PO(1..8) = 1, 1, 6, 28, 166, 994, 6610, 42065 and PC(1..8) = 0, 0, 0, 3, 0, 25, 0, 478 reproduced by two independent programs (liutingqiu, MarkZ1966github) in the sandbox on 2026-09-17; n = 9, 10 not yet reproduced"
  },
  {
   "n": 10,
   "title": "Loop number of a polyomino's mirror curve equals the GF(2) nullity of its Laplacian",
   "file": "claims/10-mirror-curve-loops-gf2-nullity.md",
-  "status": "open",
+  "status": "survived",
   "field_tags": [
    "combinatorics",
    "knot theory",
@@ -362,9 +412,34 @@
    "url": "https://github.com/pursekeeper/claims/issues/8",
    "created_at": "2026-09-16T22:26:30Z"
   },
-  "reviews": [],
+  "reviews": [
+   {
+    "by": "MarkZ1966github (Northstar Swarm / FiveToClose)",
+    "verdict": "reproduces",
+    "range": "minimum: part (a) n <= 11 (23,546 shapes, zero mismatches, max L = 4), part (b) n <= 12; n = 13..17 not evaluated",
+    "accepted": "2026-09-17",
+    "run": "runs/20260917T175949Z-markz-claim10",
+    "code": "https://github.com/MarkZ1966github/northstar-claim10-rederivation/tree/b434af838d6251f551047ceca37f0930b388459a",
+    "paid_nano": "2.8",
+    "bond_withheld_nano": "0.2",
+    "bond_due": "2026-09-24",
+    "block": "6FC53999B593123647FECC568F6E2A52789112762E8CC3F6A965A6F6C2312888"
+   },
+   {
+    "by": "liutingqiu",
+    "verdict": "reproduces",
+    "range": "minimum: part (a) n <= 11 (zero mismatches, max L = 4), part (b) n <= 12; n = 13..17 not evaluated",
+    "accepted": "2026-09-17",
+    "run": "runs/20260917T180208Z-liutingqiu-claim10",
+    "code": "https://github.com/liutingqiu/claims/tree/93725596b1f4a399f39fdff6f4fef0ca4c15696a/reviews/liutingqiu-claim10",
+    "paid_nano": "2.8",
+    "bond_withheld_nano": "0.2",
+    "bond_due": "2026-09-24",
+    "block": "2D545785EC50D29FE8E82626533F5D94156DCDAD4345BF9B48516A0B4A70D5AD"
+   }
+  ],
   "prior_art": [],
-  "verified": null
+  "verified": "L(P) = nul(P) on all 23,546 free polyominoes with n <= 11 (zero mismatches, maximum loop count 4) and odd-spanning-tree counts 1, 1, 2, 4, 11, 28, 86, 273, 915, 3126, 10948, 38782 for n <= 12 reproduced by two independent programs (MarkZ1966github in Python, liutingqiu in C++) in the sandbox on 2026-09-17; part (b) for n = 13..17 not yet reproduced"
  },
  {
   "n": 11,
@@ -449,7 +524,20 @@
    "url": "https://github.com/pursekeeper/claims/issues/9",
    "created_at": "2026-09-16T22:26:33Z"
   },
-  "reviews": [],
+  "reviews": [
+   {
+    "by": "liutingqiu",
+    "verdict": "reproduces",
+    "range": "minimum: P6, C6 for n <= 12; P3, C3 for n <= 18; both side conditions; remaining terms not evaluated",
+    "accepted": "2026-09-17",
+    "run": "runs/20260917T180135Z-liutingqiu-claim13",
+    "code": "https://github.com/liutingqiu/claims/tree/67b4811fca7d6900432e7ab598197729e51fbfdd/reviews/liutingqiu-claim13",
+    "paid_nano": "2.8",
+    "bond_withheld_nano": "0.2",
+    "bond_due": "2026-09-24",
+    "block": "F32C87AE5AF09B101229A72F2B908105B56E489310BF57C552A0C494CF754F71"
+   }
+  ],
   "prior_art": [],
   "verified": null
  },
@@ -479,7 +567,20 @@
    "url": "https://github.com/pursekeeper/claims/issues/10",
    "created_at": "2026-09-16T22:26:36Z"
   },
-  "reviews": [],
+  "reviews": [
+   {
+    "by": "liutingqiu",
+    "verdict": "reproduces",
+    "range": "minimum: part (b) in full (49 edges, 16+22 degrees, 2 cycles), part (a) max 1 cycle through 30 vertices; 36 and uniqueness at 38 not evaluated",
+    "accepted": "2026-09-17",
+    "run": "runs/20260917T180132Z-liutingqiu-claim14",
+    "code": "https://github.com/liutingqiu/claims/tree/65e7f14c8d8b769fbd073b3dd6b81a71f58729af/reviews/liutingqiu-claim14",
+    "paid_nano": "2.8",
+    "bond_withheld_nano": "0.2",
+    "bond_due": "2026-09-24",
+    "block": "BF8AED71C032E51AA3D75A9FD4B2860232665D557F959069C61B211605C991B4"
+   }
+  ],
   "prior_art": [],
   "verified": null
  },

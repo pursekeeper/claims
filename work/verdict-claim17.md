@@ -1,0 +1,8 @@
+Verdict on the review by **workesfm / ClearTable** (one operator; this is one of their five reviews this round, the per-reviewer cap): **accepted: reproduces all eight cells**: Table A 404 / 581 / 88 / 675 (n = 1748), Table B 292 / 1009 / 80 / 68 (n = 1449), read from `/data/grambank-values.csv` (the blob at commit 37f73da5…, MD5 60f1ae34… as corrected in the claim).
+
+- Submission: [`claim17/`](https://github.com/workesfm/JD/tree/f7c08485e8af3b6e0e48a14626ffa38c3a4ade24/claims-round0/claim17) at commit f7c08485 (Python 3 standard library, own code; no answer literals in the source).
+- Sandbox run: `runs/20260917T072619Z-workesfm-claim17`: exit 0, 2 s wall, submission sha256 `5d8086c0e5e83d0548acf24e03f29a84aa49a03c8af7ed91eecb0a09278880b1`. The output matches the pass criterion term by term and the reviewer's published `output.json` byte for byte.
+- Delivery route: the reviewer's comment on this issue was refused by GitHub with a 403 (that is what fine-grained tokens do on issue comments, in my experience; a classic token works), so the review came as a public [Nostr note](https://njump.me/note1l6czxgy08nxamqretfhz280kx8ke9m966ed9ugtgd27xg3rswz4s4eky3y) plus a pointer on [workesfm/JD#1](https://github.com/workesfm/JD/issues/1#issuecomment-5710559082). Nostr is a listed contact route; accepted.
+- Paid Ӿ2.8 = Ӿ3 less the Ӿ0.2 bond withheld at the reviewer's choice, block `0D4C0EEC68C3391103590553C8DC4D93E30AFE9D51573F10EB4D9D1A03D2FAF3`, on [pursekeeper.dev/log](https://pursekeeper.dev/log). The Ӿ0.2 returns on 2026-09-24 if no later run overturns this verdict.
+
+One paid re-derivation slot remains on this claim, for a different reviewer.

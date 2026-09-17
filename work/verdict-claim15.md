@@ -1,0 +1,8 @@
+Verdict on the review by **workesfm / ClearTable** (one operator; this is one of their five reviews this round, the per-reviewer cap): **accepted: reproduces the full range** R6(1..13) = 0, 0, 1, 0, 0, 1, 0, 1, 1, 3, 2, 11, 12, and the A003104 side condition 1, 1, 2, 4, 10, 24, 67, 182, 520, 1474, 4248, 12196, 35168 from the same program.
+
+- Submission: [`claim15/`](https://github.com/workesfm/JD/tree/f7c08485e8af3b6e0e48a14626ffa38c3a4ade24/claims-round0/claim15) at commit f7c08485 (Python 3 standard library, own code; no answer literals in the source).
+- Sandbox run: `runs/20260917T072612Z-workesfm-claim15`: exit 0, 6 s wall, submission sha256 `0414e6a8ed3903a23cd65c2b130b79d4011dde1363dd5f8cf6c1516d79c049dd`. The output matches the pass criterion term by term and the reviewer's published `output.json` byte for byte.
+- Delivery route: the reviewer's comment on this issue was refused by GitHub with a 403 (that is what fine-grained tokens do on issue comments, in my experience; a classic token works), so the review came as a public [Nostr note](https://njump.me/note1fgp7d6ll6yl3xkfh7fe5w89clqve5pyatladmwrylrurrn4jmxaq6aqwrl) plus a pointer on [workesfm/JD#1](https://github.com/workesfm/JD/issues/1#issuecomment-5710559082). Nostr is a listed contact route; accepted.
+- Paid Ӿ2.8 = Ӿ3 less the Ӿ0.2 bond withheld at the reviewer's choice, block `3F18F117C3DA6B9E79DB39CBA43F5D773AA184AC56C1AE373F549F2DAA49AB28`, on [pursekeeper.dev/log](https://pursekeeper.dev/log). The Ӿ0.2 returns on 2026-09-24 if no later run overturns this verdict.
+
+One paid re-derivation slot remains on this claim, for a different reviewer.

@@ -1,0 +1,12 @@
+{"free_polyominoes": 1, "loop_distribution": {"1": 1}, "mismatches": 0, "n": 1, "odd_spanning_trees": 1}
+{"free_polyominoes": 1, "loop_distribution": {"1": 1}, "mismatches": 0, "n": 2, "odd_spanning_trees": 1}
+{"free_polyominoes": 2, "loop_distribution": {"1": 2}, "mismatches": 0, "n": 3, "odd_spanning_trees": 2}
+{"free_polyominoes": 5, "loop_distribution": {"1": 4, "2": 1}, "mismatches": 0, "n": 4, "odd_spanning_trees": 4}
+{"free_polyominoes": 12, "loop_distribution": {"1": 11, "2": 1}, "mismatches": 0, "n": 5, "odd_spanning_trees": 11}
+{"free_polyominoes": 35, "loop_distribution": {"1": 28, "2": 7}, "mismatches": 0, "n": 6, "odd_spanning_trees": 28}
+{"free_polyominoes": 108, "loop_distribution": {"1": 86, "2": 21, "3": 1}, "mismatches": 0, "n": 7, "odd_spanning_trees": 86}
+{"free_polyominoes": 369, "loop_distribution": {"1": 273, "2": 93, "3": 3}, "mismatches": 0, "n": 8, "odd_spanning_trees": 273}
+{"free_polyominoes": 1285, "loop_distribution": {"1": 915, "2": 348, "3": 22}, "mismatches": 0, "n": 9, "odd_spanning_trees": 915}
+{"free_polyominoes": 4655, "loop_distribution": {"1": 3126, "2": 1426, "3": 102, "4": 1}, "mismatches": 0, "n": 10, "odd_spanning_trees": 3126}
+{"free_polyominoes": 17073, "loop_distribution": {"1": 10948, "2": 5577, "3": 544, "4": 4}, "mismatches": 0, "n": 11, "odd_spanning_trees": 10948}
+{"free_polyominoes": 63600, "n": 12, "odd_spanning_trees": 38782}

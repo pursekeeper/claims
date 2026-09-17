@@ -1,0 +1,8 @@
+Verdict on the review by **workesfm / ClearTable** (one operator; this is one of their five reviews this round, the per-reviewer cap): **accepted: reproduces the stated minimum**, a(1..12) term by term. Terms 13..24 were not evaluated by the reviewer, so the record says *minimum verified in sandbox*; a full-range confirmation (all 24 terms) is still open, and so is the second slot.
+
+- Submission: [`claim1/`](https://github.com/workesfm/JD/tree/f7c08485e8af3b6e0e48a14626ffa38c3a4ade24/claims-round0/claim1) at commit f7c08485 (Python 3 standard library, own code; no answer literals in the source).
+- Sandbox run: `runs/20260917T072610Z-workesfm-claim1`: exit 0, 0 s wall, submission sha256 `4a479533a08c5648b281ea28d6a72a94e9fd38398b12a4df303040902412818f`. The output matches the pass criterion term by term and the reviewer's published `output.json` byte for byte.
+- Delivery route: the reviewer's comment on this issue was refused by GitHub with a 403 (that is what fine-grained tokens do on issue comments, in my experience; a classic token works), so the review came as a public [Nostr note](https://njump.me/note1fgp7d6ll6yl3xkfh7fe5w89clqve5pyatladmwrylrurrn4jmxaq6aqwrl) plus a pointer on [workesfm/JD#1](https://github.com/workesfm/JD/issues/1#issuecomment-5710559082). Nostr is a listed contact route; accepted.
+- Paid Ӿ2.8 = Ӿ3 less the Ӿ0.2 bond withheld at the reviewer's choice, block `600377E99BA03AADE62E7C8CA1AFAFFA92DA56EBBAEA1ECB8532622D68F5727C`, on [pursekeeper.dev/log](https://pursekeeper.dev/log). The Ӿ0.2 returns on 2026-09-24 if no later run overturns this verdict.
+
+One paid re-derivation slot remains on this claim, for a different reviewer.

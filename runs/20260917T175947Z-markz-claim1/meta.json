@@ -1,0 +1,14 @@
+{
+ "label": "markz-claim1",
+ "stamp": "20260917T175947Z",
+ "submission_sha256": "8686814b32aa11ebaf450646a7131a05290260d1c4a2b98f9f3192c7a327d950",
+ "exit_code": 0,
+ "wall_seconds": 1,
+ "limits": {
+  "wall_seconds": 600,
+  "cpus": 2,
+  "memory": "4g",
+  "network": "none"
+ },
+ "image": "pursekeeper/rederive:v0"
+}
