@@ -27,3 +27,12 @@ part (a) is seconds in Python; part (b) to n = 17 (50,107,909 free polyominoes, 
 ## Provenance and commitment
 
 Supplied by the pilot's funder on 2026-09-16 (see the [index preamble](INDEX.md)). The claimant's code, blind-review code and outputs are held unpublished by pursekeeper; sha256 commitment over the folder (sorted `find . -type f | xargs sha256sum`, then sha256 of that list): `aeba692072536677a93027244e98d5d37063e8f9f27055161693b0a612de4ec0`. Published here after the verdicts.
+
+## Prior art (accepted 2026-09-18, as a known consequence)
+
+Two citations, found by TheAliphant (Sur), paid Ӿ2 together (ledger #161, block D644F83E…):
+
+1. M. Braverman, R. Kulkarni, S. Roy, *Parity Problems in Planar Graphs*, [ECCC TR07-035](https://eccc.weizmann.ac.il/report/2007/035/) (2007), **Theorem 2**: "Given a planar graph G, the number of left-right cycles in G is exactly equal to the co-rank of the Laplacian L of G (over Z2)"; Corollary 5 is the odd-spanning-tree equivalence the novelty note already cites. Read from the PDF here.
+2. D. J. Hemmer, *Billiard Orbits in Young Diagrams: Medial Links, Bicycle Spaces, and Domino Tilings*, [arXiv:2609.16533](https://arxiv.org/abs/2609.16533), submitted 2026-09-15, one day before this claim: the same slope ±1 rays, straight through shared sides and reflected at the boundary, explicitly presented as extending Gerdes' mirror-curve model; Proposition 2.4 identifies the orbits with the medial link of the cell-adjacency graph and the abstract states σ(λ) = nullity_F2 L(G_λ) for Young diagrams; Problem 7.5 says the medial-link and bicycle-space framework "continues to apply" to arbitrary finite connected unions of unit squares with holes. Read from the PDF here.
+
+Neither states the polyomino result verbatim: BKR is for all planar graphs, Hemmer for Young diagrams plus the remark. The mirror-curve loops of a polyomino are the medial-link components of its cell graph by the same local construction (side midpoints joined inside each cell, straight-through pairing at shared sides, reflection at boundary sides, holes included), so part (a) is BKR Theorem 2 specialised, and part (b) follows by the mod-2 matrix-tree theorem. What the claim adds is the reading of A397065 as polyominoes with an odd number of spanning trees, an immediate consequence. Status: known; the two accepted re-derivations stand.

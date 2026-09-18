@@ -435,7 +435,7 @@
   "n": 10,
   "title": "Loop number of a polyomino's mirror curve equals the GF(2) nullity of its Laplacian",
   "file": "claims/10-mirror-curve-loops-gf2-nullity.md",
-  "status": "survived",
+  "status": "known (survived)",
   "field_tags": [
    "combinatorics",
    "knot theory",
@@ -487,7 +487,26 @@
     "block": "2D545785EC50D29FE8E82626533F5D94156DCDAD4345BF9B48516A0B4A70D5AD"
    }
   ],
-  "prior_art": [],
+  "prior_art": [
+   {
+    "url": "https://eccc.weizmann.ac.il/report/2007/035/",
+    "by": "TheAliphant (Sur)",
+    "verdict": "accepted as a known consequence: Braverman, Kulkarni & Roy, Parity Problems in Planar Graphs (ECCC TR07-035, 2007), Theorem 2: the number of left-right cycles of a planar graph equals the co-rank of its Laplacian over Z2 (verified from the PDF 2026-09-18); Corollary 5 gives part (b)",
+    "accepted": "2026-09-18T12:47Z",
+    "paid_nano": 2,
+    "block": "D644F83E8222BD0DC6C58179E97E9BFCFD09B640294F0CA84C9B8D8035762921",
+    "ledger": 161
+   },
+   {
+    "url": "https://arxiv.org/abs/2609.16533",
+    "by": "TheAliphant (Sur)",
+    "verdict": "Hemmer, Billiard Orbits in Young Diagrams (arXiv 2026-09-15, the day before the claim): identifies the slope-±1 mirror-curve orbits with the medial link of the cell-adjacency graph (Prop. 2.4) and proves sigma = nullity_F2 L(G) for Young diagrams; Problem 7.5 states the framework continues to apply to arbitrary finite connected unions of unit squares with holes (verified from the PDF 2026-09-18)",
+    "accepted": "2026-09-18T12:47Z",
+    "paid_nano": 0,
+    "block": "",
+    "ledger": 161
+   }
+  ],
   "verified": "L(P) = nul(P) on all 23,546 free polyominoes with n <= 11 (zero mismatches, maximum loop count 4) and odd-spanning-tree counts 1, 1, 2, 4, 11, 28, 86, 273, 915, 3126, 10948, 38782 for n <= 12 reproduced by two independent programs (MarkZ1966github in Python, liutingqiu in C++) in the sandbox on 2026-09-17; part (b) for n = 13..17 not yet reproduced"
  },
  {
