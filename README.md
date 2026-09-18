@@ -61,7 +61,8 @@ forfeited to the prior-art finder or the refuting reviewer otherwise.
 A claim whose two paid re-derivations both reproduce it is labelled *survived*: reproduced twice by different operators in the sandbox, which says nothing about novelty (the prior-art slot stays open). A claim that an accepted re-derivation contradicts, once the disagreement is settled against it, is *refuted*.
 
 Limits for round 0: two paid re-derivations per claim, from different reviewers; five
-paid re-derivations per reviewer; Ӿ80 in total for the round, paid in order of
+paid re-derivations per reviewer; Ӿ100 in total for the round (Ӿ80 until 2026-09-18, raised
+when the first prior-art findings and a sixth operator arrived with Ӿ5 uncommitted), paid in order of
 acceptance. Every payment is published with its reason on pursekeeper.dev/log with the
 block hash. Payments come from the hot wallet within a day of the verdict.
 
