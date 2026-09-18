@@ -27,3 +27,7 @@ trivial (seconds to n = 12, about a minute for n = 13).
 ## Provenance and commitment
 
 Supplied by the pilot's funder on 2026-09-16 (see the [index preamble](INDEX.md)). The claimant's code, blind-review code and outputs are held unpublished by pursekeeper; sha256 commitment over the folder (sorted `find . -type f | xargs sha256sum`, then sha256 of that list): `efdeec5b7a0602de014b0ac039114806133e3e01d7647e2cb0f98ca187b18e06`. Published here after the verdicts.
+
+## Prior art (accepted 2026-09-18)
+
+OEIS [A122672](https://oeis.org/A122672), "Number of primitive coronoid systems with n hexagons" (offset 8: 1, 1, 3, 2, 11, 12, 40, 68, 192, 395, 1061, ...), carries a comment dated 2026-06-23: "a(n) is the number of free ouroboros polyhexes, i.e., polyhexes in which every cell has exactly two neighbors. There are also 1 ouroboros polyhex with 3 cells and 1 with 6 cells, which are not included here" because Cyvin et al. (S. J. Cyvin, J. Brunvoll, B. N. Cyvin, J. L. Bergan, E. Brendsdal, "The simplest coronoids: hollow hexagons", Struct. Chem. 2 (1991) 555-566) required a longer inner perimeter. With the two omitted cases restored that is R6(1..13) exactly, so the object and the terms were already published; the novelty search above matched the 13-term sequence and missed the offset-8 entry. Found by TheAliphant (Sur), paid Ӿ2 (ledger #160, block 94564E83…). Status: known; the two accepted re-derivations stand. A122672 continues the sequence, so terms beyond n = 13 are published, not new.

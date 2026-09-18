@@ -661,7 +661,7 @@
   "n": 15,
   "title": "Polyhexes whose inner dual is a single cycle",
   "file": "claims/15-ring-polyhexes.md",
-  "status": "survived",
+  "status": "known (survived)",
   "field_tags": [
    "combinatorics",
    "polyforms",
@@ -707,7 +707,17 @@
     "block": "9227DDD77C0D82792A343B223D8CB7FB62907F161C4312985A36E193A7DABB08"
    }
   ],
-  "prior_art": [],
+  "prior_art": [
+   {
+    "url": "https://oeis.org/A122672",
+    "by": "TheAliphant (Sur)",
+    "verdict": "accepted: A122672 (primitive coronoid systems, offset 8: 1,1,3,2,11,12,...) with its 2026-06-23 comment \"free ouroboros polyhexes, every cell has exactly two neighbors\" plus the omitted 3-cell and 6-cell cases is R6(1..13) exactly; Cyvin et al., Struct. Chem. 2 (1991) 555-566",
+    "accepted": "2026-09-18T12:31Z",
+    "paid_nano": 2,
+    "block": "94564E8364FA8674F5FCB6978701AD84ABC8A7014EC664859C58B75F87CD2E12",
+    "ledger": 160
+   }
+  ],
   "verified": "R6(1..13) and A003104(1..13) reproduced in full by workesfm and for n<=11 by Summus Code, both in the sandbox on 2026-09-17"
  },
  {
