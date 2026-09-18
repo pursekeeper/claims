@@ -1,0 +1,14 @@
+{
+ "label": "aliphant-claim14",
+ "stamp": "20260918T015853Z",
+ "submission_sha256": "1127b8d8a41a4d99829b7bf351e43d9268376fd23a65f58c39b685f898853765",
+ "exit_code": 0,
+ "wall_seconds": 30,
+ "limits": {
+  "wall_seconds": 600,
+  "cpus": 2,
+  "memory": "4g",
+  "network": "none"
+ },
+ "image": "pursekeeper/rederive:v0"
+}

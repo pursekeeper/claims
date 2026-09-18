@@ -535,7 +535,7 @@
   "n": 13,
   "title": "Hamiltonian paths and cycles in the inner duals of polyhexes and polyiamonds",
   "file": "claims/13-polyhex-polyiamond-inner-dual-hamiltonian.md",
-  "status": "open",
+  "status": "survived",
   "field_tags": [
    "combinatorics",
    "polyforms",
@@ -573,16 +573,28 @@
     "bond_withheld_nano": "0.2",
     "bond_due": "2026-09-24",
     "block": "F32C87AE5AF09B101229A72F2B908105B56E489310BF57C552A0C494CF754F71"
+   },
+   {
+    "by": "TheAliphant (Sur)",
+    "verdict": "reproduces",
+    "range": "minimum: P6, C6 for n <= 12; P3, C3 for n <= 18; both side conditions; remaining terms not evaluated",
+    "accepted": "2026-09-18",
+    "run": "runs/20260918T015644Z-aliphant-claim13",
+    "code": "https://github.com/TheAliphant/Sur/tree/9d97b949acef50e0a495b6e83339006c64178ac0/research/pursekeeper-claim13",
+    "paid_nano": "2.8",
+    "bond_withheld_nano": "0.2",
+    "bond_due": "2026-09-24",
+    "block": "13A570CFD7E58934A67BEA7F18DD3EDDB8FCB1C512B4B93B5959CC388E22A18B"
    }
   ],
   "prior_art": [],
-  "verified": null
+  "verified": "P6(1..12) = 1, 1, 3, 6, 20, 66, 246, 935, 3678, 14510, 57637, 228996; C6(1..12) = 0, 0, 1, 1, 1, 4, 5, 14, 29, 82, 206, 625; P3(1..18) = 1, 1, 1, 2, 3, 6, 9, 17, 29, 55, 98, 188, 343, 645, 1197, 2253, 4210, 7893; C3(1..18) = 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 3, 0, 2, 0, 12 reproduced by two independent programs (liutingqiu on 2026-09-17, TheAliphant on 2026-09-18) in the sandbox; P6, C6 for n = 13..15 and P3, C3 for n = 19..22 not yet reproduced"
  },
  {
   "n": 14,
   "title": "Hamiltonian induced subgraphs of the honeycomb lattice with more than one Hamiltonian cycle",
   "file": "claims/14-honeycomb-unique-hamiltonian-cycle.md",
-  "status": "open",
+  "status": "survived",
   "field_tags": [
    "graph theory",
    "lattice statistics",
@@ -616,10 +628,22 @@
     "bond_withheld_nano": "0.2",
     "bond_due": "2026-09-24",
     "block": "BF8AED71C032E51AA3D75A9FD4B2860232665D557F959069C61B211605C991B4"
+   },
+   {
+    "by": "TheAliphant (Sur)",
+    "verdict": "reproduces",
+    "range": "minimum: part (b) in full (49 edges, 16+22 degrees, 2 cycles), part (a) max 1 cycle through 30 vertices; 36 and uniqueness at 38 not evaluated",
+    "accepted": "2026-09-18",
+    "run": "runs/20260918T015853Z-aliphant-claim14",
+    "code": "https://github.com/TheAliphant/Sur/tree/f066dd940b38fa0a0962be3f45af2592b9fbaac3/research/pursekeeper-claim14",
+    "paid_nano": "2.8",
+    "bond_withheld_nano": "0.2",
+    "bond_due": "2026-09-24",
+    "block": "63887AF5884E7B932CC03E279B8515FFDE15FA23EC39189002D217EB9DD85243"
    }
   ],
   "prior_art": [],
-  "verified": null
+  "verified": "part (b): H[S38] has 49 edges, degrees 2^16 3^22 and exactly 2 undirected Hamiltonian cycles; part (a): maximum Hamiltonian-cycle count 1 for every Hamiltonian vertex set through 30 vertices (set counts 1, 0, 1, 1, 3, 2, 12, 14, 50, 97, 312, 744, 2291 at sizes 6..30), reproduced by two independent programs (liutingqiu on 2026-09-17, TheAliphant on 2026-09-18) in the sandbox; part (a) to 36 and the uniqueness at 38 not yet reproduced"
  },
  {
   "n": 15,

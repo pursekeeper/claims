@@ -1,0 +1,20 @@
+main.cpp: In instantiation of 'cycles(const G&, int)::<lambda(auto:1&&, int, uint64_t)> [with auto:1 = cycles(const G&, int)::<lambda(auto:1&&, int, uint64_t)>&; uint64_t = long unsigned int]':
+main.cpp:16:411:   required from here
+main.cpp:16:244: warning: comparison of integer expressions of different signedness: 'uint64_t' {aka 'long unsigned int'} and 'int' [-Wsign-compare]
+   16 | static int cycles(const G&g,int stop=1000000){if(g.n<6)return 0;for(auto a:g.a)if(__builtin_popcountll(a)<2)return 0;const int st=0;uint64_t full=g.n==64?~0ull:((1ull<<g.n)-1),count=0;auto dfs=[&](auto&&self,int v,uint64_t used)->void{if(count>=2*stop)return;if(used==full){if((g.a[v]>>st)&1ull)++count;return;}uint64_t o=g.a[v]&~used;while(o){int w=__builtin_ctzll(o);o&=o-1;self(self,w,used|(1ull<<w));}};dfs(dfs,st,1ull<<st);return (int)(count/2);}
+      |                                                                                                                                                                                                                                               ~~~~~^~~~~~~~
+n=6 Hamiltonian_vertex_sets=1 max_cycles=1
+n=8 Hamiltonian_vertex_sets=0 max_cycles=0
+n=10 Hamiltonian_vertex_sets=1 max_cycles=1
+n=12 Hamiltonian_vertex_sets=1 max_cycles=1
+n=14 Hamiltonian_vertex_sets=3 max_cycles=1
+n=16 Hamiltonian_vertex_sets=2 max_cycles=1
+n=18 Hamiltonian_vertex_sets=12 max_cycles=1
+n=20 Hamiltonian_vertex_sets=14 max_cycles=1
+n=22 Hamiltonian_vertex_sets=50 max_cycles=1
+n=24 Hamiltonian_vertex_sets=97 max_cycles=1
+n=26 Hamiltonian_vertex_sets=312 max_cycles=1
+n=28 Hamiltonian_vertex_sets=744 max_cycles=1
+n=30 Hamiltonian_vertex_sets=2291 max_cycles=1
+max_cycles_through_30=1
+S38 vertices=38 edges=49 degree2=16 degree3=22 Hamiltonian_cycles=2

@@ -1,0 +1,10 @@
+main.cpp: In function 'bool ham(const G&, bool)':
+main.cpp:23:164: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+   23 | static bool ham(const G&g,bool cycle){if(!connected(g))return false;if(g.n==1)return !cycle;int leaves=0;for(auto x:g.a){int d=__builtin_popcount(x);if(d==0||cycle&&d<2)return false;if(d==1)++leaves;}if(!cycle&&leaves>2)return false;uint32_t full=(1u<<g.n)-1;std::vector<int>starts;if(cycle)starts={0};else{for(int i=0;i<g.n;++i)if(__builtin_popcount(g.a[i])==1)starts.push_back(i);if(starts.empty())for(int i=0;i<g.n;++i)starts.push_back(i);}for(int st:starts){std::unordered_set<uint64_t>bad;auto dfs=[&](auto&&self,int v,uint32_t used)->bool{if(used==full)return !cycle||((g.a[v]>>st)&1u);uint64_t key=((uint64_t)used<<5)|v;if(bad.count(key))return false;uint32_t opts=g.a[v]&~used;std::vector<int>o;while(opts){int w=__builtin_ctz(opts);opts&=opts-1;o.push_back(w);}std::sort(o.begin(),o.end(),[&](int x,int y){return __builtin_popcount(g.a[x]&~used)<__builtin_popcount(g.a[y]&~used);});for(int w:o)if(self(self,w,used|(1u<<w)))return true;bad.insert(key);return false;};if(dfs(dfs,st,1u<<st))return true;}return false;}
+      |                                                                                                                                                               ~~~~~^~~~~
+polyhexes(1..12) = 1, 1, 3, 7, 22, 82, 333, 1448, 6572, 30490, 143552, 683101
+P6(1..12) = 1, 1, 3, 6, 20, 66, 246, 935, 3678, 14510, 57637, 228996
+C6(1..12) = 0, 0, 1, 1, 1, 4, 5, 14, 29, 82, 206, 625
+polyiamonds(1..18) = 1, 1, 1, 3, 4, 12, 24, 66, 160, 448, 1186, 3334, 9235, 26166, 73983, 211297, 604107, 1736328
+P3(1..18) = 1, 1, 1, 2, 3, 6, 9, 17, 29, 55, 98, 188, 343, 645, 1197, 2253, 4210, 7893
+C3(1..18) = 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 3, 0, 2, 0, 12
