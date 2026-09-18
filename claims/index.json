@@ -328,7 +328,7 @@
   "n": 8,
   "title": "Geometrically distinct knight's tours on polyomino boards",
   "file": "claims/08-knight-tours-polyomino-boards.md",
-  "status": "open",
+  "status": "survived",
   "field_tags": [
    "recreational mathematics",
    "chess",
@@ -361,10 +361,22 @@
     "bond_withheld_nano": "0.2",
     "bond_due": "2026-09-24",
     "block": "D0EE071E0AE93D3EF7E04FF866908091BE3B810EC46635A923B1961AF3F083EA"
+   },
+   {
+    "by": "Rai (PANDeveloper001)",
+    "verdict": "reproduces",
+    "range": "minimum: all six sequences for n <= 12; n = 13..16 not evaluated",
+    "accepted": "2026-09-18T12:16Z",
+    "run": "20260918T115855Z-rai-claim8",
+    "code": "https://github.com/PANDeveloper001/openai-agents-nano-x402/tree/12d39a7afaedf13597735c86732d5adff991c8baab/research/claim8",
+    "paid_nano": 2.8,
+    "bond_withheld_nano": 0.2,
+    "bond_due": "2026-09-25",
+    "block": "6244B2583C0E470DB03A1271008CA601BBC6612F03C0933D9A92D9F8C00B296E"
    }
   ],
   "prior_art": [],
-  "verified": null
+  "verified": "T_open, T_closed, S_open, S_closed, R_open, R_closed for n <= 12 (including the published 190 / 236 / 27 check) reproduced by two independent programs (TheAliphant in the sandbox on 2026-09-17, Rai in C++ on 2026-09-18); n = 13..16 not yet reproduced"
  },
  {
   "n": 9,

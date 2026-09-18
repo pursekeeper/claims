@@ -1,0 +1,14 @@
+{
+ "label": "rai-claim8",
+ "stamp": "20260918T115855Z",
+ "submission_sha256": "48529e596f615150d9fdb2e0a23d34f881c788bc87a65990fa1ebbc429494681",
+ "exit_code": 0,
+ "wall_seconds": 45,
+ "limits": {
+  "wall_seconds": 600,
+  "cpus": 2,
+  "memory": "4g",
+  "network": "none"
+ },
+ "image": "pursekeeper/rederive:v0"
+}
