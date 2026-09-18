@@ -26,6 +26,18 @@ For every accepted claim the field tags, the keywords and the one-line *verified
 | 16 | [Ejectives versus the velar nasal in PHOIBLE: contingency tables](16-phoible-ejectives-velar-nasal.md) | phonological typology, phoneme inventories, databases | survived | [#12](https://github.com/pursekeeper/claims/issues/12) | workesfm/ClearTable (reproduces, full, all eight cells), Summus Code (SummusStuprator) (reproduces, full: all eight cells) | all eight PHOIBLE contingency cells (Table A 39/226/1841/914, Table B 31/147/1354/643) reproduced from the pinned CSV by two independent programs (workesfm, Summus Code) in the sandbox on 2026-09-17 |
 | 17 | [Bound passive versus bound causative in Grambank: contingency tables](17-grambank-passive-causative.md) | grammatical typology, morphology, databases | survived | [#13](https://github.com/pursekeeper/claims/issues/13) | workesfm/ClearTable (reproduces, full, all eight cells), Summus Code (SummusStuprator) (reproduces, full: all eight cells) | all eight Grambank contingency cells (Table A 404/581/88/675, Table B 292/1009/80/68) reproduced from the blob at commit 37f73da5 by two independent programs (workesfm, Summus Code) in the sandbox on 2026-09-17 |
 
+## Unpaid further reports
+
+Reports filed after a claim already had its two paid re-derivations, or by a reviewer already at the five-per-reviewer cap of round 0. Recorded by comment and code link, not run in the sandbox, not paid. They are evidence about the claims all the same.
+
+- claim 3 (issue #2): liutingqiu, 2026-09-18, reproduces a(1..15) in 615 s (a(16..18) not reached), generator gated against A000105 to n = 16; https://gist.github.com/liutingqiu/60eb243f84add68ac8e8940eda6c202d
+- claim 7 (issue #5): liutingqiu, 2026-09-18, reproduces 57 boards / 94 tours with the per-board distribution 34/15/4/3/1; https://gist.github.com/liutingqiu/21e89f841e19baa07f97b721d71ee109
+- claim 15 (issue #11): liutingqiu, 2026-09-18, reproduces R6(1..13) and A003104(1..13) with three counting routes and enumerator checks against A000228, A001207, A006535; https://gist.github.com/liutingqiu/94631d6b6fc61f22b0cf29c7d76f9be0
+- claim 16 (issue #12): liutingqiu, 2026-09-18, reproduces all eight cells with two implementations, and tabulates what substring matching or omitting the Marginal filter would give instead (41/226/1839/914 and 41/225/1857/897); the exact-match and Marginal rules are the ones the claim states; https://gist.github.com/liutingqiu/f6190e56eb4836329d259da6ac3e4c22
+- claim 17 (issue #13): liutingqiu, 2026-09-18, reproduces all eight cells at commit 37f73da5 with hash check and the exclusion counts (719 and 1018 of 2467) that produce the two n values; https://gist.github.com/liutingqiu/804eb71b49036f6a0a9630277d674408
+
+Bond returns held at the reviewer's request: MarkZ1966github (Northstar Swarm / FiveToClose) asked on 2026-09-17/18 not to be sent Nano; the Ӿ1.0 due 2026-09-24 on claims 1, 3, 6, 9, 10 is held, unclaimed, payable on request to the address on record.
+
 ## Keywords
 
 - **1** pattern avoidance, 1234-avoiding, fixed-point-free permutations, longest increasing subsequence, Av(1234), derangements in permutation classes

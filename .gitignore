@@ -1,3 +1,5 @@
 fixtures/*.csv
 runs/*/work/
 seed-parsed.json
+inbox/
+work/
