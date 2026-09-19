@@ -1,0 +1,181 @@
+Self-checks: sieve 0..10000, exhaustive reduction q=2,3,5,7,11, direct search n=1..3 PASS
+a(1..9) = 3, 17, 199, 22051, 387199, 52246349, 3753373051, 3884699495951, 325259546614001
+{
+  "minimum_range": [
+    1,
+    9
+  ],
+  "evidence": [
+    {
+      "n": 1,
+      "prime": 3,
+      "sqrt_bound": 1,
+      "modulus": 2,
+      "residue_classes": 1,
+      "smaller_admissible_composites": [],
+      "prime_proof": "complete trial division through integer sqrt"
+    },
+    {
+      "n": 2,
+      "prime": 17,
+      "sqrt_bound": 4,
+      "modulus": 18,
+      "residue_classes": 2,
+      "smaller_admissible_composites": [],
+      "prime_proof": "complete trial division through integer sqrt"
+    },
+    {
+      "n": 3,
+      "prime": 199,
+      "sqrt_bound": 14,
+      "modulus": 450,
+      "residue_classes": 4,
+      "smaller_admissible_composites": [],
+      "prime_proof": "complete trial division through integer sqrt"
+    },
+    {
+      "n": 4,
+      "prime": 22051,
+      "sqrt_bound": 148,
+      "modulus": 22050,
+      "residue_classes": 8,
+      "smaller_admissible_composites": [
+        {
+          "candidate": 2449,
+          "factor": 31
+        },
+        {
+          "candidate": 9701,
+          "miller_rabin_witness": 2
+        },
+        {
+          "candidate": 9899,
+          "factor": 19
+        },
+        {
+          "candidate": 12151,
+          "factor": 29
+        },
+        {
+          "candidate": 12349,
+          "miller_rabin_witness": 2
+        },
+        {
+          "candidate": 19601,
+          "factor": 17
+        },
+        {
+          "candidate": 22049,
+          "factor": 17
+        }
+      ],
+      "prime_proof": "complete trial division through integer sqrt"
+    },
+    {
+      "n": 5,
+      "prime": 387199,
+      "sqrt_bound": 622,
+      "modulus": 2668050,
+      "residue_classes": 16,
+      "smaller_admissible_composites": [
+        {
+          "candidate": 19601,
+          "factor": 17
+        }
+      ],
+      "prime_proof": "complete trial division through integer sqrt"
+    },
+    {
+      "n": 6,
+      "prime": 52246349,
+      "sqrt_bound": 7228,
+      "modulus": 450900450,
+      "residue_classes": 32,
+      "smaller_admissible_composites": [
+        {
+          "candidate": 10285001,
+          "factor": 37
+        },
+        {
+          "candidate": 50100049,
+          "factor": 23
+        }
+      ],
+      "prime_proof": "complete trial division through integer sqrt"
+    },
+    {
+      "n": 7,
+      "prime": 3753373051,
+      "sqrt_bound": 61264,
+      "modulus": 130310230050,
+      "residue_classes": 64,
+      "smaller_admissible_composites": [
+        {
+          "candidate": 1459036151,
+          "miller_rabin_witness": 2
+        }
+      ],
+      "prime_proof": "complete trial division through integer sqrt"
+    },
+    {
+      "n": 8,
+      "prime": 3884699495951,
+      "sqrt_bound": 1970964,
+      "modulus": 47041993048050,
+      "residue_classes": 128,
+      "smaller_admissible_composites": [
+        {
+          "candidate": 44536798151,
+          "miller_rabin_witness": 2
+        },
+        {
+          "candidate": 92530642049,
+          "miller_rabin_witness": 2
+        },
+        {
+          "candidate": 194242024549,
+          "miller_rabin_witness": 2
+        },
+        {
+          "candidate": 319039122401,
+          "miller_rabin_witness": 2
+        },
+        {
+          "candidate": 1192483394101,
+          "miller_rabin_witness": 2
+        },
+        {
+          "candidate": 3741131318651,
+          "miller_rabin_witness": 2
+        },
+        {
+          "candidate": 3840162697799,
+          "miller_rabin_witness": 2
+        }
+      ],
+      "prime_proof": "complete trial division through integer sqrt"
+    },
+    {
+      "n": 9,
+      "prime": 325259546614001,
+      "sqrt_bound": 18034953,
+      "modulus": 24885214322418450,
+      "residue_classes": 256,
+      "smaller_admissible_composites": [
+        {
+          "candidate": 18172137689551,
+          "miller_rabin_witness": 2
+        },
+        {
+          "candidate": 106018723957301,
+          "miller_rabin_witness": 2
+        },
+        {
+          "candidate": 295573421568151,
+          "miller_rabin_witness": 2
+        }
+      ],
+      "prime_proof": "complete trial division through integer sqrt"
+    }
+  ]
+}

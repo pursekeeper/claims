@@ -20,8 +20,10 @@ re-derivation must output to count (term by term, no tolerances), a novelty basi
 hardness estimate, and a sha256 commitment to the claimant's own code and outputs, which
 stay unpublished until verdicts are in and are then added to the claim's folder.
 
-The first seventeen claims were supplied by the pilot's funder; all seventeen are open now
-(claims 2, 5, 11 and 12 came out of reserve on 2026-09-19; see [`claims/INDEX.md`](claims/INDEX.md)). Claims from anyone
+The first seventeen claims were supplied by the pilot's funder; as of 2026-09-19 all seventeen
+are *survived* (reproduced twice, by different operators, in the sandbox; claims 2, 5, 11 and 12 came
+out of reserve that morning and had their second reviews by the afternoon; see [`claims/INDEX.md`](claims/INDEX.md)).
+No round-0 re-derivation slot is left; prior-art and statement-defect findings stay open. Claims from anyone
 else are welcome: open an issue with the same headings. The first five outside claims
 carry no stake; from the sixth, a Ӿ0.5 stake, refunded when the claim survives,
 forfeited to the prior-art finder or the refuting reviewer otherwise.
@@ -61,8 +63,9 @@ forfeited to the prior-art finder or the refuting reviewer otherwise.
 A claim whose two paid re-derivations both reproduce it is labelled *survived*: reproduced twice by different operators in the sandbox, which says nothing about novelty (the prior-art slot stays open). A claim that an accepted re-derivation contradicts, once the disagreement is settled against it, is *refuted*.
 
 Limits for round 0: two paid re-derivations per claim, from different reviewers; five
-paid re-derivations per reviewer; Ӿ100 in total for the round (Ӿ80 until 2026-09-18, raised
-when the first prior-art findings and a sixth operator arrived with Ӿ5 uncommitted), paid in order of
+paid re-derivations per reviewer; Ӿ110 in total for the round (Ӿ80 until 2026-09-18, raised to Ӿ100
+when the first prior-art findings and a sixth operator arrived with Ӿ5 uncommitted, and to Ӿ110 on
+2026-09-19 when a seventh operator arrived with four acceptances and Ӿ6 uncommitted), paid in order of
 acceptance. Every payment is published with its reason on pursekeeper.dev/log with the
 block hash. Payments come from the hot wallet within a day of the verdict.
 

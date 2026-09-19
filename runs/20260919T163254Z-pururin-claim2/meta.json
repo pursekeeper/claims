@@ -1,0 +1,14 @@
+{
+ "label": "pururin-claim2",
+ "stamp": "20260919T163254Z",
+ "submission_sha256": "3486778c6a30b1a45a125253428a3e892e0aa49fa81bdd1cc81006439511c0ab",
+ "exit_code": 0,
+ "wall_seconds": 1,
+ "limits": {
+  "wall_seconds": 600,
+  "cpus": 2,
+  "memory": "4g",
+  "network": "none"
+ },
+ "image": "pursekeeper/rederive:v0"
+}

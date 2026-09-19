@@ -58,7 +58,7 @@
   "n": 2,
   "title": "Derangements avoiding the pattern 4321",
   "file": "claims/02-derangements-avoiding-4321.md",
-  "status": "open",
+  "status": "survived",
   "field_tags": [
    "combinatorics",
    "permutation patterns",
@@ -91,10 +91,22 @@
     "bond_withheld_nano": 0.2,
     "bond_due": "2026-09-26",
     "block": "E3E37B70C9861D47537D1A6284ECDB47ADB7F03E53B245952ECB420D8C8787C5"
+   },
+   {
+    "by": "Pururin-ux",
+    "verdict": "reproduces",
+    "range": "minimum: b(1..12); b(13..24) not evaluated",
+    "accepted": "2026-09-19T16:35Z",
+    "run": "20260919T163254Z-pururin-claim2",
+    "code": "https://gist.github.com/Pururin-ux/2ace92c3d9d2ea491ae0b2020c10f1f8/84cc6601cab6d346710ba09d54233ec4f2f58213",
+    "paid_nano": 0,
+    "bond_withheld_nano": 0.2,
+    "bond_due": null,
+    "block": "held: payout address pending, slot held until 2026-10-03"
    }
   ],
   "prior_art": [],
-  "verified": "b(1..12) = 0, 1, 2, 8, 34, 163, 842, 4616, 26530, 158496, 977974, 6201974 reproduced by one independent program (Rai, C++17, with an A005802 cross-check) in the sandbox on 2026-09-19; b(13) = 40267062 reported by the reviewer outside the sandbox; b(13..24) not yet reproduced; second reviewer wanted"
+  "verified": "b(1..12) = 0, 1, 2, 8, 34, 163, 842, 4616, 26530, 158496, 977974, 6201974 reproduced by two independent programs (Rai, C++17 enumeration with an A005802 cross-check; Pururin-ux, C++17 subset DP with a literal enumeration cross-check for n <= 8) in the sandbox on 2026-09-19; b(13) = 40267062 reported by Rai outside the sandbox; b(13..24) not yet reproduced"
  },
  {
   "n": 3,
@@ -209,7 +221,7 @@
   "n": 5,
   "title": "Three further terms of OEIS A396786",
   "file": "claims/05-A396786-three-terms.md",
-  "status": "open",
+  "status": "survived",
   "field_tags": [
    "number theory",
    "primes",
@@ -241,10 +253,22 @@
     "bond_withheld_nano": 0.2,
     "bond_due": "2026-09-26",
     "block": "78F9B9BD751CA3466D47A252B435DBAB1B346B90766E49A54953DD44B3622DE6"
+   },
+   {
+    "by": "Pururin-ux",
+    "verdict": "reproduces",
+    "range": "minimum: a(1..9), primality by complete trial division to the square root, minimality by exhaustive CRT-class scan with the q^2 reduction checked against the original congruence for q <= 11; a(10), a(11) not evaluated",
+    "accepted": "2026-09-19T16:35Z",
+    "run": "20260919T163253Z-pururin-claim5",
+    "code": "https://gist.github.com/Pururin-ux/16ec01f876a7f2a400b74749ccb1d51c/fa31a5c01c2023180aa211bfa74de7ec0d9e126d",
+    "paid_nano": 0,
+    "bond_withheld_nano": 0.2,
+    "bond_due": null,
+    "block": "held: payout address pending, slot held until 2026-10-03"
    }
   ],
   "prior_art": [],
-  "verified": "a(9) = 325259546614001 (and a(1..8) as published) reproduced by one independent program (Rai, C++17: CRT classes p = +-1 mod q^2, deterministic Miller-Rabin, direct p^(q^3) mod q^5 check) in the sandbox on 2026-09-19; a(10), a(11) not yet reproduced; second reviewer wanted"
+  "verified": "a(9) = 325259546614001 (and a(1..8) as published) reproduced by two independent programs (Rai, C++17: CRT classes p = +-1 mod q^2, deterministic Miller-Rabin, direct p^(q^3) mod q^5 check; Pururin-ux, Python: the same CRT classes merged in increasing order, complete trial division to the square root, the three smaller admissible composites rejected with a base-2 witness) in the sandbox on 2026-09-19; a(10), a(11) not yet reproduced"
  },
  {
   "n": 6,
@@ -547,7 +571,7 @@
   "n": 11,
   "title": "Spanning-tree statistics of free polyominoes",
   "file": "claims/11-spanning-tree-statistics-polyominoes.md",
-  "status": "open",
+  "status": "survived",
   "field_tags": [
    "combinatorics",
    "polyominoes",
@@ -581,16 +605,28 @@
     "bond_withheld_nano": 0.2,
     "bond_due": "2026-09-26",
     "block": "2E6DD4D593E532D389992C4200B89092015F8200894CB0E1C0C0D473D0C1B6FF"
+   },
+   {
+    "by": "Pururin-ux",
+    "verdict": "reproduces",
+    "range": "minimum: M, NM, SUM, DIST, UNI for n <= 13 plus the A131482 side condition for n <= 13, with an exhaustive edge-subset check of every shape for n <= 8; n = 14..17 not evaluated",
+    "accepted": "2026-09-19T16:35Z",
+    "run": "20260919T163255Z-pururin-claim11-12",
+    "code": "https://gist.github.com/Pururin-ux/a8a916d80f796e772aa9e859c84087c6/128d816342eeeca8cc0c86255e85652cae3fb4fe",
+    "paid_nano": 0,
+    "bond_withheld_nano": 0.2,
+    "bond_due": null,
+    "block": "held: payout address pending, slot held until 2026-10-03"
    }
   ],
   "prior_art": [],
-  "verified": "M, NM, SUM, DIST, UNI for n <= 13 (M(1..13) = 1, 1, 1, 4, 4, 15, 16, 56, 192, 209, 712, 2415, 2656; SUM(13) = 1876813; UNI(13) = 79235) and the tau = 1 side condition (A131482, n <= 13) reproduced by one independent program (Rai, C++17, Bareiss determinants) in the sandbox on 2026-09-19; n = 14..17 not yet reproduced; second reviewer wanted"
+  "verified": "M, NM, SUM, DIST, UNI for n <= 13 (M(1..13) = 1, 1, 1, 4, 4, 15, 16, 56, 192, 209, 712, 2415, 2656; SUM(13) = 1876813; UNI(13) = 79235) and the tau = 1 side condition (A131482, n <= 13) reproduced by two independent programs (Rai and Pururin-ux, both C++17 with Bareiss determinants, written separately) in the sandbox on 2026-09-19; n = 14..17 not yet reproduced"
  },
  {
   "n": 12,
   "title": "Independent-set and domino-tiling statistics of free polyominoes",
   "file": "claims/12-independent-sets-domino-tilings-polyominoes.md",
-  "status": "open",
+  "status": "survived",
   "field_tags": [
    "combinatorics",
    "polyominoes",
@@ -625,10 +661,22 @@
     "bond_withheld_nano": 0.2,
     "bond_due": "2026-09-26",
     "block": "DB89215677B2010B267E02894ADD3E1FF24D5DF8029D69DBB581FEE840A7E28F"
+   },
+   {
+    "by": "Pururin-ux",
+    "verdict": "reproduces",
+    "range": "minimum: IMIN, IMAX, ISUM, IDIST for n <= 13 and MSUM, MMAX for k <= 6, plus the A213376/A213377 side condition for k <= 6, with an exhaustive vertex- and edge-subset check of every shape for n <= 8; n = 14..17 (k = 7, 8) not evaluated",
+    "accepted": "2026-09-19T16:35Z",
+    "run": "20260919T163255Z-pururin-claim11-12",
+    "code": "https://gist.github.com/Pururin-ux/a8a916d80f796e772aa9e859c84087c6/128d816342eeeca8cc0c86255e85652cae3fb4fe",
+    "paid_nano": 0,
+    "bond_withheld_nano": 0.2,
+    "bond_due": null,
+    "block": "held: payout address pending, slot held until 2026-10-03"
    }
   ],
   "prior_art": [],
-  "verified": "IMIN, IMAX, ISUM, IDIST for n <= 13 (ISUM(13) = 155276651, IDIST(13) = 502) and MSUM(1..6) = 1, 5, 27, 264, 2896, 35679, MMAX(1..6) = 1, 2, 3, 5, 8, 13 reproduced by one independent program (Rai, C++17, bitmask DP) in the sandbox on 2026-09-19; the A213376/A213377 side condition and n = 14..17 not yet reproduced; second reviewer wanted"
+  "verified": "IMIN, IMAX, ISUM, IDIST for n <= 13 (ISUM(13) = 155276651, IDIST(13) = 502) and MSUM(1..6) = 1, 5, 27, 264, 2896, 35679, MMAX(1..6) = 1, 2, 3, 5, 8, 13 reproduced by two independent programs (Rai, C++17 bitmask DP; Pururin-ux, C++17 induced-subset and first-vertex-partner recurrences) in the sandbox on 2026-09-19; the A213376/A213377 side condition for k <= 6 (0, 1, 12, 158, 2428, 37776 and 1, 3, 20, 170, 1728, 18878) reproduced by Pururin-ux and checked against oeis.org on 2026-09-19; n = 14..17 (k = 7, 8) not yet reproduced"
  },
  {
   "n": 13,

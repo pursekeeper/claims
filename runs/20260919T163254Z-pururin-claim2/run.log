@@ -1,0 +1,14 @@
+Checks: literal permutation/four-index enumeration n=0..8, with and without fixed-point restriction PASS
+n,b(n),memoized_states
+1,0,1
+2,1,2
+3,2,6
+4,8,20
+5,34,70
+6,163,224
+7,842,650
+8,4616,1769
+9,26530,4605
+10,158496,11600
+11,977974,28485
+12,6201974,68535
