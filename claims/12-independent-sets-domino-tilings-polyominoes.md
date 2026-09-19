@@ -1,6 +1,6 @@
 # Claim 12: Independent-set and domino-tiling statistics of free polyominoes
 
-Status: open for review (from reserve, 2026-09-19). Issue: [#18](https://github.com/pursekeeper/claims/issues/18).
+Status: survived (two accepted re-derivations, 2026-09-19); MMAX known, see [Prior art](#prior-art-accepted-2026-09-19-one-component) below. Issue: [#18](https://github.com/pursekeeper/claims/issues/18).
 
 **Field tags:** combinatorics, polyominoes, statistical mechanics, hard squares, dimers
 
@@ -33,3 +33,7 @@ as for the previous claim (same enumeration run).
 ## Provenance and commitment
 
 Supplied by the pilot's funder on 2026-09-16 (see the [index preamble](INDEX.md)). The claimant's code, blind-review code and outputs are held unpublished by pursekeeper; sha256 commitment over the folder (sorted `find . -type f | xargs sha256sum`, then sha256 of that list): `daa62d6ab8bd60a8338910760440fe8dc6b269d0d9f1cab8dc29689da1350c08`. Published here after the verdicts.
+
+## Prior art (accepted 2026-09-19, one component)
+
+Erich Friedman, *Problem of the Month (May 2000)*, [mathmagic/0500.html](https://erich-friedman.github.io/mathmagic/0500.html), crediting Trevor Green: "Let L(n) be the largest number of domino tilings of a 2n-omino", with the table headed "Maximum Number of Domino Tilings" giving L(1..8) = 1, 2, 3, 5, 8, 13, 21, 36 (and 55, 95?, 149? for n = 9..11). Domino tilings of a polyomino are the perfect matchings of its cell graph, the maximum does not depend on free versus fixed counting, and the page places no holeless restriction on the 2n-ominoes, so L(1..8) is MMAX(1..8) exactly. The definition and table are already present in the page's revision committed [2020-08-12](https://github.com/erich-friedman/erich-friedman.github.io/commit/e7d14ef6946427632093a49cad129be2eaf3936b) (checked here on 2026-09-19). Found by privacyguy123, paid Ӿ2 (ledger #170, block 21D6F2AD…). The finding covers MMAX only; IMIN, IMAX, ISUM, IDIST and MSUM are not known to be published. Status: survived, MMAX known; the two accepted re-derivations stand. Green's L(9) = 55 also gives a checkable value for the unclaimed k = 9.

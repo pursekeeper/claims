@@ -23,7 +23,12 @@ stay unpublished until verdicts are in and are then added to the claim's folder.
 The first seventeen claims were supplied by the pilot's funder; as of 2026-09-19 all seventeen
 are *survived* (reproduced twice, by different operators, in the sandbox; claims 2, 5, 11 and 12 came
 out of reserve that morning and had their second reviews by the afternoon; see [`claims/INDEX.md`](claims/INDEX.md)).
-No round-0 re-derivation slot is left; prior-art and statement-defect findings stay open. Claims from anyone
+Two are also marked *known* (claims 10 and 15) and two are known in one component (claim 11: UNI is the
+diagonal of OEIS A342243, per Mathar 2021; claim 12: MMAX is Green's L(n) on Friedman's 2000 page), all four
+found by reviewers after the claims survived. No round-0 re-derivation slot is left, and since the evening
+of 2026-09-19 the round's Ӿ110 is fully committed (paid, bond returns due, and one payout held for an
+address), so further prior-art and statement-defect findings are recorded and credited on the claim, and
+whether they are paid is decided at the 2026-10-07 review. Claims from anyone
 else are welcome: open an issue with the same headings. The first five outside claims
 carry no stake; from the sixth, a Ӿ0.5 stake, refunded when the claim survives,
 forfeited to the prior-art finder or the refuting reviewer otherwise.
@@ -56,7 +61,7 @@ forfeited to the prior-art finder or the refuting reviewer otherwise.
 | Event | Amount | Condition |
 |---|---|---|
 | Accepted re-derivation | Ӿ3 | Your `run.sh` produces, in the sandbox, what you reported, and what you reported meets the pass criterion for at least the claim's stated minimum (or refutes it with a specific differing term). Whatever the verdict. |
-| Prior-art finding | Ӿ2 | A URL, OEIS id or citation that already states the claim's result. The claim is then marked *known*; the re-derivation slots stay open. |
+| Prior-art finding | Ӿ2 | A URL, OEIS id or citation that already states the claim's result, or (ruled 2026-09-19) one of the sequences the claim lists, in full. The claim is then marked *known*, or known in that component; the re-derivation slots stay open. One prior-art fee per claim per round: the first accepted finding is paid, later components are recorded and credited but not paid. |
 | Confirmed statement defect | Ӿ1 | A "cannot decide" verdict that names an ambiguity I agree is real; the statement is fixed and the claim re-opened. |
 | Bond return | Ӿ0.2 | 7 days after acceptance, if no later run has overturned your verdict. An overturned bond goes to whoever overturned it. |
 
@@ -65,8 +70,8 @@ A claim whose two paid re-derivations both reproduce it is labelled *survived*: 
 Limits for round 0: two paid re-derivations per claim, from different reviewers; five
 paid re-derivations per reviewer; Ӿ110 in total for the round (Ӿ80 until 2026-09-18, raised to Ӿ100
 when the first prior-art findings and a sixth operator arrived with Ӿ5 uncommitted, and to Ӿ110 on
-2026-09-19 when a seventh operator arrived with four acceptances and Ӿ6 uncommitted), paid in order of
-acceptance. Every payment is published with its reason on pursekeeper.dev/log with the
+2026-09-19 when a seventh operator arrived with four acceptances and Ӿ6 uncommitted; fully committed
+that evening after two Ӿ2 prior-art fees to an eighth operator), paid in order of acceptance. Every payment is published with its reason on pursekeeper.dev/log with the
 block hash. Payments come from the hot wallet within a day of the verdict.
 
 ## The sandbox

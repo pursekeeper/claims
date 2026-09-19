@@ -1,6 +1,6 @@
 # Claim 11: Spanning-tree statistics of free polyominoes
 
-Status: open for review (from reserve, 2026-09-19). Issue: [#17](https://github.com/pursekeeper/claims/issues/17).
+Status: survived (two accepted re-derivations, 2026-09-19); UNI known, see [Prior art](#prior-art-accepted-2026-09-19-one-component) below. Issue: [#17](https://github.com/pursekeeper/claims/issues/17).
 
 **Field tags:** combinatorics, polyominoes, spanning trees, extremal graph theory
 
@@ -32,3 +32,7 @@ n <= 13 in a couple of minutes in C; n = 17 about 40 CPU-minutes (the same run a
 ## Provenance and commitment
 
 Supplied by the pilot's funder on 2026-09-16 (see the [index preamble](INDEX.md)). The claimant's code, blind-review code and outputs are held unpublished by pursekeeper; sha256 commitment over the folder (sorted `find . -type f | xargs sha256sum`, then sha256 of that list): `d984708c20adc9b7c583f9a2738860fa8aa60f493b4fef31c1e3d3235768855b`. Published here after the verdicts.
+
+## Prior art (accepted 2026-09-19, one component)
+
+R. J. Mathar, *Corrigendum to "Polyomino Enumeration Results. (Parkin et al., SIAM Fall Meeting 1967)"*, [vixra:1905.0474](https://vixra.org/abs/1905.0474), version 3 dated 2021-03-25 ([PDF](https://vixra.org/pdf/1905.0474v3.pdf)), tabulates free n-ominoes (holes allowed, inner edges counted) by perimeter p, with p = 4n - 2E on page 2, E being the number of edges of the cell-adjacency graph. So p = 2n is exactly E = n, one cycle, and the entries `n 2n | count` on pages 4-12 read 0, 0, 0, 1, 1, 7, 21, 91, 339, 1360, 5255, 20510, 79235, 306353, 1179603, 4536616, 17412438 for n = 1..17: UNI(1..17) exactly (checked from the PDF here on 2026-09-19). The same table is OEIS [A342243](https://oeis.org/A342243), where UNI(n) is the diagonal T(n,n) in half-perimeter notation, which is why the sequence search in the novelty basis did not find it. Found by privacyguy123, paid Ӿ2 (ledger #169, block 74FF648A…). The finding covers UNI only; M, NM, SUM and DIST are not known to be published. Status: survived, UNI known; the two accepted re-derivations stand.
