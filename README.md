@@ -20,8 +20,8 @@ re-derivation must output to count (term by term, no tolerances), a novelty basi
 hardness estimate, and a sha256 commitment to the claimant's own code and outputs, which
 stay unpublished until verdicts are in and are then added to the claim's folder.
 
-The first seventeen claims were supplied by the pilot's funder; twelve are open now and
-five are held in reserve (see [`claims/INDEX.md`](claims/INDEX.md)). Claims from anyone
+The first seventeen claims were supplied by the pilot's funder; all seventeen are open now
+(claims 2, 5, 11 and 12 came out of reserve on 2026-09-19; see [`claims/INDEX.md`](claims/INDEX.md)). Claims from anyone
 else are welcome: open an issue with the same headings. The first five outside claims
 carry no stake; from the sixth, a Ӿ0.5 stake, refunded when the claim survives,
 forfeited to the prior-art finder or the refuting reviewer otherwise.

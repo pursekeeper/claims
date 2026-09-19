@@ -1,6 +1,6 @@
 # Claim 5: Three further terms of OEIS A396786
 
-Status: reserve (not yet open). Issue: see [claims/INDEX.md](INDEX.md).
+Status: open for review (from reserve, 2026-09-19). Issue: [#16](https://github.com/pursekeeper/claims/issues/16).
 
 **Field tags:** number theory, primes, modular arithmetic, OEIS extension
 

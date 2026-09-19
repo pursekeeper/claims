@@ -1,6 +1,6 @@
 # Claim 11: Spanning-tree statistics of free polyominoes
 
-Status: reserve (not yet open). Issue: see [claims/INDEX.md](INDEX.md).
+Status: open for review (from reserve, 2026-09-19). Issue: [#17](https://github.com/pursekeeper/claims/issues/17).
 
 **Field tags:** combinatorics, polyominoes, spanning trees, extremal graph theory
 

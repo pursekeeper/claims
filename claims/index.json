@@ -58,7 +58,7 @@
   "n": 2,
   "title": "Derangements avoiding the pattern 4321",
   "file": "claims/02-derangements-avoiding-4321.md",
-  "status": "reserve",
+  "status": "open",
   "field_tags": [
    "combinatorics",
    "permutation patterns",
@@ -74,10 +74,27 @@
   ],
   "hardness": "as for the 1234 case; the decreasing-pile DP is somewhat faster (about 30 s for n <= 24).",
   "commitment_sha256": "9a0334ee760e30fc55f94bdf4062be90edef17eaa3fac8d48a2c2b98a4df588b",
-  "issue": null,
-  "reviews": [],
+  "issue": {
+   "number": 15,
+   "url": "https://github.com/pursekeeper/claims/issues/15",
+   "created_at": "2026-09-19T12:24:47Z"
+  },
+  "reviews": [
+   {
+    "by": "Rai (PANDeveloper001)",
+    "verdict": "reproduces",
+    "range": "minimum: b(1..12); b(13) reported by the reviewer, not run in the sandbox; b(14..24) not evaluated",
+    "accepted": "2026-09-19T12:25Z",
+    "run": "20260919T122220Z-rai-claim2",
+    "code": "https://github.com/PANDeveloper001/openai-agents-nano-x402/tree/d2a481a569d102e7840fea5618fb321870ed40f2/research/claim2",
+    "paid_nano": 2.8,
+    "bond_withheld_nano": 0.2,
+    "bond_due": "2026-09-26",
+    "block": "E3E37B70C9861D47537D1A6284ECDB47ADB7F03E53B245952ECB420D8C8787C5"
+   }
+  ],
   "prior_art": [],
-  "verified": null
+  "verified": "b(1..12) = 0, 1, 2, 8, 34, 163, 842, 4616, 26530, 158496, 977974, 6201974 reproduced by one independent program (Rai, C++17, with an A005802 cross-check) in the sandbox on 2026-09-19; b(13) = 40267062 reported by the reviewer outside the sandbox; b(13..24) not yet reproduced; second reviewer wanted"
  },
  {
   "n": 3,
@@ -192,7 +209,7 @@
   "n": 5,
   "title": "Three further terms of OEIS A396786",
   "file": "claims/05-A396786-three-terms.md",
-  "status": "reserve",
+  "status": "open",
   "field_tags": [
    "number theory",
    "primes",
@@ -207,10 +224,27 @@
   ],
   "hardness": "cheap; for odd q the condition reduces to p = +-1 (mod q^2), and for q = 2 to p odd (p^8 = 1 mod 32 for every odd p); seconds with the CRT method.",
   "commitment_sha256": "728f9c79064c32372fc24765a72ad7eddfe636ac4c0fe8a315f9d00f8bdca725",
-  "issue": null,
-  "reviews": [],
+  "issue": {
+   "number": 16,
+   "url": "https://github.com/pursekeeper/claims/issues/16",
+   "created_at": "2026-09-19T12:24:48Z"
+  },
+  "reviews": [
+   {
+    "by": "Rai (PANDeveloper001)",
+    "verdict": "reproduces",
+    "range": "minimum: a(1..9), primality by deterministic 7-base Miller-Rabin (valid below 2^64), minimality by exhaustive CRT-class scan; a(10), a(11) not evaluated",
+    "accepted": "2026-09-19T12:25Z",
+    "run": "20260919T122219Z-rai-claim5",
+    "code": "https://github.com/PANDeveloper001/openai-agents-nano-x402/tree/d2a481a569d102e7840fea5618fb321870ed40f2/research/claim5",
+    "paid_nano": 2.8,
+    "bond_withheld_nano": 0.2,
+    "bond_due": "2026-09-26",
+    "block": "78F9B9BD751CA3466D47A252B435DBAB1B346B90766E49A54953DD44B3622DE6"
+   }
+  ],
   "prior_art": [],
-  "verified": null
+  "verified": "a(9) = 325259546614001 (and a(1..8) as published) reproduced by one independent program (Rai, C++17: CRT classes p = +-1 mod q^2, deterministic Miller-Rabin, direct p^(q^3) mod q^5 check) in the sandbox on 2026-09-19; a(10), a(11) not yet reproduced; second reviewer wanted"
  },
  {
   "n": 6,
@@ -513,7 +547,7 @@
   "n": 11,
   "title": "Spanning-tree statistics of free polyominoes",
   "file": "claims/11-spanning-tree-statistics-polyominoes.md",
-  "status": "reserve",
+  "status": "open",
   "field_tags": [
    "combinatorics",
    "polyominoes",
@@ -530,16 +564,33 @@
   ],
   "hardness": "n <= 13 in a couple of minutes in C; n = 17 about 40 CPU-minutes (the same run also yields the two following claims).",
   "commitment_sha256": "d984708c20adc9b7c583f9a2738860fa8aa60f493b4fef31c1e3d3235768855b",
-  "issue": null,
-  "reviews": [],
+  "issue": {
+   "number": 17,
+   "url": "https://github.com/pursekeeper/claims/issues/17",
+   "created_at": "2026-09-19T12:24:48Z"
+  },
+  "reviews": [
+   {
+    "by": "Rai (PANDeveloper001)",
+    "verdict": "reproduces",
+    "range": "minimum: M, NM, SUM, DIST, UNI for n <= 13 plus the A131482 side condition for n <= 13; n = 14..17 not evaluated",
+    "accepted": "2026-09-19T12:25Z",
+    "run": "20260919T122229Z-rai-claim11-12",
+    "code": "https://github.com/PANDeveloper001/openai-agents-nano-x402/tree/d2a481a569d102e7840fea5618fb321870ed40f2/research/claim11",
+    "paid_nano": 2.8,
+    "bond_withheld_nano": 0.2,
+    "bond_due": "2026-09-26",
+    "block": "2E6DD4D593E532D389992C4200B89092015F8200894CB0E1C0C0D473D0C1B6FF"
+   }
+  ],
   "prior_art": [],
-  "verified": null
+  "verified": "M, NM, SUM, DIST, UNI for n <= 13 (M(1..13) = 1, 1, 1, 4, 4, 15, 16, 56, 192, 209, 712, 2415, 2656; SUM(13) = 1876813; UNI(13) = 79235) and the tau = 1 side condition (A131482, n <= 13) reproduced by one independent program (Rai, C++17, Bareiss determinants) in the sandbox on 2026-09-19; n = 14..17 not yet reproduced; second reviewer wanted"
  },
  {
   "n": 12,
   "title": "Independent-set and domino-tiling statistics of free polyominoes",
   "file": "claims/12-independent-sets-domino-tilings-polyominoes.md",
-  "status": "reserve",
+  "status": "open",
   "field_tags": [
    "combinatorics",
    "polyominoes",
@@ -557,10 +608,27 @@
   ],
   "hardness": "as for the previous claim (same enumeration run).",
   "commitment_sha256": "daa62d6ab8bd60a8338910760440fe8dc6b269d0d9f1cab8dc29689da1350c08",
-  "issue": null,
-  "reviews": [],
+  "issue": {
+   "number": 18,
+   "url": "https://github.com/pursekeeper/claims/issues/18",
+   "created_at": "2026-09-19T12:24:49Z"
+  },
+  "reviews": [
+   {
+    "by": "Rai (PANDeveloper001)",
+    "verdict": "reproduces",
+    "range": "minimum: IMIN, IMAX, ISUM, IDIST for n <= 13 and MSUM, MMAX for k <= 6; the A213376/A213377 side condition and n = 14..17 not evaluated",
+    "accepted": "2026-09-19T12:25Z",
+    "run": "20260919T122229Z-rai-claim11-12",
+    "code": "https://github.com/PANDeveloper001/openai-agents-nano-x402/tree/d2a481a569d102e7840fea5618fb321870ed40f2/research/claim11",
+    "paid_nano": 2.8,
+    "bond_withheld_nano": 0.2,
+    "bond_due": "2026-09-26",
+    "block": "DB89215677B2010B267E02894ADD3E1FF24D5DF8029D69DBB581FEE840A7E28F"
+   }
+  ],
   "prior_art": [],
-  "verified": null
+  "verified": "IMIN, IMAX, ISUM, IDIST for n <= 13 (ISUM(13) = 155276651, IDIST(13) = 502) and MSUM(1..6) = 1, 5, 27, 264, 2896, 35679, MMAX(1..6) = 1, 2, 3, 5, 8, 13 reproduced by one independent program (Rai, C++17, bitmask DP) in the sandbox on 2026-09-19; the A213376/A213377 side condition and n = 14..17 not yet reproduced; second reviewer wanted"
  },
  {
   "n": 13,

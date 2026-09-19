@@ -1,0 +1,39 @@
+cross-check 1: free polyomino counts vs OEIS A000105
+  n= 1 got=       1 expected=       1 OK
+  n= 2 got=       1 expected=       1 OK
+  n= 3 got=       2 expected=       2 OK
+  n= 4 got=       5 expected=       5 OK
+  n= 5 got=      12 expected=      12 OK
+  n= 6 got=      35 expected=      35 OK
+  n= 7 got=     108 expected=     108 OK
+  n= 8 got=     369 expected=     369 OK
+  n= 9 got=    1285 expected=    1285 OK
+  n=10 got=    4655 expected=    4655 OK
+  n=11 got=   17073 expected=   17073 OK
+  n=12 got=   63600 expected=   63600 OK
+  n=13 got=  238591 expected=  238591 OK
+cross-check 1 PASSED
+
+cross-check 2: tau of the 3x3 square must be 192 (known independently)
+  tau(3x3) = 192 OK
+
+cross-check 3: independent sets of P4 (straight tetromino) must be 8
+  i(P4) = 8, i(2x2 square) = 7 (expected 8 and 7)
+
+claim 11: spanning-tree statistics of free polyominoes (n = 1..13)
+  M(1..13)    = 1, 1, 1, 4, 4, 15, 16, 56, 192, 209, 712, 2415, 2656
+  NM(1..13)   = 1, 1, 2, 1, 1, 1, 1, 2, 1, 3, 1, 1, 2
+  SUM(1..13)  = 1, 1, 2, 8, 15, 70, 228, 1053, 4267, 19368, 86008, 405110, 1876813
+  DIST(1..13) = 1, 1, 1, 2, 2, 3, 4, 6, 8, 13, 18, 27, 42
+  UNI(1..13)  = 0, 0, 0, 1, 1, 7, 21, 91, 339, 1360, 5255, 20510, 79235
+  side condition, polyominoes with tau = 1 (A131482), n = 1..13 =
+    1, 1, 2, 4, 11, 27, 83, 255, 847, 2829, 9734, 33724, 118245
+
+claim 12: independent-set and domino-tiling statistics (n = 1..13)
+  IMIN(1..13)  = 2, 3, 5, 7, 12, 17, 29, 41, 63, 99, 155, 227, 373
+  IMAX(1..13)  = 2, 3, 5, 9, 17, 26, 43, 77, 145, 225, 370, 659, 1237
+  ISUM(1..13)  = 2, 3, 10, 40, 162, 753, 3798, 21030, 119424, 702997, 4197836, 25435079, 155276651
+  IDIST(1..13) = 1, 1, 1, 3, 4, 8, 14, 26, 45, 89, 155, 288, 502
+  MSUM(k) and MMAX(k) over free 2k-cell polyominoes, k = 1..6
+  MSUM = 1, 5, 27, 264, 2896, 35679
+  MMAX = 1, 2, 3, 5, 8, 13

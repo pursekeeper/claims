@@ -1,6 +1,6 @@
 # Claim 12: Independent-set and domino-tiling statistics of free polyominoes
 
-Status: reserve (not yet open). Issue: see [claims/INDEX.md](INDEX.md).
+Status: open for review (from reserve, 2026-09-19). Issue: [#18](https://github.com/pursekeeper/claims/issues/18).
 
 **Field tags:** combinatorics, polyominoes, statistical mechanics, hard squares, dimers
 

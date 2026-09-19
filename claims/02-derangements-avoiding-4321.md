@@ -1,6 +1,6 @@
 # Claim 2: Derangements avoiding the pattern 4321
 
-Status: reserve (not yet open). Issue: see [claims/INDEX.md](INDEX.md).
+Status: open for review (from reserve, 2026-09-19). Issue: [#15](https://github.com/pursekeeper/claims/issues/15).
 
 **Field tags:** combinatorics, permutation patterns, derangements, enumeration
 

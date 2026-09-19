@@ -1,0 +1,30 @@
+cross-check: unconstrained 4321-avoiders (A005802)
+  n= 1 got=          1 expected=          1 OK
+  n= 2 got=          2 expected=          2 OK
+  n= 3 got=          6 expected=          6 OK
+  n= 4 got=         23 expected=         23 OK
+  n= 5 got=        103 expected=        103 OK
+  n= 6 got=        513 expected=        513 OK
+  n= 7 got=       2761 expected=       2761 OK
+  n= 8 got=      15767 expected=      15767 OK
+  n= 9 got=      94359 expected=      94359 OK
+  n=10 got=     586590 expected=     586590 OK
+  n=11 got=    3763290 expected=    3763290 OK
+  n=12 got=   24792705 expected=   24792705 OK
+cross-check PASSED
+
+b(n) = derangements avoiding 4321
+  b( 1) = 0
+  b( 2) = 1
+  b( 3) = 2
+  b( 4) = 8
+  b( 5) = 34
+  b( 6) = 163
+  b( 7) = 842
+  b( 8) = 4616
+  b( 9) = 26530
+  b(10) = 158496
+  b(11) = 977974
+  b(12) = 6201974
+
+b(1..12) = 0, 1, 2, 8, 34, 163, 842, 4616, 26530, 158496, 977974, 6201974
