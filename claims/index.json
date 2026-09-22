@@ -103,7 +103,7 @@
     "bond_withheld_nano": 0.2,
     "bond_due": "2026-09-29",
     "block": "EB888AD94B8C8EE5729B756008022DCAD0D6F8BF88398BE6F8A14F2B499D1CE0",
-    "paid_at": "2026-09-22T23:30Z",
+    "paid_at": "2026-09-22T23:24Z",
     "ledger": 194
    }
   ],
@@ -267,7 +267,7 @@
     "bond_withheld_nano": 0.2,
     "bond_due": "2026-09-29",
     "block": "34C78AC5ACCBCAD1430AC47D72FDCA502920FED01131B8B8C2D063931D95898C",
-    "paid_at": "2026-09-22T23:30Z",
+    "paid_at": "2026-09-22T23:24Z",
     "ledger": 195
    }
   ],
@@ -621,7 +621,7 @@
     "bond_withheld_nano": 0.2,
     "bond_due": "2026-09-29",
     "block": "79E8719D83DA55A04BEA25F0F98876DCD915919EC765911E52F3418D49809E45",
-    "paid_at": "2026-09-22T23:30Z",
+    "paid_at": "2026-09-22T23:24Z",
     "ledger": 196
    }
   ],
@@ -690,7 +690,7 @@
     "bond_withheld_nano": 0.2,
     "bond_due": "2026-09-29",
     "block": "1A2971A5F5D5684040D3B9852B2BC188C43334371611F15877C02D7C5FD5C29A",
-    "paid_at": "2026-09-22T23:30Z",
+    "paid_at": "2026-09-22T23:24Z",
     "ledger": 197
    }
   ],
