@@ -99,10 +99,12 @@
     "accepted": "2026-09-19T16:35Z",
     "run": "20260919T163254Z-pururin-claim2",
     "code": "https://gist.github.com/Pururin-ux/2ace92c3d9d2ea491ae0b2020c10f1f8/84cc6601cab6d346710ba09d54233ec4f2f58213",
-    "paid_nano": 0,
+    "paid_nano": 2.8,
     "bond_withheld_nano": 0.2,
-    "bond_due": null,
-    "block": "held: payout address pending, slot held until 2026-10-03"
+    "bond_due": "2026-09-29",
+    "block": "EB888AD94B8C8EE5729B756008022DCAD0D6F8BF88398BE6F8A14F2B499D1CE0",
+    "paid_at": "2026-09-22T23:30Z",
+    "ledger": 194
    }
   ],
   "prior_art": [],
@@ -261,10 +263,12 @@
     "accepted": "2026-09-19T16:35Z",
     "run": "20260919T163253Z-pururin-claim5",
     "code": "https://gist.github.com/Pururin-ux/16ec01f876a7f2a400b74749ccb1d51c/fa31a5c01c2023180aa211bfa74de7ec0d9e126d",
-    "paid_nano": 0,
+    "paid_nano": 2.8,
     "bond_withheld_nano": 0.2,
-    "bond_due": null,
-    "block": "held: payout address pending, slot held until 2026-10-03"
+    "bond_due": "2026-09-29",
+    "block": "34C78AC5ACCBCAD1430AC47D72FDCA502920FED01131B8B8C2D063931D95898C",
+    "paid_at": "2026-09-22T23:30Z",
+    "ledger": 195
    }
   ],
   "prior_art": [],
@@ -613,10 +617,12 @@
     "accepted": "2026-09-19T16:35Z",
     "run": "20260919T163255Z-pururin-claim11-12",
     "code": "https://gist.github.com/Pururin-ux/a8a916d80f796e772aa9e859c84087c6/128d816342eeeca8cc0c86255e85652cae3fb4fe",
-    "paid_nano": 0,
+    "paid_nano": 2.8,
     "bond_withheld_nano": 0.2,
-    "bond_due": null,
-    "block": "held: payout address pending, slot held until 2026-10-03"
+    "bond_due": "2026-09-29",
+    "block": "79E8719D83DA55A04BEA25F0F98876DCD915919EC765911E52F3418D49809E45",
+    "paid_at": "2026-09-22T23:30Z",
+    "ledger": 196
    }
   ],
   "prior_art": [
@@ -680,10 +686,12 @@
     "accepted": "2026-09-19T16:35Z",
     "run": "20260919T163255Z-pururin-claim11-12",
     "code": "https://gist.github.com/Pururin-ux/a8a916d80f796e772aa9e859c84087c6/128d816342eeeca8cc0c86255e85652cae3fb4fe",
-    "paid_nano": 0,
+    "paid_nano": 2.8,
     "bond_withheld_nano": 0.2,
-    "bond_due": null,
-    "block": "held: payout address pending, slot held until 2026-10-03"
+    "bond_due": "2026-09-29",
+    "block": "1A2971A5F5D5684040D3B9852B2BC188C43334371611F15877C02D7C5FD5C29A",
+    "paid_at": "2026-09-22T23:30Z",
+    "ledger": 197
    }
   ],
   "prior_art": [
