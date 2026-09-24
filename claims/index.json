@@ -36,7 +36,11 @@
     "paid_nano": "2.8",
     "bond_withheld_nano": "0.2",
     "bond_due": "2026-09-24",
-    "block": "600377E99BA03AADE62E7C8CA1AFAFFA92DA56EBBAEA1ECB8532622D68F5727C"
+    "block": "600377E99BA03AADE62E7C8CA1AFAFFA92DA56EBBAEA1ECB8532622D68F5727C",
+    "bond_returned": {
+     "block": "3E7C1B2FA6D14E90D1E413E0907DC27DFFFC4763C42EE9A168F3521939C89253",
+     "date": "2026-09-24"
+    }
    },
    {
     "by": "MarkZ1966github (Northstar Swarm / FiveToClose)",
@@ -48,7 +52,11 @@
     "paid_nano": "2.8",
     "bond_withheld_nano": "0.2",
     "bond_due": "2026-09-24",
-    "block": "B38FF9687B0CF5AA65BD4E1A4FFD5E07EBE2FD1C863D92F99AA5E9D95F70CF9B"
+    "block": "B38FF9687B0CF5AA65BD4E1A4FFD5E07EBE2FD1C863D92F99AA5E9D95F70CF9B",
+    "bond_returned": {
+     "block": "54C4CA37F6C112B776F59C3CD3E00540F6DC53D492D6DD9CCC7824AD6B0B2CBD",
+     "date": "2026-09-24"
+    }
    }
   ],
   "prior_art": [],
@@ -147,7 +155,11 @@
     "paid_nano": "2.8",
     "bond_withheld_nano": "0.2",
     "bond_due": "2026-09-24",
-    "block": "75AAC99490D20F08B0F4D469CB353C4E4FAF4A9E7B252AA07579F4295765202D"
+    "block": "75AAC99490D20F08B0F4D469CB353C4E4FAF4A9E7B252AA07579F4295765202D",
+    "bond_returned": {
+     "block": "54C4CA37F6C112B776F59C3CD3E00540F6DC53D492D6DD9CCC7824AD6B0B2CBD",
+     "date": "2026-09-24"
+    }
    },
    {
     "by": "TheAliphant (Sur)",
@@ -159,7 +171,11 @@
     "paid_nano": "2.8",
     "bond_withheld_nano": "0.2",
     "bond_due": "2026-09-24",
-    "block": "CD5F0111B33C2323DE1E56B8DC694570C5653450316CC0840260AE7D05B1A4AD"
+    "block": "CD5F0111B33C2323DE1E56B8DC694570C5653450316CC0840260AE7D05B1A4AD",
+    "bond_returned": {
+     "block": "1592E350D06EF9F4AF676A2B300652B12D108E3C54072BC5981190C169CAFE23",
+     "date": "2026-09-24"
+    }
    }
   ],
   "prior_art": [],
@@ -201,7 +217,11 @@
     "paid_nano": "2.8",
     "bond_withheld_nano": "0.2",
     "bond_due": "2026-09-24",
-    "block": "04C81E33EDA4A4E54C2B3D605D9AED4F13002DD22761E4587B6C30A9A3ACCD0D"
+    "block": "04C81E33EDA4A4E54C2B3D605D9AED4F13002DD22761E4587B6C30A9A3ACCD0D",
+    "bond_returned": {
+     "block": "A5D672E49C0025E9EEC806BAEDBE3EBA906533C4DABB3ACDE602BCF8DB366415",
+     "date": "2026-09-24"
+    }
    },
    {
     "by": "liutingqiu",
@@ -213,7 +233,11 @@
     "paid_nano": "2.8",
     "bond_withheld_nano": "0.2",
     "bond_due": "2026-09-24",
-    "block": "D561F7CA17F4C80C8A9B355546DF6B01273C9DCDB547BA638B4EA12645B25469"
+    "block": "D561F7CA17F4C80C8A9B355546DF6B01273C9DCDB547BA638B4EA12645B25469",
+    "bond_returned": {
+     "block": "EF9274DB3387A2A49262A227406B9F2BF69F4D6EB1B09817245CCFF9ED0E737E",
+     "date": "2026-09-24"
+    }
    }
   ],
   "prior_art": [],
@@ -313,7 +337,11 @@
     "paid_nano": "2.8",
     "bond_withheld_nano": "0.2",
     "bond_due": "2026-09-24",
-    "block": "55D324FC193EF7013E0DBE1B89ECC2AC2F0CEE0EDF08B65CCB0923BA9E9001F2"
+    "block": "55D324FC193EF7013E0DBE1B89ECC2AC2F0CEE0EDF08B65CCB0923BA9E9001F2",
+    "bond_returned": {
+     "block": "54C4CA37F6C112B776F59C3CD3E00540F6DC53D492D6DD9CCC7824AD6B0B2CBD",
+     "date": "2026-09-24"
+    }
    },
    {
     "by": "TheAliphant (Sur)",
@@ -325,7 +353,11 @@
     "paid_nano": "2.8",
     "bond_withheld_nano": "0.2",
     "bond_due": "2026-09-24",
-    "block": "080F0A589F3F88E8099B1CFA04D0F4465E36B9013967DAC8B8F20DCACE8025DD"
+    "block": "080F0A589F3F88E8099B1CFA04D0F4465E36B9013967DAC8B8F20DCACE8025DD",
+    "bond_returned": {
+     "block": "1592E350D06EF9F4AF676A2B300652B12D108E3C54072BC5981190C169CAFE23",
+     "date": "2026-09-24"
+    }
    }
   ],
   "prior_art": [],
@@ -368,7 +400,11 @@
     "paid_nano": "2.8",
     "bond_withheld_nano": "0.2",
     "bond_due": "2026-09-24",
-    "block": "842F69CDBCB538B0254200A018AFAFB386CEECF02209FA8BBEC2B3FF4D6480B9"
+    "block": "842F69CDBCB538B0254200A018AFAFB386CEECF02209FA8BBEC2B3FF4D6480B9",
+    "bond_returned": {
+     "block": "3E7C1B2FA6D14E90D1E413E0907DC27DFFFC4763C42EE9A168F3521939C89253",
+     "date": "2026-09-24"
+    }
    },
    {
     "by": "Summus Code (SummusStuprator)",
@@ -380,7 +416,11 @@
     "paid_nano": "2.8",
     "bond_withheld_nano": "0.2",
     "bond_due": "2026-09-24",
-    "block": "5374FEFB62A661BA619B7B56B11BB5C9BAFA6491CE23A9F0B76DB435152E47DD"
+    "block": "5374FEFB62A661BA619B7B56B11BB5C9BAFA6491CE23A9F0B76DB435152E47DD",
+    "bond_returned": {
+     "block": "A5D672E49C0025E9EEC806BAEDBE3EBA906533C4DABB3ACDE602BCF8DB366415",
+     "date": "2026-09-24"
+    }
    }
   ],
   "prior_art": [],
@@ -422,7 +462,11 @@
     "paid_nano": "2.8",
     "bond_withheld_nano": "0.2",
     "bond_due": "2026-09-24",
-    "block": "D0EE071E0AE93D3EF7E04FF866908091BE3B810EC46635A923B1961AF3F083EA"
+    "block": "D0EE071E0AE93D3EF7E04FF866908091BE3B810EC46635A923B1961AF3F083EA",
+    "bond_returned": {
+     "block": "1592E350D06EF9F4AF676A2B300652B12D108E3C54072BC5981190C169CAFE23",
+     "date": "2026-09-24"
+    }
    },
    {
     "by": "Rai (PANDeveloper001)",
@@ -475,7 +519,11 @@
     "paid_nano": "2.8",
     "bond_withheld_nano": "0.2",
     "bond_due": "2026-09-24",
-    "block": "2E9EC18525976D0C3E23E6A8C950E8E9988050B56F86B2BB7708895124BD06E0"
+    "block": "2E9EC18525976D0C3E23E6A8C950E8E9988050B56F86B2BB7708895124BD06E0",
+    "bond_returned": {
+     "block": "EF9274DB3387A2A49262A227406B9F2BF69F4D6EB1B09817245CCFF9ED0E737E",
+     "date": "2026-09-24"
+    }
    },
    {
     "by": "MarkZ1966github (Northstar Swarm / FiveToClose)",
@@ -487,7 +535,11 @@
     "paid_nano": "2.8",
     "bond_withheld_nano": "0.2",
     "bond_due": "2026-09-24",
-    "block": "C50D27DEC5BDEC35D70299EF95D3E57D728649A6E93EC63A0C9910D255A9DDE4"
+    "block": "C50D27DEC5BDEC35D70299EF95D3E57D728649A6E93EC63A0C9910D255A9DDE4",
+    "bond_returned": {
+     "block": "54C4CA37F6C112B776F59C3CD3E00540F6DC53D492D6DD9CCC7824AD6B0B2CBD",
+     "date": "2026-09-24"
+    }
    }
   ],
   "prior_art": [],
@@ -534,7 +586,11 @@
     "paid_nano": "2.8",
     "bond_withheld_nano": "0.2",
     "bond_due": "2026-09-24",
-    "block": "6FC53999B593123647FECC568F6E2A52789112762E8CC3F6A965A6F6C2312888"
+    "block": "6FC53999B593123647FECC568F6E2A52789112762E8CC3F6A965A6F6C2312888",
+    "bond_returned": {
+     "block": "54C4CA37F6C112B776F59C3CD3E00540F6DC53D492D6DD9CCC7824AD6B0B2CBD",
+     "date": "2026-09-24"
+    }
    },
    {
     "by": "liutingqiu",
@@ -546,7 +602,11 @@
     "paid_nano": "2.8",
     "bond_withheld_nano": "0.2",
     "bond_due": "2026-09-24",
-    "block": "2D545785EC50D29FE8E82626533F5D94156DCDAD4345BF9B48516A0B4A70D5AD"
+    "block": "2D545785EC50D29FE8E82626533F5D94156DCDAD4345BF9B48516A0B4A70D5AD",
+    "bond_returned": {
+     "block": "EF9274DB3387A2A49262A227406B9F2BF69F4D6EB1B09817245CCFF9ED0E737E",
+     "date": "2026-09-24"
+    }
    }
   ],
   "prior_art": [
@@ -749,7 +809,11 @@
     "paid_nano": "2.8",
     "bond_withheld_nano": "0.2",
     "bond_due": "2026-09-24",
-    "block": "F32C87AE5AF09B101229A72F2B908105B56E489310BF57C552A0C494CF754F71"
+    "block": "F32C87AE5AF09B101229A72F2B908105B56E489310BF57C552A0C494CF754F71",
+    "bond_returned": {
+     "block": "EF9274DB3387A2A49262A227406B9F2BF69F4D6EB1B09817245CCFF9ED0E737E",
+     "date": "2026-09-24"
+    }
    },
    {
     "by": "TheAliphant (Sur)",
@@ -761,7 +825,11 @@
     "paid_nano": "2.8",
     "bond_withheld_nano": "0.2",
     "bond_due": "2026-09-24",
-    "block": "13A570CFD7E58934A67BEA7F18DD3EDDB8FCB1C512B4B93B5959CC388E22A18B"
+    "block": "13A570CFD7E58934A67BEA7F18DD3EDDB8FCB1C512B4B93B5959CC388E22A18B",
+    "bond_returned": {
+     "block": "1592E350D06EF9F4AF676A2B300652B12D108E3C54072BC5981190C169CAFE23",
+     "date": "2026-09-24"
+    }
    }
   ],
   "prior_art": [],
@@ -804,7 +872,11 @@
     "paid_nano": "2.8",
     "bond_withheld_nano": "0.2",
     "bond_due": "2026-09-24",
-    "block": "BF8AED71C032E51AA3D75A9FD4B2860232665D557F959069C61B211605C991B4"
+    "block": "BF8AED71C032E51AA3D75A9FD4B2860232665D557F959069C61B211605C991B4",
+    "bond_returned": {
+     "block": "EF9274DB3387A2A49262A227406B9F2BF69F4D6EB1B09817245CCFF9ED0E737E",
+     "date": "2026-09-24"
+    }
    },
    {
     "by": "TheAliphant (Sur)",
@@ -816,7 +888,11 @@
     "paid_nano": "2.8",
     "bond_withheld_nano": "0.2",
     "bond_due": "2026-09-24",
-    "block": "63887AF5884E7B932CC03E279B8515FFDE15FA23EC39189002D217EB9DD85243"
+    "block": "63887AF5884E7B932CC03E279B8515FFDE15FA23EC39189002D217EB9DD85243",
+    "bond_returned": {
+     "block": "1592E350D06EF9F4AF676A2B300652B12D108E3C54072BC5981190C169CAFE23",
+     "date": "2026-09-24"
+    }
    }
   ],
   "prior_art": [],
@@ -857,7 +933,11 @@
     "paid_nano": "2.8",
     "bond_withheld_nano": "0.2",
     "bond_due": "2026-09-24",
-    "block": "3F18F117C3DA6B9E79DB39CBA43F5D773AA184AC56C1AE373F549F2DAA49AB28"
+    "block": "3F18F117C3DA6B9E79DB39CBA43F5D773AA184AC56C1AE373F549F2DAA49AB28",
+    "bond_returned": {
+     "block": "3E7C1B2FA6D14E90D1E413E0907DC27DFFFC4763C42EE9A168F3521939C89253",
+     "date": "2026-09-24"
+    }
    },
    {
     "by": "Summus Code (SummusStuprator)",
@@ -869,7 +949,11 @@
     "paid_nano": "2.8",
     "bond_withheld_nano": "0.2",
     "bond_due": "2026-09-24",
-    "block": "9227DDD77C0D82792A343B223D8CB7FB62907F161C4312985A36E193A7DABB08"
+    "block": "9227DDD77C0D82792A343B223D8CB7FB62907F161C4312985A36E193A7DABB08",
+    "bond_returned": {
+     "block": "A5D672E49C0025E9EEC806BAEDBE3EBA906533C4DABB3ACDE602BCF8DB366415",
+     "date": "2026-09-24"
+    }
    }
   ],
   "prior_art": [
@@ -920,7 +1004,11 @@
     "paid_nano": "2.8",
     "bond_withheld_nano": "0.2",
     "bond_due": "2026-09-24",
-    "block": "ADC08E8F3F1197D82E4E8F33AEA68EE96DF056003C0BA92D5E0373B5B24EBFD2"
+    "block": "ADC08E8F3F1197D82E4E8F33AEA68EE96DF056003C0BA92D5E0373B5B24EBFD2",
+    "bond_returned": {
+     "block": "3E7C1B2FA6D14E90D1E413E0907DC27DFFFC4763C42EE9A168F3521939C89253",
+     "date": "2026-09-24"
+    }
    },
    {
     "by": "Summus Code (SummusStuprator)",
@@ -932,7 +1020,11 @@
     "paid_nano": "2.8",
     "bond_withheld_nano": "0.2",
     "bond_due": "2026-09-24",
-    "block": "FCE342FD0055D329E0C09AEFBE76810D0C705F72CCADECE561AE6B6915C246F3"
+    "block": "FCE342FD0055D329E0C09AEFBE76810D0C705F72CCADECE561AE6B6915C246F3",
+    "bond_returned": {
+     "block": "A5D672E49C0025E9EEC806BAEDBE3EBA906533C4DABB3ACDE602BCF8DB366415",
+     "date": "2026-09-24"
+    }
    }
   ],
   "prior_art": [],
@@ -976,7 +1068,11 @@
     "paid_nano": "2.8",
     "bond_withheld_nano": "0.2",
     "bond_due": "2026-09-24",
-    "block": "0D4C0EEC68C3391103590553C8DC4D93E30AFE9D51573F10EB4D9D1A03D2FAF3"
+    "block": "0D4C0EEC68C3391103590553C8DC4D93E30AFE9D51573F10EB4D9D1A03D2FAF3",
+    "bond_returned": {
+     "block": "3E7C1B2FA6D14E90D1E413E0907DC27DFFFC4763C42EE9A168F3521939C89253",
+     "date": "2026-09-24"
+    }
    },
    {
     "by": "Summus Code (SummusStuprator)",
@@ -988,7 +1084,11 @@
     "paid_nano": "2.8",
     "bond_withheld_nano": "0.2",
     "bond_due": "2026-09-24",
-    "block": "E94809A63FA718985DBF9EBEDBB4D0EF53822DD96BE8C1E852AC31AB5C329F1B"
+    "block": "E94809A63FA718985DBF9EBEDBB4D0EF53822DD96BE8C1E852AC31AB5C329F1B",
+    "bond_returned": {
+     "block": "A5D672E49C0025E9EEC806BAEDBE3EBA906533C4DABB3ACDE602BCF8DB366415",
+     "date": "2026-09-24"
+    }
    }
   ],
   "prior_art": [],
