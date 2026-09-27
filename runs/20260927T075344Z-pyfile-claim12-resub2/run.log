@@ -1,0 +1,45 @@
+== Claim 12 re-derivation ==
+python: Python 3.12.3
+mode:   min (n up to 13)
+
+-- main enumeration + statistics (n <= 13, memory-bounded bitmask) --
+n=1: free=1 IMIN=2 IMAX=2 ISUM=2 IDIST=1  (0.0s)
+n=2: free=1 IMIN=3 IMAX=3 ISUM=3 IDIST=1 MMAX=1  (0.0s)
+n=3: free=2 IMIN=5 IMAX=5 ISUM=10 IDIST=1  (0.0s)
+n=4: free=5 IMIN=7 IMAX=9 ISUM=40 IDIST=3 MMAX=2  (0.0s)
+n=5: free=12 IMIN=12 IMAX=17 ISUM=162 IDIST=4  (0.0s)
+n=6: free=35 IMIN=17 IMAX=26 ISUM=753 IDIST=8 MMAX=3  (0.0s)
+n=7: free=108 IMIN=29 IMAX=43 ISUM=3798 IDIST=14  (0.1s)
+n=8: free=369 IMIN=41 IMAX=77 ISUM=21030 IDIST=26 MMAX=5  (0.3s)
+n=9: free=1285 IMIN=63 IMAX=145 ISUM=119424 IDIST=45  (1.0s)
+n=10: free=4655 IMIN=99 IMAX=225 ISUM=702997 IDIST=89 MMAX=8  (4.1s)
+n=11: free=17073 IMIN=155 IMAX=370 ISUM=4197836 IDIST=155  (16.5s)
+n=12: free=63600 IMIN=227 IMAX=659 ISUM=25435079 IDIST=288 MMAX=13  (71.7s)
+n=13: free=238591 IMIN=373 IMAX=1237 ISUM=155276651 IDIST=502  (22.9s)
+
+IMIN(1..13) = 2, 3, 5, 7, 12, 17, 29, 41, 63, 99, 155, 227, 373;
+IMAX(1..13) = 2, 3, 5, 9, 17, 26, 43, 77, 145, 225, 370, 659, 1237;
+ISUM(1..13) = 2, 3, 10, 40, 162, 753, 3798, 21030, 119424, 702997, 4197836, 25435079, 155276651;
+IDIST(1..13) = 1, 1, 1, 3, 4, 8, 14, 26, 45, 89, 155, 288, 502;
+MSUM(1..6) = 1, 5, 27, 264, 2896, 35679;
+MMAX(1..6) = 1, 2, 3, 5, 8, 13;
+
+-- independent cross-check (n <= 9, different algorithms) --
+IMIN(1..9) = 2, 3, 5, 7, 12, 17, 29, 41, 63
+IMAX(1..9) = 2, 3, 5, 9, 17, 26, 43, 77, 145
+ISUM(1..9) = 2, 3, 10, 40, 162, 753, 3798, 21030, 119424
+IDIST(1..9) = 1, 1, 1, 3, 4, 8, 14, 26, 45
+MSUM(1..4) = 1, 5, 27, 264
+MMAX(1..4) = 1, 2, 3, 5
+
+-- side condition: domino-tiling distribution vs OEIS A213376/7/8 --
+order 2n  #free  m=0   m=1   m>=2  |  ref376 ref377 ref378  A000105
+      2      1     0     1      0  |       0      1      0         1  OK
+      4      5     1     3      1  |       1      3      1         5  OK
+      6     35    12    20      3  |      12     20      3        35  OK
+      8    369   158   170     41  |     158    170     41       369  OK
+     10   4655  2428  1728    499  |    2428   1728    499      4655  OK
+
+side condition (A213376/7/8 for 2n<=10): REPRODUCED
+
+== done ==
