@@ -1,0 +1,30 @@
+== Claim 12 re-derivation ==
+python: Python 3.12.3
+mode:   min (n up to 13)
+
+-- main enumeration + statistics (n <= 13) --
+  fixed n=2: 2
+  fixed n=3: 6
+  fixed n=4: 19
+  fixed n=5: 63
+  fixed n=6: 216
+  fixed n=7: 760
+  fixed n=8: 2725
+  fixed n=9: 9910
+  fixed n=10: 36446
+  fixed n=11: 135268
+  fixed n=12: 505861
+  fixed n=13: 1903890
+n=1: free=1 IMIN=2 IMAX=2 ISUM=2 IDIST=1  (0.0s)
+n=2: free=1 IMIN=3 IMAX=3 ISUM=3 IDIST=1 MMAX=1  (0.0s)
+n=3: free=2 IMIN=5 IMAX=5 ISUM=10 IDIST=1  (0.0s)
+n=4: free=5 IMIN=7 IMAX=9 ISUM=40 IDIST=3 MMAX=2  (0.0s)
+n=5: free=12 IMIN=12 IMAX=17 ISUM=162 IDIST=4  (0.0s)
+n=6: free=35 IMIN=17 IMAX=26 ISUM=753 IDIST=8 MMAX=3  (0.0s)
+n=7: free=108 IMIN=29 IMAX=43 ISUM=3798 IDIST=14  (0.0s)
+n=8: free=369 IMIN=41 IMAX=77 ISUM=21030 IDIST=26 MMAX=5  (0.1s)
+n=9: free=1285 IMIN=63 IMAX=145 ISUM=119424 IDIST=45  (0.1s)
+n=10: free=4655 IMIN=99 IMAX=225 ISUM=702997 IDIST=89 MMAX=8  (0.7s)
+n=11: free=17073 IMIN=155 IMAX=370 ISUM=4197836 IDIST=155  (2.2s)
+n=12: free=63600 IMIN=227 IMAX=659 ISUM=25435079 IDIST=288 MMAX=13  (10.3s)
+run.sh: line 28:    10 Killed                  python3 polyomino12.py "$N" "$N"

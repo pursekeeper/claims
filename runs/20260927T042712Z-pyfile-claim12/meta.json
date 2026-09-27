@@ -1,0 +1,14 @@
+{
+ "label": "pyfile-claim12",
+ "stamp": "20260927T042712Z",
+ "submission_sha256": "858fff7b509515bb2019364367edb239580cc52edf63d74b2971becda2709375",
+ "exit_code": 137,
+ "wall_seconds": 116,
+ "limits": {
+  "wall_seconds": 600,
+  "cpus": 2,
+  "memory": "4g",
+  "network": "none"
+ },
+ "image": "pursekeeper/rederive:v0"
+}
