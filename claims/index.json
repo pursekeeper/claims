@@ -98,7 +98,11 @@
     "paid_nano": 2.8,
     "bond_withheld_nano": 0.2,
     "bond_due": "2026-09-26",
-    "block": "E3E37B70C9861D47537D1A6284ECDB47ADB7F03E53B245952ECB420D8C8787C5"
+    "block": "E3E37B70C9861D47537D1A6284ECDB47ADB7F03E53B245952ECB420D8C8787C5",
+    "bond_returned": {
+     "block": "718319698EF61461931C88FD9D2A0D6F7E9856E33E77DF91891338817B1A56C3",
+     "date": "2026-09-29"
+    }
    },
    {
     "by": "Pururin-ux",
@@ -112,7 +116,11 @@
     "bond_due": "2026-09-29",
     "block": "EB888AD94B8C8EE5729B756008022DCAD0D6F8BF88398BE6F8A14F2B499D1CE0",
     "paid_at": "2026-09-22T23:24Z",
-    "ledger": 194
+    "ledger": 194,
+    "bond_returned": {
+     "block": "3FB214AAD23437CF2EF800CE127247F9D84B2E0857CBC84FBABB2F27CE82E7C1",
+     "date": "2026-09-29"
+    }
    }
   ],
   "prior_art": [],
@@ -278,7 +286,11 @@
     "paid_nano": 2.8,
     "bond_withheld_nano": 0.2,
     "bond_due": "2026-09-26",
-    "block": "78F9B9BD751CA3466D47A252B435DBAB1B346B90766E49A54953DD44B3622DE6"
+    "block": "78F9B9BD751CA3466D47A252B435DBAB1B346B90766E49A54953DD44B3622DE6",
+    "bond_returned": {
+     "block": "718319698EF61461931C88FD9D2A0D6F7E9856E33E77DF91891338817B1A56C3",
+     "date": "2026-09-29"
+    }
    },
    {
     "by": "Pururin-ux",
@@ -292,7 +304,11 @@
     "bond_due": "2026-09-29",
     "block": "34C78AC5ACCBCAD1430AC47D72FDCA502920FED01131B8B8C2D063931D95898C",
     "paid_at": "2026-09-22T23:24Z",
-    "ledger": 195
+    "ledger": 195,
+    "bond_returned": {
+     "block": "3FB214AAD23437CF2EF800CE127247F9D84B2E0857CBC84FBABB2F27CE82E7C1",
+     "date": "2026-09-29"
+    }
    }
   ],
   "prior_art": [],
@@ -478,7 +494,11 @@
     "paid_nano": 2.8,
     "bond_withheld_nano": 0.2,
     "bond_due": "2026-09-25",
-    "block": "6244B2583C0E470DB03A1271008CA601BBC6612F03C0933D9A92D9F8C00B296E"
+    "block": "6244B2583C0E470DB03A1271008CA601BBC6612F03C0933D9A92D9F8C00B296E",
+    "bond_returned": {
+     "block": "718319698EF61461931C88FD9D2A0D6F7E9856E33E77DF91891338817B1A56C3",
+     "date": "2026-09-29"
+    }
    }
   ],
   "prior_art": [],
@@ -668,7 +688,11 @@
     "paid_nano": 2.8,
     "bond_withheld_nano": 0.2,
     "bond_due": "2026-09-26",
-    "block": "2E6DD4D593E532D389992C4200B89092015F8200894CB0E1C0C0D473D0C1B6FF"
+    "block": "2E6DD4D593E532D389992C4200B89092015F8200894CB0E1C0C0D473D0C1B6FF",
+    "bond_returned": {
+     "block": "718319698EF61461931C88FD9D2A0D6F7E9856E33E77DF91891338817B1A56C3",
+     "date": "2026-09-29"
+    }
    },
    {
     "by": "Pururin-ux",
@@ -682,7 +706,11 @@
     "bond_due": "2026-09-29",
     "block": "79E8719D83DA55A04BEA25F0F98876DCD915919EC765911E52F3418D49809E45",
     "paid_at": "2026-09-22T23:24Z",
-    "ledger": 196
+    "ledger": 196,
+    "bond_returned": {
+     "block": "3FB214AAD23437CF2EF800CE127247F9D84B2E0857CBC84FBABB2F27CE82E7C1",
+     "date": "2026-09-29"
+    }
    }
   ],
   "prior_art": [
@@ -737,7 +765,11 @@
     "paid_nano": 2.8,
     "bond_withheld_nano": 0.2,
     "bond_due": "2026-09-26",
-    "block": "DB89215677B2010B267E02894ADD3E1FF24D5DF8029D69DBB581FEE840A7E28F"
+    "block": "DB89215677B2010B267E02894ADD3E1FF24D5DF8029D69DBB581FEE840A7E28F",
+    "bond_returned": {
+     "block": "718319698EF61461931C88FD9D2A0D6F7E9856E33E77DF91891338817B1A56C3",
+     "date": "2026-09-29"
+    }
    },
    {
     "by": "Pururin-ux",
@@ -751,7 +783,11 @@
     "bond_due": "2026-09-29",
     "block": "1A2971A5F5D5684040D3B9852B2BC188C43334371611F15877C02D7C5FD5C29A",
     "paid_at": "2026-09-22T23:24Z",
-    "ledger": 197
+    "ledger": 197,
+    "bond_returned": {
+     "block": "3FB214AAD23437CF2EF800CE127247F9D84B2E0857CBC84FBABB2F27CE82E7C1",
+     "date": "2026-09-29"
+    }
    }
   ],
   "prior_art": [
