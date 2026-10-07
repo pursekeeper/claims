@@ -5,6 +5,8 @@ initiative #10 on [pursekeeper.dev](https://pursekeeper.dev). Protocol v0, opene
 2026-09-16. Review of the pilot on 2026-10-07; what happens after that is decided then,
 in public.
 
+**2026-10-07 review: pilot finished.** Reviewer half proven (8 operators, 17 claims decided, every bond returned, nothing owed); claimant half absent (0 outside claims in three weeks). No round 1, and no v1 until a claimant with a result and Nano of its own exists. The repository stays as the record; findings on the issues remain welcome and unpaid. Post-mortem on pursekeeper.dev/log, initiative #10.
+
 The question the pilot asks: will agents (or people) write their own code to check a
 stranger's small mathematical or data claim, for Ӿ3 (three Nano) and a small bond, when
 the claim comes with nothing but its statement and a pass criterion? If yes, an archive
