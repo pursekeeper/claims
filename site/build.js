@@ -2,12 +2,12 @@
 // Builds a static site from this repository: one page per verified result, an index, index.json and a sitemap.
 // Source of truth: claims/index.json (status, reviews, verified line, prior art) and claims/NN-*.md (statement,
 // pass criterion, novelty, hardness, provenance). No dependencies. Usage: node site/build.js [outdir]
-// (default site/out). Served at https://pursekeeper.dev/claims/ ; set CLAIMS_BASE to build for another base URL.
+// (default site/out). Served at https://pursekeeper.dev/verified/ ; set CLAIMS_BASE to build for another base URL.
 'use strict';
 const fs = require('fs'), path = require('path');
 const ROOT = path.resolve(__dirname, '..');
 const OUT = path.resolve(process.argv[2] || path.join(__dirname, 'out'));
-const BASE = (process.env.CLAIMS_BASE || 'https://pursekeeper.dev/claims/').replace(/\/?$/, '/');
+const BASE = (process.env.CLAIMS_BASE || 'https://pursekeeper.dev/verified/').replace(/\/?$/, '/');
 const REPO = 'https://github.com/pursekeeper/claims';
 const SITE_TITLE = 'Verified small results';
 const idx = JSON.parse(fs.readFileSync(path.join(ROOT, 'claims', 'index.json'), 'utf8'));
@@ -108,8 +108,25 @@ const related = c => idx.filter(o => o.n !== c.n)
   .filter(x => x.score > 0).sort((a, b) => b.score - a.score || a.o.n - b.o.n).slice(0, 5).map(x => x.o);
 const runUrl = r => `${REPO}/tree/main/${r.run}`;
 
+// Best-effort CSV of the sequences in the pass criterion: NAME(a..b) = v1, v2, ... becomes rows (sequence, n, value).
+function termsCsv(c, p) {
+  const src = p.sections['What a re-derivation must output to count'] || '';
+  const rows = [];
+  const re = /([A-Za-z][A-Za-z0-9_]*)\((\d+)\.\.(\d+)\)\s*=\s*((?:-?\d+\s*,\s*)*-?\d+)/g;
+  let m;
+  while ((m = re.exec(src))) {
+    const vals = m[4].split(/\s*,\s*/).map(v => v.trim()).filter(Boolean);
+    const a = +m[2], b = +m[3];
+    if (vals.length !== b - a + 1) continue;
+    vals.forEach((v, i) => rows.push([m[1], a + i, v]));
+  }
+  return rows.length ? 'sequence,n,value\n' + rows.map(r => r.join(',')).join('\n') + '\n' : null;
+}
+
 function jsonldFor(c, p, st) {
-  const oeis = [...new Set((c.keywords.join(' ') + ' ' + p.related + ' ' + c.title).match(/\bA\d{6}\b/g) || [])].map(a => `https://oeis.org/${a}`);
+  const own = (c.title.match(/\bA\d{6}\b/g) || []).map(a => `https://oeis.org/${a}`);
+  const oeis = [...new Set((c.keywords.join(' ') + ' ' + p.related).match(/\bA\d{6}\b/g) || [])].map(a => `https://oeis.org/${a}`).filter(u => !own.includes(u));
+  const csv = termsCsv(c, p);
   return {
     '@context': 'https://schema.org', '@type': 'Dataset',
     name: c.title, url: urlOf(c), identifier: `pursekeeper-claims:${c.n}`,
@@ -117,11 +134,12 @@ function jsonldFor(c, p, st) {
     keywords: [...c.field_tags, ...c.keywords],
     datePublished: c.issue?.created_at?.slice(0, 10), dateModified: verifiedOn(c),
     isAccessibleForFree: true,
+    ...(own.length ? { sameAs: own } : {}),
     ...(oeis.length ? { isBasedOn: oeis } : {}),
     creator: { '@type': 'Organization', name: 'Supplied by the pilot funder (unnamed); verified by independent re-derivation' },
     publisher: { '@type': 'Organization', name: 'pursekeeper', url: 'https://pursekeeper.dev/' },
     includedInDataCatalog: { '@type': 'DataCatalog', name: SITE_TITLE, url: BASE },
-    distribution: [{ '@type': 'DataDownload', encodingFormat: 'text/markdown', contentUrl: `${REPO}/blob/main/${c.file}` }, { '@type': 'DataDownload', encodingFormat: 'application/json', contentUrl: BASE + 'index.json' }],
+    distribution: [...(csv ? [{ '@type': 'DataDownload', encodingFormat: 'text/csv', contentUrl: urlOf(c) + '.csv' }] : []), { '@type': 'DataDownload', encodingFormat: 'text/markdown', contentUrl: `${REPO}/blob/main/${c.file}` }, { '@type': 'DataDownload', encodingFormat: 'application/json', contentUrl: BASE + 'index.json' }],
     citation: (c.prior_art || []).map(a => a.url),
   };
 }
@@ -152,16 +170,17 @@ ${rel ? `<dt>Related results here</dt><dd><ul>${rel}</ul></dd>` : ''}</dl>
 ${sec('Novelty basis (as supplied)')}
 ${sec('Hardness (as supplied)')}
 <h2>Provenance and commitment</h2>${md(S['Provenance and commitment'] || '')}
-<h2>Cite</h2><p class="terms">${esc(c.title)}. Claim ${c.n}, pursekeeper claims pilot, verified ${esc(verifiedOn(c))} by independent re-derivation. ${esc(urlOf(c))}</p>`;
+<h2>Cite</h2><p class="terms">${esc(c.title)}. Claim ${c.n}, pursekeeper claims pilot, verified ${esc(verifiedOn(c))} by independent re-derivation. ${esc(urlOf(c))}</p>
+${termsCsv(c, p) ? `<p class="muted">Terms as CSV: <a href="${esc(urlOf(c))}.csv">${esc(slugOf(c))}.csv</a> (sequence, n, value).</p>` : ''}`;
   return page({
     title: `${c.title} (verified small result)`,
     desc: `${st.label}. ${c.verified}`.slice(0, 300),
     url: urlOf(c), jsonld: jsonldFor(c, p, st),
-    meta: [['citation_title', c.title], ['citation_publication_date', (c.issue?.created_at || '').slice(0, 10).replace(/-/g, '/')], ['citation_public_url', urlOf(c)], ['citation_abstract_html_url', urlOf(c)]],
     body,
   });
 }
 
+const anums = () => [...new Set(idx.flatMap(c => ((c.title + ' ' + c.keywords.join(' ') + ' ' + parseClaim(c.file).related).match(/\bA\d{6}\b/g) || [])))].sort();
 function indexPage() {
   const tags = {};
   for (const c of idx) for (const t of c.field_tags) (tags[t] = tags[t] || []).push(c);
@@ -171,6 +190,7 @@ function indexPage() {
 <p>Seventeen small results in combinatorics, number theory and linguistic typology, each reproduced in a sandbox by two programs written from the statement alone, by operators who never saw the claimant's code. New terms of integer sequences, counts of shaped knight's-tour boards and polyforms, one identity checked exhaustively, two contingency tables from public databases. The claims were supplied by the pilot's funder on 2026-09-16; the re-derivations were paid in Nano; every run log, payment and verdict is in the <a href="${REPO}">repository</a>. Four results turned out to be already published, in full or in one component; they stay listed and say so.</p>
 <p>Written for a researcher searching for a sequence or a count. Each page carries the terms verbatim, the OEIS A-numbers it extends or relates to, and keywords in OEIS style; the pass criterion is term by term, no tolerances. The same data is in <a href="${BASE}index.json">index.json</a>.</p>
 <table><tr><th>#</th><th>Result</th><th>Status</th><th>Re-derived by</th></tr>${rows}</table>
+<p><b>OEIS entries extended or used:</b> ${inline(anums().join(', '))}. None of the new terms is in OEIS: under its 2026 policy a sequence needs a human author who takes responsibility for correctness, and these pages, the run logs and the claimant code are the verification record such an author could cite.</p>
 <h2>How a result gets here</h2>
 <p>A claim is a GitHub issue in the repository with a self-contained statement, exactly what a re-derivation must output, a novelty basis, a hardness estimate and a sha256 commitment to the claimant's own code. It is listed here only after two operators, independently, wrote their own code from the statement and pursekeeper's sandbox run of that code produced the required output. Prior art reported after a verdict is added to the page and the status is changed to <i>known</i>; nothing is removed. The pilot that paid reviewers closed on 2026-10-07 with no outside claims received; the protocol and the record are in the <a href="${REPO}#readme">README</a>, and what happens next is decided on the <a href="https://pursekeeper.dev/log">public log</a>. A claim posted now is reviewed when a reviewer chooses to review it.</p>
 <h2>By field</h2>${tagList}
@@ -179,8 +199,12 @@ function indexPage() {
 }
 
 fs.mkdirSync(OUT, { recursive: true });
-for (const f of fs.readdirSync(OUT)) if (/\.(html|xml|json)$/.test(f)) fs.unlinkSync(path.join(OUT, f));
-for (const c of idx) fs.writeFileSync(path.join(OUT, slugOf(c) + '.html'), claimPage(c));
+for (const f of fs.readdirSync(OUT)) if (/\.(html|xml|json|csv)$/.test(f)) fs.unlinkSync(path.join(OUT, f));
+for (const c of idx) {
+  fs.writeFileSync(path.join(OUT, slugOf(c) + '.html'), claimPage(c));
+  const csv = termsCsv(c, parseClaim(c.file));
+  if (csv) fs.writeFileSync(path.join(OUT, slugOf(c) + '.csv'), csv);
+}
 fs.writeFileSync(path.join(OUT, 'index.html'), indexPage());
 fs.writeFileSync(path.join(OUT, 'index.json'), JSON.stringify(idx.map(c => ({ ...c, url: urlOf(c) })), null, 1));
 fs.writeFileSync(path.join(OUT, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n<url><loc>${BASE}</loc></url>\n${idx.map(c => `<url><loc>${urlOf(c)}</loc><lastmod>${verifiedOn(c)}</lastmod></url>`).join('\n')}\n</urlset>\n`);
