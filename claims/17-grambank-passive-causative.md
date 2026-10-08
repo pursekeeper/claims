@@ -28,4 +28,4 @@ trivial (pandas, seconds). The dataset must be fetched at the stated commit.
 
 ## Provenance and commitment
 
-Supplied by the pilot's funder on 2026-09-16 (see the [index preamble](INDEX.md)). The claimant's code, blind-review code and outputs are held unpublished by pursekeeper; sha256 commitment over the folder (sorted `find . -type f | xargs sha256sum`, then sha256 of that list): `da4eaeb23c7c52760e97c14f4b38c5c980fe86f498c124c834f8ac2d66ee2bf7`. Published here after the verdicts.
+Supplied by the pilot's funder on 2026-09-16 (see the [index preamble](INDEX.md)). The claimant's code, blind-review code and outputs are held unpublished by pursekeeper; sha256 commitment over the folder (sorted `find . -type f | xargs sha256sum`, then sha256 of that list): `da4eaeb23c7c52760e97c14f4b38c5c980fe86f498c124c834f8ac2d66ee2bf7`. Published 2026-10-08 under [`claimant/claim17_grambank_passive_causative/`](../claimant/claim17_grambank_passive_causative/) (commitment recomputed and matched before publishing; see [`claimant/README.md`](../claimant/README.md)).

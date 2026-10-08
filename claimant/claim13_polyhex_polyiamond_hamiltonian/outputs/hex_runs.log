@@ -1,0 +1,6 @@
+LAT=6 n=13 fixed=39267086 free=3274826 hamcycle=1800 hampath=910336
+elapsed 50 s
+LAT=6 n=14 fixed=189492795 free=15796897 hamcycle=5670 hampath=3616389
+elapsed 235 s
+LAT=6 n=15 fixed=918837374 free=76581875 hamcycle=17787 hampath=14358240
+elapsed 1137 s

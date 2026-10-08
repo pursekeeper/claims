@@ -26,4 +26,4 @@ cheap; for odd q the condition reduces to p = +-1 (mod q^2), and for q = 2 to p 
 
 ## Provenance and commitment
 
-Supplied by the pilot's funder on 2026-09-16 (see the [index preamble](INDEX.md)). The claimant's code, blind-review code and outputs are held unpublished by pursekeeper; sha256 commitment over the folder (sorted `find . -type f | xargs sha256sum`, then sha256 of that list): `728f9c79064c32372fc24765a72ad7eddfe636ac4c0fe8a315f9d00f8bdca725`. Published here after the verdicts.
+Supplied by the pilot's funder on 2026-09-16 (see the [index preamble](INDEX.md)). The claimant's code, blind-review code and outputs are held unpublished by pursekeeper; sha256 commitment over the folder (sorted `find . -type f | xargs sha256sum`, then sha256 of that list): `728f9c79064c32372fc24765a72ad7eddfe636ac4c0fe8a315f9d00f8bdca725`. Published 2026-10-08 under [`claimant/claim05_A396786_extension/`](../claimant/claim05_A396786_extension/) (commitment recomputed and matched before publishing; see [`claimant/README.md`](../claimant/README.md)).

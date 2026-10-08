@@ -1,0 +1,12 @@
+n= 1 der&avoid1234=0 der&avoid4321=0 avoid1234=1 derangements=0
+n= 2 der&avoid1234=1 der&avoid4321=1 avoid1234=2 derangements=1
+n= 3 der&avoid1234=2 der&avoid4321=2 avoid1234=6 derangements=2
+n= 4 der&avoid1234=9 der&avoid4321=8 avoid1234=23 derangements=9
+n= 5 der&avoid1234=42 der&avoid4321=34 avoid1234=103 derangements=44
+n= 6 der&avoid1234=221 der&avoid4321=163 avoid1234=513 derangements=265
+n= 7 der&avoid1234=1242 der&avoid4321=842 avoid1234=2761 derangements=1854
+n= 8 der&avoid1234=7299 der&avoid4321=4616 avoid1234=15767 derangements=14833
+n= 9 der&avoid1234=44866 der&avoid4321=26530 avoid1234=94359 derangements=133496
+n=10 der&avoid1234=283733 der&avoid4321=158496 avoid1234=586590 derangements=1334961
+n=11 der&avoid1234=1851110 der&avoid4321=977974 avoid1234=3763290 derangements=14684570
+n=12 der&avoid1234=12338897 der&avoid4321=6201974 avoid1234=24792705 derangements=176214841

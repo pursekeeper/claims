@@ -1,0 +1,52 @@
+n=1 fixed=1 free=1
+sum_tau=1 max_tau=1 max_tau_cnt=1 tau_odd=1 unicyclic=0
+sum_pm=0 max_pm=0 max_pm_cnt=1
+sum_is=2 min_is=2 min_is_cnt=1 max_is=2 max_is_cnt=1
+n=2 fixed=2 free=1
+sum_tau=1 max_tau=1 max_tau_cnt=1 tau_odd=1 unicyclic=0
+sum_pm=1 max_pm=1 max_pm_cnt=1
+sum_is=3 min_is=3 min_is_cnt=1 max_is=3 max_is_cnt=1
+n=3 fixed=6 free=2
+sum_tau=2 max_tau=1 max_tau_cnt=2 tau_odd=2 unicyclic=0
+sum_pm=0 max_pm=0 max_pm_cnt=2
+sum_is=10 min_is=5 min_is_cnt=2 max_is=5 max_is_cnt=2
+n=4 fixed=19 free=5
+sum_tau=8 max_tau=4 max_tau_cnt=1 tau_odd=4 unicyclic=1
+sum_pm=5 max_pm=2 max_pm_cnt=1
+sum_is=40 min_is=7 min_is_cnt=1 max_is=9 max_is_cnt=1
+n=5 fixed=63 free=12
+sum_tau=15 max_tau=4 max_tau_cnt=1 tau_odd=11 unicyclic=1
+sum_pm=0 max_pm=0 max_pm_cnt=12
+sum_is=162 min_is=12 min_is_cnt=1 max_is=17 max_is_cnt=1
+n=6 fixed=216 free=35
+sum_tau=70 max_tau=15 max_tau_cnt=1 tau_odd=28 unicyclic=7
+sum_pm=27 max_pm=3 max_pm_cnt=1
+sum_is=753 min_is=17 min_is_cnt=1 max_is=26 max_is_cnt=1
+n=7 fixed=760 free=108
+sum_tau=228 max_tau=16 max_tau_cnt=1 tau_odd=86 unicyclic=21
+sum_pm=0 max_pm=0 max_pm_cnt=108
+sum_is=3798 min_is=29 min_is_cnt=3 max_is=43 max_is_cnt=2
+n=8 fixed=2725 free=369
+sum_tau=1053 max_tau=56 max_tau_cnt=2 tau_odd=273 unicyclic=91
+sum_pm=264 max_pm=5 max_pm_cnt=1
+sum_is=21030 min_is=41 min_is_cnt=1 max_is=77 max_is_cnt=2
+n=9 fixed=9910 free=1285
+sum_tau=4267 max_tau=192 max_tau_cnt=1 tau_odd=915 unicyclic=339
+sum_pm=0 max_pm=0 max_pm_cnt=1285
+sum_is=119424 min_is=63 min_is_cnt=1 max_is=145 max_is_cnt=1
+n=10 fixed=36446 free=4655
+sum_tau=19368 max_tau=209 max_tau_cnt=3 tau_odd=3126 unicyclic=1360
+sum_pm=2896 max_pm=8 max_pm_cnt=1
+sum_is=702997 min_is=99 min_is_cnt=1 max_is=225 max_is_cnt=1
+n=11 fixed=135268 free=17073
+sum_tau=86008 max_tau=712 max_tau_cnt=1 tau_odd=10948 unicyclic=5255
+sum_pm=0 max_pm=0 max_pm_cnt=17073
+sum_is=4197836 min_is=155 min_is_cnt=1 max_is=370 max_is_cnt=2
+n=12 fixed=505861 free=63600
+sum_tau=405110 max_tau=2415 max_tau_cnt=1 tau_odd=38782 unicyclic=20510
+sum_pm=35679 max_pm=13 max_pm_cnt=1
+sum_is=25435079 min_is=227 min_is_cnt=1 max_is=659 max_is_cnt=2
+n=13 fixed=1903890 free=238591
+sum_tau=1876813 max_tau=2656 max_tau_cnt=2 tau_odd=138719 unicyclic=79235
+sum_pm=0 max_pm=0 max_pm_cnt=238591
+sum_is=155276651 min_is=373 min_is_cnt=1 max_is=1237 max_is_cnt=2

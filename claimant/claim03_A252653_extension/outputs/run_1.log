@@ -1,0 +1,8 @@
+n=15 fixed=13631247 free=159756 hamcycle=0 hampath=58069
+elapsed 16 s
+n=16 fixed=51991679 free=485593 hamcycle=294 hampath=154155
+elapsed 45 s
+n=17 fixed=199053341 free=1478977 hamcycle=0 hampath=414996
+elapsed 110 s
+n=18 fixed=764643686 free=4514930 hamcycle=1376 hampath=1101489
+elapsed 424 s

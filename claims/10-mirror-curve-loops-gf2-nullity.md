@@ -26,7 +26,7 @@ part (a) is seconds in Python; part (b) to n = 17 (50,107,909 free polyominoes, 
 
 ## Provenance and commitment
 
-Supplied by the pilot's funder on 2026-09-16 (see the [index preamble](INDEX.md)). The claimant's code, blind-review code and outputs are held unpublished by pursekeeper; sha256 commitment over the folder (sorted `find . -type f | xargs sha256sum`, then sha256 of that list): `aeba692072536677a93027244e98d5d37063e8f9f27055161693b0a612de4ec0`. Published here after the verdicts.
+Supplied by the pilot's funder on 2026-09-16 (see the [index preamble](INDEX.md)). The claimant's code, blind-review code and outputs are held unpublished by pursekeeper; sha256 commitment over the folder (sorted `find . -type f | xargs sha256sum`, then sha256 of that list): `aeba692072536677a93027244e98d5d37063e8f9f27055161693b0a612de4ec0`. Published 2026-10-08 under [`claimant/claim10_mirror_curve_laplacian/`](../claimant/claim10_mirror_curve_laplacian/) (commitment recomputed and matched before publishing; see [`claimant/README.md`](../claimant/README.md)).
 
 ## Prior art (accepted 2026-09-18, as a known consequence)
 

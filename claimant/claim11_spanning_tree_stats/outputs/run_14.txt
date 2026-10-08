@@ -1,0 +1,4 @@
+n=14 fixed=7204874 free=901971
+sum_tau=8931533 max_tau=8960 max_tau_cnt=1 tau_odd=499351 unicyclic=306353
+sum_pm=454900 max_pm=21 max_pm_cnt=1
+sum_is=955009277 min_is=555 min_is_cnt=1 max_is=1921 max_is_cnt=2

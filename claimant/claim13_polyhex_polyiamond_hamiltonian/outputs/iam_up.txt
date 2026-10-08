@@ -1,0 +1,8 @@
+IAM n=15 which=0 fixed=542513 free=54995 hampath=907 hamcycle=0 maxcycles=0 time=0.1s
+IAM n=16 which=0 fixed=1547541 free=156255 hampath=1682 hamcycle=2 maxcycles=1 time=0.4s
+IAM n=17 which=0 fixed=4430660 free=446072 hampath=3355 hamcycle=0 maxcycles=0 time=1.1s
+IAM n=18 which=0 fixed=12726567 free=1281912 hampath=6127 hamcycle=12 maxcycles=1 time=3.3s
+IAM n=19 which=0 fixed=36662606 free=3688532 hampath=11701 hamcycle=0 maxcycles=0 time=9.7s
+IAM n=20 which=0 fixed=105895235 free=10627121 hampath=21649 hamcycle=14 maxcycles=1 time=29.4s
+IAM n=21 which=0 fixed=306592381 free=30658620 hampath=42037 hamcycle=0 maxcycles=0 time=87.9s
+IAM n=22 which=0 fixed=889578860 free=88693654 hampath=77342 hamcycle=50 maxcycles=1 time=263.9s

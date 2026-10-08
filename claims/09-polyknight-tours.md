@@ -26,4 +26,4 @@ cheap; n = 10 (28.7 million free polyknights) in about 80 s in C.
 
 ## Provenance and commitment
 
-Supplied by the pilot's funder on 2026-09-16 (see the [index preamble](INDEX.md)). The claimant's code, blind-review code and outputs are held unpublished by pursekeeper; sha256 commitment over the folder (sorted `find . -type f | xargs sha256sum`, then sha256 of that list): `8eaa9951905b96f9177962454424318e1535ad81cba7d42de9b36dda25387378`. Published here after the verdicts.
+Supplied by the pilot's funder on 2026-09-16 (see the [index preamble](INDEX.md)). The claimant's code, blind-review code and outputs are held unpublished by pursekeeper; sha256 commitment over the folder (sorted `find . -type f | xargs sha256sum`, then sha256 of that list): `8eaa9951905b96f9177962454424318e1535ad81cba7d42de9b36dda25387378`. Published 2026-10-08 under [`claimant/claim09_polyknight_tours/`](../claimant/claim09_polyknight_tours/) (commitment recomputed and matched before publishing; see [`claimant/README.md`](../claimant/README.md)).

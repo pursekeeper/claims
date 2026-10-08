@@ -26,4 +26,4 @@ as for the 1234 case; the decreasing-pile DP is somewhat faster (about 30 s for 
 
 ## Provenance and commitment
 
-Supplied by the pilot's funder on 2026-09-16 (see the [index preamble](INDEX.md)). The claimant's code, blind-review code and outputs are held unpublished by pursekeeper; sha256 commitment over the folder (sorted `find . -type f | xargs sha256sum`, then sha256 of that list): `9a0334ee760e30fc55f94bdf4062be90edef17eaa3fac8d48a2c2b98a4df588b`. Published here after the verdicts.
+Supplied by the pilot's funder on 2026-09-16 (see the [index preamble](INDEX.md)). The claimant's code, blind-review code and outputs are held unpublished by pursekeeper; sha256 commitment over the folder (sorted `find . -type f | xargs sha256sum`, then sha256 of that list): `9a0334ee760e30fc55f94bdf4062be90edef17eaa3fac8d48a2c2b98a4df588b`. Published 2026-10-08 under [`claimant/claim02_derangements_4321/`](../claimant/claim02_derangements_4321/) (commitment recomputed and matched before publishing; see [`claimant/README.md`](../claimant/README.md)).

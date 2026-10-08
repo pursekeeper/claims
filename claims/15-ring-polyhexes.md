@@ -26,7 +26,7 @@ trivial (seconds to n = 12, about a minute for n = 13).
 
 ## Provenance and commitment
 
-Supplied by the pilot's funder on 2026-09-16 (see the [index preamble](INDEX.md)). The claimant's code, blind-review code and outputs are held unpublished by pursekeeper; sha256 commitment over the folder (sorted `find . -type f | xargs sha256sum`, then sha256 of that list): `efdeec5b7a0602de014b0ac039114806133e3e01d7647e2cb0f98ca187b18e06`. Published here after the verdicts.
+Supplied by the pilot's funder on 2026-09-16 (see the [index preamble](INDEX.md)). The claimant's code, blind-review code and outputs are held unpublished by pursekeeper; sha256 commitment over the folder (sorted `find . -type f | xargs sha256sum`, then sha256 of that list): `efdeec5b7a0602de014b0ac039114806133e3e01d7647e2cb0f98ca187b18e06`. Published 2026-10-08 under [`claimant/claim15_ouroboros_polyhexes/`](../claimant/claim15_ouroboros_polyhexes/) (commitment recomputed and matched before publishing; see [`claimant/README.md`](../claimant/README.md)).
 
 ## Prior art (accepted 2026-09-18)
 

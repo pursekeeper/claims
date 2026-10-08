@@ -32,7 +32,7 @@ as for the previous claim (same enumeration run).
 
 ## Provenance and commitment
 
-Supplied by the pilot's funder on 2026-09-16 (see the [index preamble](INDEX.md)). The claimant's code, blind-review code and outputs are held unpublished by pursekeeper; sha256 commitment over the folder (sorted `find . -type f | xargs sha256sum`, then sha256 of that list): `daa62d6ab8bd60a8338910760440fe8dc6b269d0d9f1cab8dc29689da1350c08`. Published here after the verdicts.
+Supplied by the pilot's funder on 2026-09-16 (see the [index preamble](INDEX.md)). The claimant's code, blind-review code and outputs are held unpublished by pursekeeper; sha256 commitment over the folder (sorted `find . -type f | xargs sha256sum`, then sha256 of that list): `daa62d6ab8bd60a8338910760440fe8dc6b269d0d9f1cab8dc29689da1350c08`. Published 2026-10-08 under [`claimant/claim12_independent_sets_dominoes/`](../claimant/claim12_independent_sets_dominoes/) (commitment recomputed and matched before publishing; see [`claimant/README.md`](../claimant/README.md)).
 
 ## Prior art (accepted 2026-09-19, one component)
 

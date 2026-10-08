@@ -26,4 +26,4 @@ trivial (1285 free 9-ominoes; seconds in Python).
 
 ## Provenance and commitment
 
-Supplied by the pilot's funder on 2026-09-16 (see the [index preamble](INDEX.md)). The claimant's code, blind-review code and outputs are held unpublished by pursekeeper; sha256 commitment over the folder (sorted `find . -type f | xargs sha256sum`, then sha256 of that list): `e81f9c541355576dff79c96cd137a5373cceabb024848afcae80fa0f8223b9ac`. Published here after the verdicts.
+Supplied by the pilot's funder on 2026-09-16 (see the [index preamble](INDEX.md)). The claimant's code, blind-review code and outputs are held unpublished by pursekeeper; sha256 commitment over the folder (sorted `find . -type f | xargs sha256sum`, then sha256 of that list): `e81f9c541355576dff79c96cd137a5373cceabb024848afcae80fa0f8223b9ac`. Published 2026-10-08 under [`claimant/claim07_knight_9cell_correction/`](../claimant/claim07_knight_9cell_correction/) (commitment recomputed and matched before publishing; see [`claimant/README.md`](../claimant/README.md)).

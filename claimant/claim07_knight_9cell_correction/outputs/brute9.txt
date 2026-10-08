@@ -1,0 +1,378 @@
+n=9 free=1285 K=181 O=57 C=0
+tourable boards=57 tours up to board symmetry=94
+board 3x4 |Aut|=1 undirectedPaths=2 toursUpToSym=2
+###
+#.#
+###
+#..
+board 3x4 |Aut|=1 undirectedPaths=1 toursUpToSym=1
+#.#
+###
+###
+#..
+board 3x4 |Aut|=2 undirectedPaths=1 toursUpToSym=1
+#.#
+###
+#.#
+#.#
+board 3x5 |Aut|=2 undirectedPaths=1 toursUpToSym=1
+#..
+#.#
+###
+#.#
+..#
+board 3x5 |Aut|=1 undirectedPaths=2 toursUpToSym=2
+#..
+#.#
+###
+.#.
+##.
+board 3x5 |Aut|=1 undirectedPaths=1 toursUpToSym=1
+#..
+#..
+###
+.##
+##.
+board 3x4 |Aut|=1 undirectedPaths=1 toursUpToSym=1
+###
+##.
+###
+..#
+board 3x4 |Aut|=1 undirectedPaths=1 toursUpToSym=1
+##.
+###
+#.#
+.##
+board 3x5 |Aut|=1 undirectedPaths=2 toursUpToSym=2
+##.
+#.#
+###
+.#.
+.#.
+board 3x4 |Aut|=2 undirectedPaths=6 toursUpToSym=3
+###
+#.#
+###
+.#.
+board 4x4 |Aut|=2 undirectedPaths=6 toursUpToSym=4
+###.
+#.##
+##..
+.#..
+board 4x4 |Aut|=1 undirectedPaths=1 toursUpToSym=1
+###.
+#...
+####
+.#..
+board 4x4 |Aut|=1 undirectedPaths=6 toursUpToSym=6
+##..
+#.##
+###.
+.#..
+board 4x4 |Aut|=1 undirectedPaths=1 toursUpToSym=1
+##..
+#.#.
+####
+.#..
+board 4x4 |Aut|=1 undirectedPaths=4 toursUpToSym=4
+##..
+#.##
+###.
+..#.
+board 3x4 |Aut|=1 undirectedPaths=2 toursUpToSym=2
+#.#
+###
+##.
+.##
+board 3x5 |Aut|=1 undirectedPaths=1 toursUpToSym=1
+#..
+###
+#.#
+.##
+.#.
+board 4x4 |Aut|=1 undirectedPaths=1 toursUpToSym=1
+#...
+###.
+#.##
+.##.
+board 4x4 |Aut|=1 undirectedPaths=1 toursUpToSym=1
+#.##
+###.
+#.#.
+..#.
+board 4x4 |Aut|=1 undirectedPaths=1 toursUpToSym=1
+#.#.
+###.
+#.##
+..#.
+board 3x5 |Aut|=2 undirectedPaths=6 toursUpToSym=3
+#.#
+#.#
+###
+.#.
+.#.
+board 3x5 |Aut|=1 undirectedPaths=1 toursUpToSym=1
+#..
+#.#
+###
+.##
+.#.
+board 3x5 |Aut|=1 undirectedPaths=2 toursUpToSym=2
+#..
+#.#
+###
+.#.
+.##
+board 4x5 |Aut|=1 undirectedPaths=2 toursUpToSym=2
+#...
+#.##
+###.
+.#..
+.#..
+board 4x5 |Aut|=1 undirectedPaths=1 toursUpToSym=1
+#...
+#.#.
+####
+.#..
+.#..
+board 4x5 |Aut|=1 undirectedPaths=1 toursUpToSym=1
+#...
+#...
+####
+.#..
+.##.
+board 4x4 |Aut|=1 undirectedPaths=1 toursUpToSym=1
+#.#.
+#.#.
+####
+.#..
+board 4x4 |Aut|=1 undirectedPaths=2 toursUpToSym=2
+#...
+#.##
+###.
+.##.
+board 4x4 |Aut|=1 undirectedPaths=1 toursUpToSym=1
+#.##
+#.#.
+###.
+..#.
+board 4x4 |Aut|=1 undirectedPaths=2 toursUpToSym=2
+#.#.
+#.##
+###.
+..#.
+board 3x5 |Aut|=1 undirectedPaths=1 toursUpToSym=1
+#..
+###
+.##
+##.
+#..
+board 3x5 |Aut|=2 undirectedPaths=1 toursUpToSym=1
+#..
+###
+.#.
+###
+#..
+board 3x5 |Aut|=2 undirectedPaths=1 toursUpToSym=1
+#..
+###
+..#
+###
+#..
+board 4x4 |Aut|=1 undirectedPaths=1 toursUpToSym=1
+#...
+####
+.##.
+##..
+board 4x4 |Aut|=1 undirectedPaths=2 toursUpToSym=2
+#...
+###.
+.###
+##..
+board 3x5 |Aut|=2 undirectedPaths=1 toursUpToSym=1
+#..
+###
+.#.
+###
+..#
+board 4x4 |Aut|=1 undirectedPaths=1 toursUpToSym=1
+##..
+##.#
+.###
+.#..
+board 4x5 |Aut|=1 undirectedPaths=1 toursUpToSym=1
+#...
+##..
+.###
+.#.#
+.#..
+board 4x4 |Aut|=1 undirectedPaths=2 toursUpToSym=2
+#.#.
+###.
+.###
+.#..
+board 4x4 |Aut|=1 undirectedPaths=2 toursUpToSym=2
+#.#.
+####
+.#..
+.##.
+board 4x4 |Aut|=1 undirectedPaths=1 toursUpToSym=1
+#.#.
+####
+.#.#
+.#..
+board 4x4 |Aut|=1 undirectedPaths=1 toursUpToSym=1
+#...
+####
+.##.
+.##.
+board 4x4 |Aut|=1 undirectedPaths=1 toursUpToSym=1
+#..#
+####
+.##.
+.#..
+board 4x4 |Aut|=1 undirectedPaths=1 toursUpToSym=1
+#..#
+####
+.#..
+.##.
+board 4x4 |Aut|=1 undirectedPaths=2 toursUpToSym=2
+#...
+####
+.#.#
+.##.
+board 4x4 |Aut|=1 undirectedPaths=1 toursUpToSym=1
+#...
+##.#
+.###
+.##.
+board 5x4 |Aut|=1 undirectedPaths=1 toursUpToSym=1
+#....
+###..
+..###
+.##..
+board 5x4 |Aut|=1 undirectedPaths=1 toursUpToSym=1
+#.#..
+###..
+..###
+..#..
+board 4x4 |Aut|=1 undirectedPaths=2 toursUpToSym=2
+.##.
+##..
+####
+..#.
+board 4x5 |Aut|=1 undirectedPaths=1 toursUpToSym=1
+.#..
+##..
+####
+..#.
+..#.
+board 4x4 |Aut|=1 undirectedPaths=3 toursUpToSym=3
+.#..
+####
+#.#.
+.##.
+board 4x4 |Aut|=2 undirectedPaths=6 toursUpToSym=4
+.#..
+###.
+#.##
+.##.
+board 5x4 |Aut|=1 undirectedPaths=1 toursUpToSym=1
+.#...
+###..
+#.###
+..#..
+board 5x4 |Aut|=1 undirectedPaths=2 toursUpToSym=2
+..#..
+###..
+#.###
+..#..
+board 4x5 |Aut|=1 undirectedPaths=2 toursUpToSym=2
+..#.
+#.##
+###.
+.#..
+.#..
+board 4x5 |Aut|=1 undirectedPaths=3 toursUpToSym=3
+..#.
+#.#.
+####
+.#..
+.#..
+board 5x5 |Aut|=2 undirectedPaths=1 toursUpToSym=1
+..#..
+###..
+..###
+...#.
+...#.
+4x4-bounding-box boards with exactly one tour: 14
+###.
+#...
+####
+.#..
+
+##..
+#.#.
+####
+.#..
+
+#...
+###.
+#.##
+.##.
+
+#.##
+###.
+#.#.
+..#.
+
+#.#.
+###.
+#.##
+..#.
+
+#.#.
+#.#.
+####
+.#..
+
+#.##
+#.#.
+###.
+..#.
+
+#...
+####
+.##.
+##..
+
+##..
+##.#
+.###
+.#..
+
+#.#.
+####
+.#.#
+.#..
+
+#...
+####
+.##.
+.##.
+
+#..#
+####
+.##.
+.#..
+
+#..#
+####
+.#..
+.##.
+
+#...
+##.#
+.###
+.##.
+

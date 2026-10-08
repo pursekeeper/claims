@@ -29,4 +29,4 @@ moderate. Polyomino enumeration to n = 18 (192,622,052 free) with bitmask DFS: a
 
 ## Provenance and commitment
 
-Supplied by the pilot's funder on 2026-09-16 (see the [index preamble](INDEX.md)). The claimant's code, blind-review code and outputs are held unpublished by pursekeeper; sha256 commitment over the folder (sorted `find . -type f | xargs sha256sum`, then sha256 of that list): `14c7825cedfa3832ece08dbc579b27fa612dca03b91a42d7d6c6824085c499d5`. Published here after the verdicts.
+Supplied by the pilot's funder on 2026-09-16 (see the [index preamble](INDEX.md)). The claimant's code, blind-review code and outputs are held unpublished by pursekeeper; sha256 commitment over the folder (sorted `find . -type f | xargs sha256sum`, then sha256 of that list): `14c7825cedfa3832ece08dbc579b27fa612dca03b91a42d7d6c6824085c499d5`. Published 2026-10-08 under [`claimant/claim06_knight_connected_tourable/`](../claimant/claim06_knight_connected_tourable/) (commitment recomputed and matched before publishing; see [`claimant/README.md`](../claimant/README.md)).

@@ -1,0 +1,365 @@
+free polyominoes 9 1285
+tourable boards 57 geometrically distinct tours 94
+holey tourable boards 13
+tours=2 hole=True
+#..
+###
+#.#
+###
+
+tours=1 hole=False
+#..
+###
+###
+#.#
+
+tours=1 hole=False
+#.#
+#.#
+###
+#.#
+
+tours=1 hole=False
+..#
+#.#
+###
+#.#
+#..
+
+tours=2 hole=False
+##.
+.#.
+###
+#.#
+#..
+
+tours=1 hole=False
+##.
+.##
+###
+#..
+#..
+
+tours=1 hole=False
+..#
+###
+##.
+###
+
+tours=1 hole=True
+.##
+#.#
+###
+##.
+
+tours=2 hole=True
+.#.
+.#.
+###
+#.#
+##.
+
+tours=3 hole=True
+.#.
+###
+#.#
+###
+
+tours=4 hole=True
+.#..
+##..
+#.##
+###.
+
+tours=1 hole=False
+.#..
+####
+#...
+###.
+
+tours=6 hole=True
+.#..
+###.
+#.##
+##..
+
+tours=1 hole=True
+.#..
+####
+#.#.
+##..
+
+tours=4 hole=True
+..#.
+###.
+#.##
+##..
+
+tours=2 hole=False
+.##
+##.
+###
+#.#
+
+tours=1 hole=True
+.#.
+.##
+#.#
+###
+#..
+
+tours=1 hole=True
+.##.
+#.##
+###.
+#...
+
+tours=1 hole=False
+..#.
+#.#.
+###.
+#.##
+
+tours=1 hole=False
+..#.
+#.##
+###.
+#.#.
+
+tours=3 hole=False
+.#.
+.#.
+###
+#.#
+#.#
+
+tours=1 hole=False
+.#.
+.##
+###
+#.#
+#..
+
+tours=2 hole=False
+.##
+.#.
+###
+#.#
+#..
+
+tours=2 hole=False
+.#..
+.#..
+###.
+#.##
+#...
+
+tours=1 hole=False
+.#..
+.#..
+####
+#.#.
+#...
+
+tours=1 hole=False
+.##.
+.#..
+####
+#...
+#...
+
+tours=1 hole=False
+.#..
+####
+#.#.
+#.#.
+
+tours=2 hole=False
+.##.
+###.
+#.##
+#...
+
+tours=1 hole=False
+..#.
+###.
+#.#.
+#.##
+
+tours=2 hole=False
+..#.
+###.
+#.##
+#.#.
+
+tours=1 hole=False
+#..
+##.
+.##
+###
+#..
+
+tours=1 hole=False
+#..
+###
+.#.
+###
+#..
+
+tours=1 hole=False
+#..
+###
+..#
+###
+#..
+
+tours=1 hole=False
+##..
+.##.
+####
+#...
+
+tours=2 hole=False
+##..
+.###
+###.
+#...
+
+tours=1 hole=False
+..#
+###
+.#.
+###
+#..
+
+tours=1 hole=False
+.#..
+.###
+##.#
+##..
+
+tours=1 hole=False
+.#..
+.#.#
+.###
+##..
+#...
+
+tours=2 hole=False
+.#..
+.###
+###.
+#.#.
+
+tours=2 hole=False
+.##.
+.#..
+####
+#.#.
+
+tours=1 hole=False
+.#..
+.#.#
+####
+#.#.
+
+tours=1 hole=False
+.##.
+.##.
+####
+#...
+
+tours=1 hole=False
+.#..
+.##.
+####
+#..#
+
+tours=1 hole=False
+.##.
+.#..
+####
+#..#
+
+tours=2 hole=True
+.##.
+.#.#
+####
+#...
+
+tours=1 hole=False
+.##.
+.###
+##.#
+#...
+
+tours=1 hole=False
+.##..
+..###
+###..
+#....
+
+tours=1 hole=False
+..#..
+..###
+###..
+#.#..
+
+tours=2 hole=False
+..#.
+####
+##..
+.##.
+
+tours=1 hole=False
+..#.
+..#.
+####
+##..
+.#..
+
+tours=3 hole=True
+.##.
+#.#.
+####
+.#..
+
+tours=4 hole=True
+.##.
+#.##
+###.
+.#..
+
+tours=1 hole=False
+..#..
+#.###
+###..
+.#...
+
+tours=2 hole=False
+..#..
+#.###
+###..
+..#..
+
+tours=2 hole=False
+.#..
+.#..
+###.
+#.##
+..#.
+
+tours=3 hole=False
+.#..
+.#..
+####
+#.#.
+..#.
+
+tours=1 hole=False
+...#.
+...#.
+..###
+###..
+..#..
+

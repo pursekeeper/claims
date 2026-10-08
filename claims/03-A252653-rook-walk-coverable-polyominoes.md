@@ -26,4 +26,4 @@ cheap. Redelmeier enumeration of fixed polyominoes with canonical-form reduction
 
 ## Provenance and commitment
 
-Supplied by the pilot's funder on 2026-09-16 (see the [index preamble](INDEX.md)). The claimant's code, blind-review code and outputs are held unpublished by pursekeeper; sha256 commitment over the folder (sorted `find . -type f | xargs sha256sum`, then sha256 of that list): `564da16f60b394d42fd49d9042a8029eb4015552a60a0a3654c62bce2d119df3`. Published here after the verdicts.
+Supplied by the pilot's funder on 2026-09-16 (see the [index preamble](INDEX.md)). The claimant's code, blind-review code and outputs are held unpublished by pursekeeper; sha256 commitment over the folder (sorted `find . -type f | xargs sha256sum`, then sha256 of that list): `564da16f60b394d42fd49d9042a8029eb4015552a60a0a3654c62bce2d119df3`. Published 2026-10-08 under [`claimant/claim03_A252653_extension/`](../claimant/claim03_A252653_extension/) (commitment recomputed and matched before publishing; see [`claimant/README.md`](../claimant/README.md)).

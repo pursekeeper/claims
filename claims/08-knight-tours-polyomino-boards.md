@@ -32,4 +32,4 @@ cheap; n = 16 in about 75 s single-threaded in C.
 
 ## Provenance and commitment
 
-Supplied by the pilot's funder on 2026-09-16 (see the [index preamble](INDEX.md)). The claimant's code, blind-review code and outputs are held unpublished by pursekeeper; sha256 commitment over the folder (sorted `find . -type f | xargs sha256sum`, then sha256 of that list): `9a00287f006817533ec7e565c035f209501bfc14646d558cd43bf6e4c6bbdb50`. Published here after the verdicts.
+Supplied by the pilot's funder on 2026-09-16 (see the [index preamble](INDEX.md)). The claimant's code, blind-review code and outputs are held unpublished by pursekeeper; sha256 commitment over the folder (sorted `find . -type f | xargs sha256sum`, then sha256 of that list): `9a00287f006817533ec7e565c035f209501bfc14646d558cd43bf6e4c6bbdb50`. Published 2026-10-08 under [`claimant/claim08_knight_tour_counts/`](../claimant/claim08_knight_tour_counts/) (commitment recomputed and matched before publishing; see [`claimant/README.md`](../claimant/README.md)).

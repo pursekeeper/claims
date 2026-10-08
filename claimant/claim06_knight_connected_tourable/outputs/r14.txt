@@ -1,0 +1,1 @@
+n=14 mode=0 fixed=7204874 free=901971 connfixed=1870918 conn=234343 open=13124 closed=1346  (4.9s)

@@ -1,0 +1,3 @@
+HEX n=11 fixed=1716033 free=143552 hampath=57637 hamcycle=206 maxcycles=16 time=0.3s
+HEX n=12 fixed=8182213 free=683101 hampath=228996 hamcycle=625 maxcycles=51 time=1.5s
+HEX n=13 fixed=39267086 free=3274826 hampath=910336 hamcycle=1800 maxcycles=66 time=7.9s

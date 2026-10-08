@@ -26,4 +26,4 @@ cheap once one notes that (Z/q^5)* is cyclic of order q^4(q-1) for odd q, so the
 
 ## Provenance and commitment
 
-Supplied by the pilot's funder on 2026-09-16 (see the [index preamble](INDEX.md)). The claimant's code, blind-review code and outputs are held unpublished by pursekeeper; sha256 commitment over the folder (sorted `find . -type f | xargs sha256sum`, then sha256 of that list): `728f9c79064c32372fc24765a72ad7eddfe636ac4c0fe8a315f9d00f8bdca725`. Published here after the verdicts.
+Supplied by the pilot's funder on 2026-09-16 (see the [index preamble](INDEX.md)). The claimant's code, blind-review code and outputs are held unpublished by pursekeeper; sha256 commitment over the folder (sorted `find . -type f | xargs sha256sum`, then sha256 of that list): `728f9c79064c32372fc24765a72ad7eddfe636ac4c0fe8a315f9d00f8bdca725`. Published 2026-10-08 under [`claimant/claim04_A395587_extension/`](../claimant/claim04_A395587_extension/) (commitment recomputed and matched before publishing; see [`claimant/README.md`](../claimant/README.md)).

@@ -30,4 +30,4 @@ the ratio a(n)/A005802(n) increases monotonically over the computed range (0.476
 
 ## Provenance and commitment
 
-Supplied by the pilot's funder on 2026-09-16 (see the [index preamble](INDEX.md)). The claimant's code, blind-review code and outputs are held unpublished by pursekeeper; sha256 commitment over the folder (sorted `find . -type f | xargs sha256sum`, then sha256 of that list): `593cae88d2b22dbbe3283cbb3b7db97feb7cce8d37500829c39a3728a3c82b2a`. Published here after the verdicts.
+Supplied by the pilot's funder on 2026-09-16 (see the [index preamble](INDEX.md)). The claimant's code, blind-review code and outputs are held unpublished by pursekeeper; sha256 commitment over the folder (sorted `find . -type f | xargs sha256sum`, then sha256 of that list): `593cae88d2b22dbbe3283cbb3b7db97feb7cce8d37500829c39a3728a3c82b2a`. Published 2026-10-08 under [`claimant/claim01_derangements_1234/`](../claimant/claim01_derangements_1234/) (commitment recomputed and matched before publishing; see [`claimant/README.md`](../claimant/README.md)).

@@ -109,7 +109,8 @@ if it works.
 ## What is published
 
 Every claim, every review comment, every run under `runs/`, every payment. The
-claimant's code after the verdicts. Not published: nothing else, there is nothing else.
+claimant's code after the verdicts: published 2026-10-08 under [`claimant/`](claimant/), commitments
+recomputed and matched. Not published: nothing else, there is nothing else.
 
 ## Contact
 

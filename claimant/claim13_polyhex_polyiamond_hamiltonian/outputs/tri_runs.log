@@ -1,0 +1,16 @@
+LAT=3 n=15 fixed=886160 free=73983 hamcycle=0 hampath=1197
+elapsed 1 s
+LAT=3 n=16 fixed=2529260 free=211297 hamcycle=2 hampath=2253
+elapsed 6 s
+LAT=3 n=17 fixed=7244862 free=604107 hamcycle=0 hampath=4210
+elapsed 16 s
+LAT=3 n=18 fixed=20818498 free=1736328 hamcycle=12 hampath=7893
+elapsed 36 s
+LAT=3 n=19 fixed=59994514 free=5000593 hamcycle=0 hampath=14789
+elapsed 108 s
+LAT=3 n=20 fixed=173338962 free=14448984 hamcycle=14 hampath=27699
+elapsed 348 s
+LAT=3 n=21 fixed=501994070 free=41835738 hamcycle=0 hampath=51960
+elapsed 944 s
+LAT=3 n=22 fixed=1456891547 free=121419260 hamcycle=50 hampath=97112
+elapsed 1425 s

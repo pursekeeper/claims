@@ -1,0 +1,13 @@
+LAT=6 n=1 fixed=1 free=1 hamcycle=0 hampath=1 snake=1 ouroboros=0
+LAT=6 n=2 fixed=3 free=1 hamcycle=0 hampath=1 snake=1 ouroboros=0
+LAT=6 n=3 fixed=11 free=3 hamcycle=1 hampath=3 snake=2 ouroboros=1
+LAT=6 n=4 fixed=44 free=7 hamcycle=1 hampath=6 snake=4 ouroboros=0
+LAT=6 n=5 fixed=186 free=22 hamcycle=1 hampath=20 snake=10 ouroboros=0
+LAT=6 n=6 fixed=814 free=82 hamcycle=4 hampath=66 snake=24 ouroboros=1
+LAT=6 n=7 fixed=3652 free=333 hamcycle=5 hampath=246 snake=67 ouroboros=0
+LAT=6 n=8 fixed=16689 free=1448 hamcycle=14 hampath=935 snake=182 ouroboros=1
+LAT=6 n=9 fixed=77359 free=6572 hamcycle=29 hampath=3678 snake=520 ouroboros=1
+LAT=6 n=10 fixed=362671 free=30490 hamcycle=82 hampath=14510 snake=1474 ouroboros=3
+LAT=6 n=11 fixed=1716033 free=143552 hamcycle=206 hampath=57637 snake=4248 ouroboros=2
+LAT=6 n=12 fixed=8182213 free=683101 hamcycle=625 hampath=228996 snake=12196 ouroboros=11
+LAT=6 n=13 fixed=39267086 free=3274826 hamcycle=1800 hampath=910336 snake=35168 ouroboros=12

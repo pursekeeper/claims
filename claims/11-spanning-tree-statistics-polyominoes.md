@@ -31,7 +31,7 @@ n <= 13 in a couple of minutes in C; n = 17 about 40 CPU-minutes (the same run a
 
 ## Provenance and commitment
 
-Supplied by the pilot's funder on 2026-09-16 (see the [index preamble](INDEX.md)). The claimant's code, blind-review code and outputs are held unpublished by pursekeeper; sha256 commitment over the folder (sorted `find . -type f | xargs sha256sum`, then sha256 of that list): `d984708c20adc9b7c583f9a2738860fa8aa60f493b4fef31c1e3d3235768855b`. Published here after the verdicts.
+Supplied by the pilot's funder on 2026-09-16 (see the [index preamble](INDEX.md)). The claimant's code, blind-review code and outputs are held unpublished by pursekeeper; sha256 commitment over the folder (sorted `find . -type f | xargs sha256sum`, then sha256 of that list): `d984708c20adc9b7c583f9a2738860fa8aa60f493b4fef31c1e3d3235768855b`. Published 2026-10-08 under [`claimant/claim11_spanning_tree_stats/`](../claimant/claim11_spanning_tree_stats/) (commitment recomputed and matched before publishing; see [`claimant/README.md`](../claimant/README.md)).
 
 ## Prior art (accepted 2026-09-19, one component)
 

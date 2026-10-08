@@ -30,4 +30,4 @@ cheap to moderate; polyhexes to n = 15 (76.6 million free) about 10 CPU-minutes 
 
 ## Provenance and commitment
 
-Supplied by the pilot's funder on 2026-09-16 (see the [index preamble](INDEX.md)). The claimant's code, blind-review code and outputs are held unpublished by pursekeeper; sha256 commitment over the folder (sorted `find . -type f | xargs sha256sum`, then sha256 of that list): `304a338eafe5475a5996f07250d08467d326464cc6aef6607a3406211e5e9784`. Published here after the verdicts.
+Supplied by the pilot's funder on 2026-09-16 (see the [index preamble](INDEX.md)). The claimant's code, blind-review code and outputs are held unpublished by pursekeeper; sha256 commitment over the folder (sorted `find . -type f | xargs sha256sum`, then sha256 of that list): `304a338eafe5475a5996f07250d08467d326464cc6aef6607a3406211e5e9784`. Published 2026-10-08 under [`claimant/claim13_polyhex_polyiamond_hamiltonian/`](../claimant/claim13_polyhex_polyiamond_hamiltonian/) (commitment recomputed and matched before publishing; see [`claimant/README.md`](../claimant/README.md)).

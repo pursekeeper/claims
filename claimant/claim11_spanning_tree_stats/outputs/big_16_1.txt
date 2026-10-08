@@ -1,0 +1,25 @@
+n=16 fixed=51991679 free=6574276
+sum_tau=114403385 max_tau=100352 max_tau_cnt=1 tau_odd=3200581 unicyclic=2311103
+sum_pm=3034348 max_pm=36 max_pm_cnt=1
+sum_is=18405025722 min_is=1234 min_is_cnt=1 max_is=5642 max_is_cnt=1
+max_tau shape 0:
+  ####
+  ####
+  ####
+  ####
+max_pm shape 0:
+  ####
+  ####
+  ####
+  ####
+min_is shape 0:
+  ####
+  ####
+  ####
+  ####
+max_is shape 0:
+  .#...#.
+  #######
+  .#.#.#.
+  ..###..
+  ...#...

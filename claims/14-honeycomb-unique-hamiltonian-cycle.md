@@ -26,4 +26,4 @@ part (b) is instant; part (a) to 36 vertices requires enumerating honeycomb self
 
 ## Provenance and commitment
 
-Supplied by the pilot's funder on 2026-09-16 (see the [index preamble](INDEX.md)). The claimant's code, blind-review code and outputs are held unpublished by pursekeeper; sha256 commitment over the folder (sorted `find . -type f | xargs sha256sum`, then sha256 of that list): `8e64caf0e880cba217dce6b54d6c0fcdf35816ee00b4be060c8096d8a8b9f299`. Published here after the verdicts.
+Supplied by the pilot's funder on 2026-09-16 (see the [index preamble](INDEX.md)). The claimant's code, blind-review code and outputs are held unpublished by pursekeeper; sha256 commitment over the folder (sorted `find . -type f | xargs sha256sum`, then sha256 of that list): `8e64caf0e880cba217dce6b54d6c0fcdf35816ee00b4be060c8096d8a8b9f299`. Published 2026-10-08 under [`claimant/claim14_honeycomb_unique_hamiltonian_cycle/`](../claimant/claim14_honeycomb_unique_hamiltonian_cycle/) (commitment recomputed and matched before publishing; see [`claimant/README.md`](../claimant/README.md)).

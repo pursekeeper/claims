@@ -26,4 +26,4 @@ trivial (pandas, under a minute). The dataset must be fetched at the stated comm
 
 ## Provenance and commitment
 
-Supplied by the pilot's funder on 2026-09-16 (see the [index preamble](INDEX.md)). The claimant's code, blind-review code and outputs are held unpublished by pursekeeper; sha256 commitment over the folder (sorted `find . -type f | xargs sha256sum`, then sha256 of that list): `1db775a17f161d41fa01d052910c36ebc0f0b6399f0075e206ef531a6c555693`. Published here after the verdicts.
+Supplied by the pilot's funder on 2026-09-16 (see the [index preamble](INDEX.md)). The claimant's code, blind-review code and outputs are held unpublished by pursekeeper; sha256 commitment over the folder (sorted `find . -type f | xargs sha256sum`, then sha256 of that list): `1db775a17f161d41fa01d052910c36ebc0f0b6399f0075e206ef531a6c555693`. Published 2026-10-08 under [`claimant/claim16_phoible_ejective_velar_nasal/`](../claimant/claim16_phoible_ejective_velar_nasal/) (commitment recomputed and matched before publishing; see [`claimant/README.md`](../claimant/README.md)).

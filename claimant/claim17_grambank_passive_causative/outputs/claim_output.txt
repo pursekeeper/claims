@@ -1,0 +1,332 @@
+N languages coded on both: 1748
+GB155  0.0  1.0
+GB147          
+0.0    404  581
+1.0     88  675
+P(caus|pass)=0.885 (n=763)   P(caus|no pass)=0.590 (n=985)   risk diff=0.295
+P(pass|caus)=0.537   P(pass|no caus)=0.179
+logOR=1.669; exception cell obs=88 expected under independence=214.8
+
+--- macroarea breakdown: P(caus|pass) vs P(caus|no pass) ---
+Africa         pass:  212/ 235 (0.90)   no-pass:   69/ 145 (0.48)
+Australia      pass:   11/  19 (0.58)   no-pass:   43/  72 (0.60)
+Eurasia        pass:  127/ 158 (0.80)   no-pass:  159/ 287 (0.55)
+North America  pass:  123/ 131 (0.94)   no-pass:   36/  47 (0.77)
+Papunesia      pass:  131/ 143 (0.92)   no-pass:  210/ 360 (0.58)
+South America  pass:   71/  77 (0.92)   no-pass:   63/  73 (0.86)
+
+--- families ---
+families with >=1 passive language: 125 ; families where ALL passive languages have causative affix: 97 ; families with >=1 exception: 28 ; families where exceptions are the majority: 8
+supporting families across macroareas: {'Africa': 31, 'Australia': 2, 'Eurasia': 18, 'North America': 39, 'Papunesia': 3, 'South America': 30}
+exceptions by family (exc/pass-langs):
+                            sum  count   exc
+fam                                         
+Afro-Asiatic               34.0     54  20.0
+Indo-European              14.0     25  11.0
+Austronesian              136.0    145   9.0
+Sino-Tibetan               16.0     24   8.0
+Worrorran                   0.0      6   6.0
+Atlantic-Congo            129.0    134   5.0
+Chibchan                    5.0      9   4.0
+Nuclear Trans New Guinea    0.0      2   2.0
+Naduhup                     1.0      3   2.0
+Otomanguean                 7.0      9   2.0
+Nilotic                     3.0      5   2.0
+Algic                       7.0      8   1.0
+Maningrida                  0.0      1   1.0
+Koman                       1.0      2   1.0
+Khoe-Kwadi                  2.0      3   1.0
+Kadugli-Krongo              0.0      1   1.0
+Central Sudanic             1.0      2   1.0
+Austroasiatic              13.0     14   1.0
+Nuclear-Macro-Je            2.0      3   1.0
+Mayan                      13.0     14   1.0
+Pama-Nyungan                9.0     10   1.0
+Siouan                      2.0      3   1.0
+Tucanoan                    6.0      7   1.0
+Surmic                      4.0      5   1.0
+Uralic                     24.0     25   1.0
+kuna1268                    0.0      1   1.0
+savo1255                    0.0      1   1.0
+sume1241                    0.0      1   1.0
+
+--- exceptions by name ---
+Africa: Barain (Afro-Asiatic); Beja (Afro-Asiatic); Egyptian Arabic (Afro-Asiatic); El Molo (Afro-Asiatic); Hassaniyya (Afro-Asiatic); Hausa (Afro-Asiatic); Libyan Arabic (Afro-Asiatic); Punic (Afro-Asiatic); South Sudanese Creole Arabic (Afro-Asiatic); Tayart Tamajeq (Afro-Asiatic); Bondei (Atlantic-Congo); Kagulu (Atlantic-Congo); Kol (Cameroon) (Atlantic-Congo); Mambwe-Lungu (Atlantic-Congo); Xhosa (Atlantic-Congo); Lese (Central Sudanic); Keiga (Kadugli-Krongo); Nama (Namibia) (Khoe-Kwadi); Uduk (Koman); Shilluk (Nilotic); Tugen (Nilotic); Murle (Surmic); Kunama (kuna1268)
+Australia: Djeebbana (Maningrida); Kurrama (Pama-Nyungan); Gambera (Worrorran); Miwa (Worrorran); Wilawila (Worrorran); Winjarumi (Worrorran); Worrorra (Worrorran); Yawijibaya (Worrorran)
+Eurasia: Ancient Hebrew (Afro-Asiatic); Baharna Arabic (Afro-Asiatic); Cypriot Arabic (Afro-Asiatic); Maltese (Afro-Asiatic); Modern Hebrew (Afro-Asiatic); North Levantine Arabic (Afro-Asiatic); Phoenician (Afro-Asiatic); Sanaani Arabic (Afro-Asiatic); Standard Arabic (Afro-Asiatic); Western Neo-Aramaic (Afro-Asiatic); Korku (Austroasiatic); Ancient Greek (Indo-European); Czech (Indo-European); Dutch (Indo-European); French (Indo-European); Gheg Albanian (Indo-European); Latin (Indo-European); Modern Greek (Indo-European); Old English (ca. 450-1100) (Indo-European); Russian (Indo-European); Swedish (Indo-European); Anu-Hkongso (Sino-Tibetan); Belhariya (Sino-Tibetan); Bunan (Sino-Tibetan); Chintang (Sino-Tibetan); Darma (Sino-Tibetan); Duhumbi (Sino-Tibetan); Dumi (Sino-Tibetan); Yamphu (Sino-Tibetan); Surgut Khanty (Uralic); Sumerian (sume1241)
+North America: Yurok (Algic); Maléku Jaíka (Chibchan); Ngäbere (Chibchan); Plautdietsch (Indo-European); Mam (Mayan); Mezquital Otomi (Otomanguean); Querétaro Otomi (Otomanguean); Assiniboine (Siouan)
+Papunesia: Apma (Austronesian); Biak (Austronesian); Bukar-Sadung Bidayuh (Austronesian); Ili'uun (Austronesian); Kawi (Austronesian); Lonwolwol (Austronesian); Lubuagan Kalinga (Austronesian); Narom (Austronesian); Uneapa (Austronesian); Nggem (Nuclear Trans New Guinea); Western Dani (Nuclear Trans New Guinea); Savosavo (savo1255)
+South America: Angosturas Tunebo (Chibchan); Arhuaco (Chibchan); Dâw (Naduhup); Hup (Naduhup); Xavánte (Nuclear-Macro-Je); Koreguaje (Tucanoan)
+
+--- family-controlled tests ---
+  opf_nfam: 240
+  opf_logOR: 2.198
+  opf_logOR_lo: 1.819
+  opf_logOR_hi: 2.603
+  opf_rate: 0.911
+  opf_rd: 0.387
+  opf_fisher_p_median: 0.000
+  opf_fisher_p_frac05: 1.000
+  perm_mean: 0.771
+  perm_sd: 0.084
+  perm_z: 10.659
+  perm_p: 0.000
+  wf_nfam: 50
+  wf_pos: 16
+  wf_neg: 7
+  wf_tie: 27
+  wf_mean_diff: 0.108
+  wf_sign_p: 0.093
+  within-family contrasts (families with both passive and non-passive languages):
+                  family   n  rate_A1  rate_A0
+            Austronesian 394     0.94     0.68
+          Atlantic-Congo 213     0.96     0.51
+            Sino-Tibetan 132     0.67     0.50
+            Afro-Asiatic  82     0.63     0.54
+           Indo-European  66     0.56     0.32
+           Austroasiatic  64     0.93     0.60
+            Pama-Nyungan  51     0.90     0.83
+Nuclear Trans New Guinea  42     0.00     0.45
+             Uto-Aztecan  30     1.00     1.00
+                Arawakan  29     1.00     1.00
+                  Uralic  29     0.96     1.00
+               Dravidian  26     1.00     0.95
+             Otomanguean  19     0.78     0.90
+            Pano-Tacanan  15     1.00     1.00
+                   Mayan  15     0.93     1.00
+                  Turkic  14     1.00     1.00
+                  Tupian  13     1.00     1.00
+                Chibchan  13     0.56     0.25
+                Tungusic  12     1.00     1.00
+                 Nilotic  12     0.60     0.29
+                   Algic  10     0.88     1.00
+         Central Sudanic  10     0.50     0.25
+                Salishan  10     1.00     1.00
+                Tucanoan   9     0.86     1.00
+         Mongolic-Khitan   8     1.00     1.00
+                 Cariban   8     1.00     1.00
+               Worrorran   7     0.00     0.00
+        Nuclear-Macro-Je   7     0.67     0.50
+               Muskogean   5     1.00     1.00
+                  Siouan   4     0.67     1.00
+               Yanomamic   4     1.00     1.00
+                   Dogon   4     1.00     1.00
+               Iroquoian   4     1.00     1.00
+               Totonacan   4     1.00     1.00
+                Quechuan   4     1.00     1.00
+                 Saharan   4     1.00     0.00
+                 Songhay   4     1.00     0.00
+                 Tangkic   3     1.00     1.00
+            Abkhaz-Adyge   3     1.00     1.00
+                 Chocoan   3     1.00     1.00
+                 Chicham   2     1.00     1.00
+                     Kxa   2     1.00     0.00
+                   Maban   2     1.00     1.00
+               Sahaptian   2     1.00     1.00
+           Narrow Talodi   2     1.00     1.00
+                  Nubian   2     1.00     1.00
+                 Maiduan   2     1.00     1.00
+              Maningrida   2     0.00     0.00
+                     Yam   2     1.00     0.00
+              Yuki-Wappo   2     1.00     1.00
+
+--- GEE logistic, clusters=family, exchangeable correlation; covariates: macroarea, verbal-morphology richness ---
+  causative ~ passive: passive coef=1.543 (OR=4.68), 95%CI=[3.02,7.25], p=4.56e-12, n=1748
+  causative ~ passive + rich: passive coef=1.052 (OR=2.86), 95%CI=[2.10,3.91], p=3.99e-11, n=1748
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/dist-packages/patsy/compat.py", line 40, in call_and_wrap_exc
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/patsy/eval.py", line 179, in eval
+    return eval(code, {}, VarLookupDict([inner_namespace] + self._namespaces))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 1, in <module>
+TypeError: 'str' object is not callable
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "DATA/grammar/claim_passive_causative.py", line 41, in <module>
+    g=smf.gee(form,groups='famc',data=d,family=sm.families.Binomial(),cov_struct=sm.cov_struct.Exchangeable()).fit()
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/statsmodels/genmod/generalized_estimating_equations.py", line 802, in from_formula
+    model = super().from_formula(
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/statsmodels/base/model.py", line 210, in from_formula
+    tmp = handle_formula_data(data, None, formula, depth=eval_env, missing=missing)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/statsmodels/formula/formulatools.py", line 70, in handle_formula_data
+    result = mgr.get_matrices(
+             ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/statsmodels/formula/_manager.py", line 533, in get_matrices
+    output = patsy.dmatrices(
+             ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/patsy/highlevel.py", line 317, in dmatrices
+    (lhs, rhs) = _do_highlevel_design(
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/patsy/highlevel.py", line 162, in _do_highlevel_design
+    design_infos = _try_incr_builders(
+                   ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/patsy/highlevel.py", line 56, in _try_incr_builders
+    return design_matrix_builders(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/patsy/build.py", line 746, in design_matrix_builders
+    (num_column_counts, cat_levels_contrasts) = _examine_factor_types(
+                                                ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/patsy/build.py", line 491, in _examine_factor_types
+    value = factor.eval(factor_states[factor], data)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/patsy/eval.py", line 599, in eval
+    return self._eval(memorize_state["eval_code"], memorize_state, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/patsy/eval.py", line 582, in _eval
+    return call_and_wrap_exc(
+           ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/patsy/compat.py", line 43, in call_and_wrap_exc
+    raise new_exc from e
+patsy.PatsyError: Error evaluating factor: TypeError: 'str' object is not callable
+    causative ~ passive + rich + C(mac)
+                                 ^^^^^^
+--- GEE logistic, clusters=family, exchangeable correlation; covariates: macroarea, verbal-morphology richness ---
+Traceback (most recent call last):
+  File "DATA/grammar/claim_passive_causative.py", line 39, in <module>
+    d=d.rename(columns={A:'passive',C:'causative'}).dropna(subset=['rich'])
+                                    ^
+NameError: name 'C' is not defined. Did you mean: 'CC'?
+--- GEE logistic, clusters=family, exchangeable correlation; covariates: macroarea, verbal-morphology richness ---
+  causative ~ passive: passive coef=1.543 (OR=4.68), 95%CI=[3.02,7.25], p=4.56e-12, n=1748
+  causative ~ passive + rich: passive coef=1.052 (OR=2.86), 95%CI=[2.10,3.91], p=3.99e-11, n=1748
+  causative ~ passive + rich + C(mac): passive coef=0.785 (OR=2.19), 95%CI=[1.59,3.03], p=1.95e-06, n=1747
+
+--- specificity: other bound valency/verbal features -> causative affix (one-per-family logOR) ---
+  GB147: P(caus|GB147=1)=0.88 vs 0.59; opf logOR=2.22 [1.86,2.63]
+  GB148: P(caus|GB148=1)=0.87 vs 0.69; opf logOR=0.62 [0.08,1.09]
+  GB114: P(caus|GB114=1)=0.82 vs 0.64; opf logOR=0.95 [0.68,1.19]
+  GB115: P(caus|GB115=1)=0.83 vs 0.57; opf logOR=0.71 [0.46,0.97]
+  GB103: P(caus|GB103=1)=0.85 vs 0.65; opf logOR=0.60 [0.34,0.87]
+  GB104: P(caus|GB104=1)=0.92 vs 0.67; opf logOR=0.59 [0.24,0.90]
+  GB108: P(caus|GB108=1)=0.80 vs 0.67; opf logOR=0.63 [0.41,0.86]
+  GB312: P(caus|GB312=1)=0.78 vs 0.62; opf logOR=1.07 [0.77,1.36]
+  GB083: P(caus|GB083=1)=0.77 vs 0.67; opf logOR=0.57 [0.33,0.83]
+  GB302: P(caus|GB302=1)=0.46 vs 0.78; opf logOR=-1.39 [-2.11,-0.75]
+
+--- WALS replication: 107A Passive constructions x 111A Nonperiphrastic causative constructions ---
+111A codes: {'111A-1': 'Neither', '111A-2': 'Morphological but no compound', '111A-3': 'Compound but no morphological', '111A-4': 'Both'}
+107A codes: {'107A-1': 'Present', '107A-2': 'Absent'}
+111A  Both  ...  Neither
+pass        ...         
+0       13  ...       10
+1        7  ...        6
+
+[2 rows x 4 columns]
+  WALS n=214: P(morph caus|passive)=0.083 (n=108)  P(morph caus|no passive)=0.151 (n=106); logOR=-0.65
+  WALS one-per-family (n fam=97): logOR mean=-0.50 [-0.87,-0.10]
+  WALS within-family: pos 3 neg 3 tie 11
+  WALS languages also in Grambank sample: 156 ; WALS-only: 58
+  WALS-only languages: P(morph caus|passive)=0.13 (n=23) vs 0.11 (n=35)
+  coding agreement on overlap: passive 0.77  causative 0.15
+--- WALS replication (corrected): 107A Passive x 111A Nonperiphrastic causative ---
+111A  Both  ...  Neither
+pass        ...         
+0       13  ...       10
+1        7  ...        6
+
+[2 rows x 4 columns]
+  WALS n=214: P(morph caus|passive)=0.917 (n=108)  P(morph caus|no passive)=0.849 (n=106); logOR=0.65
+  Fisher exact (lang level) p= 0.1402930579528484
+  WALS one-per-family (n fam=97): logOR mean=0.50 [0.10,0.87]
+  WALS within-family: pos 3 neg 3 tie 11
+  WALS exceptions (passive present, no morphological causative): Greek (Modern) (Indo-European); Hmong Njua (Hmong-Mien); Irish (Indo-European); Krongo (Kadu); Mandarin (Sino-Tibetan); Navajo (Na-Dene); Thai (Tai-Kadai); Vietnamese (Austro-Asiatic); Wari' (Chapacura-Wanham)
+  Africa         pass: 24/25   no-pass: 9/13
+  Australia      pass: 3/3   no-pass: 12/15
+  Eurasia        pass: 31/37   no-pass: 19/20
+  North America  pass: 18/19   no-pass: 16/18
+  Papunesia      pass: 11/11   no-pass: 19/23
+  South America  pass: 12/13   no-pass: 15/17
+  WALS languages also in Grambank sample: 156 ; WALS-only: 58
+  WALS-only languages: P(morph caus|passive)=0.87 (n=23) vs 0.89 (n=35)
+  coding agreement on overlap: passive 0.77  causative 0.85
+  note: WALS 107A counts any passive (incl. periphrastic); Grambank GB147 only bound passives.
+--- missingness / ? pattern ---
+GB155    0    1    ?  NA
+GB147                   
+0      404  581  121   8
+1       88  675   59   7
+?       60  228  192   8
+NA       5   10    2  19
+Among GB147=1: P(GB155='?')= 0.071  Among GB147=0: 0.109
+Worst case: treat all GB155='?' among passive languages as 0 -> 0.8211678832116789
+--- coder comments on exceptions (GB155=0 with GB147=1) ---
+                      Name                      Fam Parameter_ID                                                                                                                                                                                                                                                                                                                                                                                                                             Comment
+             Ancient Greek            Indo-European        GB155                                                                                                                                                                                                                                                                                                                                                                                                    upo tou vasileos = from the king
+         Angosturas Tunebo                 Chibchan        GB147                                                                                                                                                                                                                                                                                                                                                                               Verbal suffix -te, also found in resultative clauses.
+                      Apma             Austronesian        GB155                                                                                                                                                                                                                                                                                          Historically there was a causative formed by an affix, however, this has become bonded to the verb root now. No longer a productive affix.
+                   Arhuaco                 Chibchan        GB147                                                                                                                                                                                                                                                                                                                                                                                      impersonal construction marked by suffix -kuma
+                   Arhuaco                 Chibchan        GB155                                                                                                                                                                                                                                                                                                                                                                                                                    not productively
+               Assiniboine                   Siouan        GB147                                                                                                                                                                                                                                                                                                   Note that Cumberland (2005:389-391) considers it as a passive-like construction. The interpretation of the marker is not obvious.
+            Baharna Arabic             Afro-Asiatic        GB155                                                                                                                                                                     Verbs get causative meaning by derivation/change of verb class.  (Arabic languages have up to ten verb classes/derivative verb stems which are formed by keeping the root consonants and changing the pattern. Changing the verb class usually also changes the
+                    Barain             Afro-Asiatic        GB147 Yes, it is the detransitivizing suffix, which is used for passive, reflexive, and reciprocal meanings; context disambiguates between the 3. if the subject is inanimate, the interpretation is always as passive voice. It seems favour is generally given to the passive voice interpretation, except when the subject is plural. infinitive verbs cannot take the detransitivizing marker, the interpretation is left to context.
+                    Barain             Afro-Asiatic        GB155                                                                                                                                                                                                                                                                                                                                                                                       No, causatives are a separate class of verbs.
+                 Belhariya             Sino-Tibetan        GB155                                                                                                                                                                                                                                                                                                                                                                                                Not mentioned in any of the sources.
+                      Biak             Austronesian        GB147                                                                                                                                                                                                                                                            but it is rare: ( 45 )||Ankrai bon anya vyevepówe. || ankrai bon an-ya v<y>eve-pów || orange fruit GIV-3SG.SPC <3SG>PAS-peel || 'The orange is being peeled.'  [CB_T_29]
+                      Biak             Austronesian        GB155                                                                                                                          But hardly productive, see p. 177: Although the process is not productive any more, some relics can be found. This is especially clear in case both the prefixed and the unprefixed form are attested. Those fa- initial verbs whose unprefixed counterpart still exists are listed in the following table
+                    Bondei           Atlantic-Congo        GB155                                                                                                                                                                                                                                                                                                                                      There is an old causative suffix, but it is not productive and can not be used with all verbs.
+      Bukar-Sadung Bidayuh             Austronesian        GB147                                                                                                                                                                                                                                                                                                                                                                        Not decribed in the relevant section, presumed to be absent.
+                  Chintang             Sino-Tibetan        GB155                                                                                                                                                                                                                                                                                                                                                                                                            causative auxiliary verb
+            Cypriot Arabic             Afro-Asiatic        GB155                                                                                                                                                                     Verbs get causative meaning by derivation/change of verb class.  (Arabic languages have up to ten verb classes/derivative verb stems which are formed by keeping the root consonants and changing the pattern. Changing the verb class usually also changes the
+                     Czech            Indo-European        GB147                                                                                                                                                                                                                                                                      Czech has a reflexive and a participle passive. The reflexive passive uses the 3rd person singular of the verb, the participle passive uses a participle form.
+                       Dâw                  Naduhup        GB147                                                                                                                                                                                                                                                                                                                                                                  (Autotranslated from HG190:* -> GB147:*, given [1] HG190. Passive)
+                       Dâw                  Naduhup        GB155                                                                                                                                                                                                                                    (Autotranslated from HG195:0 AND HG196:0 AND HG197:0 -> GB155:0, given [0] HG195. Causative: prefix-[0] HG196. Causative: suffix-[0] HG197. Causative marked by circumfix, stem change, or tone)
+                 Djeebbana               Maningrida        GB147                                                                                                                                                                                                                                                                                                                                                                              The reflexive suffix is also used as a passive marker.
+                     Dutch            Indo-European        GB155                                                                                                                                                                                                                                                                                                                                                                                                                       nonproductive
+           Egyptian Arabic             Afro-Asiatic        GB155                                                                                                                                                                     Verbs get causative meaning by derivation/change of verb class.  (Arabic languages have up to ten verb classes/derivative verb stems which are formed by keeping the root consonants and changing the pattern. Changing the verb class usually also changes the
+                   El Molo             Afro-Asiatic        GB155                                                                                                                                                                                                                                                                                                                                                                                             The causative suffix is not productive.
+                   Gambera                Worrorran        GB147                                                                                                                                                                                                                                                                                                                                                                                                                      with reflexive
+                   Gambera                Worrorran        GB155                                                                                                                                                                                                                                                                                                                                                                              assumed to be absent; also see McGregor (2004:244-245)
+             Gheg Albanian            Indo-European        GB155                                                                                                                                                                                                                                                                                                                                                                                                Not explicitly denied but inferrable
+                Hassaniyya             Afro-Asiatic        GB155                                                                                                                                               Causative meaning is achieved by derivation/pattern alternation. (Arabic languages have up to ten verb classes/derivative verb stems which are formed by keeping the root consonants and changing the pattern. Changing the verb class usually also changes the meaning of the verb.)
+             Modern Hebrew             Afro-Asiatic        GB147                                                                                                                                                                                                                                                                                           The seven major conjugation classes ca be associoated with semantic meanings. Passive meaning can be expressed by the Nif'al conjugation.
+             Modern Hebrew             Afro-Asiatic        GB155                                                                                                                                                                                                                                                                                         The seven major conjugation classes ca be associoated with semantic meanings. Causative meaning can be expressed by the Hif'il conjugation.
+                       Hup                  Naduhup        GB155                                                                                                                                                                                                                                                                                                                                                                                                                 By verb compounding
+                   Ili'uun             Austronesian        GB155                                                                                                                                                                                                                                                                                                                         Causative can be formed with the prefix ra-, however the author states that it is not a productive process.
+                     Keiga           Kadugli-Krongo        GB155                                                                                                                                                                                                                                                                                                                                                                                                                      Not mentioned.
+                 Koreguaje                 Tucanoan        GB147                                                                                                                                                                                                                                                                                                                                                                  (Autotranslated from HG190:* -> GB147:*, given [1] HG190. Passive)
+                 Koreguaje                 Tucanoan        GB155                                                                                                                                                                                                                                    (Autotranslated from HG195:0 AND HG196:0 AND HG197:0 -> GB155:0, given [0] HG195. Causative: prefix-[0] HG196. Causative: suffix-[0] HG197. Causative marked by circumfix, stem change, or tone)
+                   Kurrama             Pama-Nyungan        GB147                                                                                                                                                                                                                                                                                                                                                                  (Autotranslated from HG190:* -> GB147:*, given [1] HG190. Passive)
+                   Kurrama             Pama-Nyungan        GB155                                                                                                                                                                                                                                    (Autotranslated from HG195:0 AND HG196:0 AND HG197:0 -> GB155:0, given [0] HG195. Causative: prefix-[0] HG196. Causative: suffix-[0] HG197. Causative marked by circumfix, stem change, or tone)
+                      Lese          Central Sudanic        GB155                                                                                                                                                                                                                                                                                                                                                                                             Causatives are formed by means of tone.
+             Libyan Arabic             Afro-Asiatic        GB147                                                                                                                                                                                                                                                                                                                                 Passive constructins are not mentioned. Verbs get passive meaning by derivation / stem alternation.
+             Libyan Arabic             Afro-Asiatic        GB155                                                                                                                                                     Causative verbs are formed by derivation/stem alternation. (Arabic languages have up to ten verb classes/derivative verb stems which are formed by keeping the root consonants and changing the pattern. Changing the verb class usually also changes the meaning of the verb.)
+          Lubuagan Kalinga             Austronesian        GB147                                                                                                                                                                                                                                                                                                                                                                                                    Referred to as 'objective voice'
+              Maléku Jaíka                 Chibchan        GB147                                                                                                                                                                                                                                                                                                                                                                                         passive marked by prefix ma- and suffix -ca
+                   Maltese             Afro-Asiatic        GB147                                                                                                                                                                                                                                                                                                       There are several ways to express the passive: morphologically (mostly used for loan words), by derivation, or syntactically.
+                       Mam                    Mayan        GB155                                                                                                                                                                                                                                                                                                                                                                                                    these affixes are non-productive
+           Mezquital Otomi              Otomanguean        GB155                                                                                                                                                                                                                                                                                                                                                                                               Causatives are strictly periphrastic.
+                      Miwa                Worrorran        GB147                                                                                                                                                                                                                                                                                                                                                                                                                      with reflexive
+            Nama (Namibia)               Khoe-Kwadi        GB155                                                                                                                                                                                                                                                                                                                                                                                                                       reduplication
+                     Nggem Nuclear Trans New Guinea        GB147                                                                                                                                  Possibly p.184: resultative:"The resultative participle indicates that the undergoer of a clause is in a condition or state resultant from the action indicated by the verb root. Clauses terminated by verbs inflected with the resultative participle are frequently found as relative clauses."
+Old English (ca. 450-1100)            Indo-European        GB155                                                                                                                                                                                                                                                                                                                                                                                         morphological causatives are not productive
+              Plautdietsch            Indo-European        GB147                                                                                                                                                                                                                                           Passive voice is formed by the auxiliary verb “become” and the participle form of the lexical verb. Neither are exclusive to the passive, and passives alsways have to be formed by both.
+           Querétaro Otomi              Otomanguean        GB155                                                                                                                                                                                                                                                                                                                                                                                         Periphrastic causative with verb ja 'make'.
+                   Russian            Indo-European        GB155                                                                                                                                                                                                                                                                                                                                 Certain verbs are themselves causatives, but causatives are not formed by any sort of affix/clitic 
+            Sanaani Arabic             Afro-Asiatic        GB155                                                                                                                                                                Verbs get causative meaning by stem derivation. (Arabic languages have up to ten verb classes/derivative verb stems which are formed by keeping the root consonants and changing the pattern. Changing the verb class usually also changes the meaning of the verb.)
+                  Savosavo                      NaN        GB147                                                                                                                                                                                                                                                                                                           The same detransitivising affix is used for passives and antipassives. The process which is used is lexically determined.
+                   Shilluk                  Nilotic        GB147                                                                                                                                                                                                                                                                                                                                                                                    A final 'o' is added onto the applicative verbs.
+                   Shilluk                  Nilotic        GB155                                                                                                                                                                                                                                                                                                                                                                                                           By altering a semi-vowel.
+                  Sumerian                      NaN        GB155                                                                                                                                                                                                                                                                                                                                Sumerian has neither a morphological nor a periphrastic causative and lacks overt causative markers.
+                     Tugen                  Nilotic        GB155                                                                                                                                                                                                                                                                                                                                                                                                         Tugen has only applicative.
+                      Uduk                    Koman        GB147                                                                                                                                                                                                         There is one passive construction formed with a bound marker on the ver ("-ù") where the agent is surpressed and cannot be expressed, even by oblique, but it is worth noting that the object does not change case-marking.
+                    Uneapa             Austronesian        GB147                                                                                                                                                                                                                                                                                                                                                                                                                           BB: 84-86
+       Western Neo-Aramaic             Afro-Asiatic        GB155                                                                                                                                                                                                                                                                                                                                                    Not mentioned in an otherwise very exhaustive description of verbal inflection. 
+                  Wilawila                Worrorran        GB147                                                                                                                                                                                                                                                                                                                                                                                                                      with reflexive
+                 Winjarumi                Worrorran        GB147                                                                                                                                                                                                                                                                                                                                                                                                                      with reflexive
+                 Winjarumi                Worrorran        GB155                                                                                                                                                                                                                                                                                                                                                                              assumed to be absent; also see McGregor (2004:244-245)
+                  Worrorra                Worrorran        GB147                                                                                                                                                                                                                                                                                                                                                                                                                      with reflexive
+                  Worrorra                Worrorran        GB155                                                                                                                                                                                                                                                                                                                                    not mentioned in McGregor (2004:159-190); assumed to be absent; also see McGregor (2004:244-245)
+                   Xavánte         Nuclear-Macro-Je        GB147                                                                                                                                                                                                                                                                                                                                                                                      Reflexive-marked middle; passive with ap-/sip-
+                Yawijibaya                Worrorran        GB147                                                                                                                                                                                                                                                                                                                                                                                                                      with reflexive
+                Yawijibaya                Worrorran        GB155                                                                                                                                                                                                                                                                                                                                                                              assumed to be absent; also see McGregor (2004:244-245)
+--- convention-sensitive exceptions: Semitic (templatic causative coded 0) and Worrorran (reflexive-based passive, causative "assumed absent") ---
+Semitic languages in table: 28 ; passive=1: 21 ; of which causative=0: 15
+Excluding Semitic+Worrorran: P(caus|pass)=0.909 (669/736), P(caus|no pass)=0.591, logOR=1.93
+language-level OR=5.31

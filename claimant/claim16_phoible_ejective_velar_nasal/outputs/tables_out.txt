@@ -1,0 +1,10 @@
+Table A (all inventories):
+ ng         False  True 
+ejectives              
+False        914   1841
+True         226     39
+Table B (lowest InventoryID per Glottocode, n=2175):
+ ng         False  True 
+ejectives              
+False        643   1354
+True         147     31

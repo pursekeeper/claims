@@ -1,0 +1,152 @@
+====================================================================================================
+1. BASIC TABLES (one random inventory per glottocode; all languages incl. those without family metadata)
+exact ŋ, non-marginal only             n=2175 | ej+: 32/179 = 0.179 | ej-: 1348/1996 = 0.675 | OR=0.105 [0.071,0.155] p=5.2e-39
+any ŋ-based segment, non-marginal      n=2175 | ej+: 36/179 = 0.201 | ej-: 1434/1996 = 0.718 | OR=0.099 [0.068,0.144] p=1.6e-42
+exact ŋ, marginals counted             n=2175 | ej+: 33/180 = 0.183 | ej-: 1359/1995 = 0.681 | OR=0.105 [0.071,0.155] p=2.2e-39
+any ŋ, marginals counted               n=2175 | ej+: 37/180 = 0.206 | ej-: 1446/1995 = 0.725 | OR=0.098 [0.068,0.143] p=4e-43
+exact ŋ, only langs w/ family meta     n=1548 | ej+: 31/157 = 0.197 | ej-: 905/1391 = 0.651 | OR=0.132 [0.088,0.199] p=4.5e-28
+ejective languages: 179  with ŋ exact: 32  with ŋ any: 36
+
+====================================================================================================
+2a. MANTEL-HAENSZEL BY FAMILY (isolates/unknowns = own stratum, uninformative)
+exact ŋ | family                       MH OR=0.146 [0.059,0.361] CMH p=2e-05  informative strata=18, langs in them=497
+any ŋ | family                         MH OR=0.133 [0.054,0.323] CMH p=5.1e-06  informative strata=18, langs in them=497
+exact ŋ marg | family                  MH OR=0.138 [0.056,0.340] CMH p=1.1e-05  informative strata=18, langs in them=497
+
+====================================================================================================
+2b. ONE LANGUAGE PER FAMILY RESAMPLING (1000 draws; isolates count as their own family)
+ng_exact: families=252, ejective langs per draw ~54.4; median OR=0.275, 2.5-97.5%=[0.204,0.374]; p<0.05 in 100.0% of draws; p<0.01 in 100.0%
+ng_any: families=252, ejective langs per draw ~54.4; median OR=0.297, 2.5-97.5%=[0.227,0.400]; p<0.05 in 100.0% of draws; p<0.01 in 99.7%
+
+====================================================================================================
+2c. WITHIN-FAMILY COMPARISONS (families with >=1 ejective and >=1 non-ejective language)
+             family  n_ej  ŋ_ej  n_nonej  ŋ_nonej  P(ŋ|ej)  P(ŋ|no ej) sign  P(ŋany|ej)  P(ŋany|noej)
+       Afro-Asiatic    29     4       54       32     0.14        0.59    -        0.21          0.67
+              Mayan    11     1        1        0     0.09        0.00    +        0.09          0.00
+       Ta-Ne-Omotic     8     2        1        1     0.25        1.00    -        0.25          1.00
+           Salishan     6     0        3        0     0.00        0.00    0        0.00          0.00
+     Atlantic-Congo     4     3      240      181     0.75        0.75    -        0.75          0.87
+      Indo-European     2     0       92       42     0.00        0.46    -        0.00          0.48
+           Matacoan     2     0        1        0     0.00        0.00    0        0.00          0.00
+           Quechuan     2     0        8        1     0.00        0.12    -        0.00          0.12
+              Hokan     2     0        2        0     0.00        0.00    0        0.00          0.00
+            Chocoan     1     0        4        0     0.00        0.00    0        0.00          0.00
+            Naduhup     1     0        2        2     0.00        1.00    -        0.00          1.00
+             Kuliak     1     1        1        1     1.00        1.00    0        1.00          1.00
+Chukotko-Kamchatkan     1     1        3        3     1.00        1.00    0        1.00          1.00
+        Nambiquaran     1     0        1        0     0.00        0.00    0        0.00          0.00
+             Siouan     1     0        2        0     0.00        0.00    0        0.00          0.00
+             Surmic     1     1        4        4     1.00        1.00    0        1.00          1.00
+            Sáliban     1     0        1        0     0.00        0.00    0        0.00          0.00
+          Totonacan     1     0        2        0     0.00        0.00    0        0.00          0.00
+sign counts (exact ŋ): {'0': 11, '-': 6, '+': 1}
+families with >=3 on both sides: 3 {'-': 2, '0': 1}
+sign test (exact ŋ) all families: 0.125
+any-ŋ sign counts: {0.0: 11, -1.0: 6, 1.0: 1}
+
+====================================================================================================
+3. AREA CONTROLS
+exact ŋ | macroarea                    MH OR=0.193 [0.124,0.299] CMH p=0  informative strata=4, langs in them=1203
+any ŋ | macroarea                      MH OR=0.164 [0.104,0.258] CMH p=0  informative strata=4, langs in them=1203
+exact ŋ | 10° grid cell                MH OR=0.268 [0.149,0.484] CMH p=4.2e-07  informative strata=33, langs in them=471
+any ŋ | 10° grid cell                  MH OR=0.219 [0.118,0.405] CMH p=1.4e-08  informative strata=33, langs in them=471
+exact ŋ | family × cell                MH OR=0.285 [0.072,1.128] CMH p=0.043  informative strata=19, langs in them=100
+exact ŋ | family × macroarea           MH OR=0.133 [0.053,0.331] CMH p=9.5e-06  informative strata=19, langs in them=492
+
+Per-macroarea tables:
+  Africa                               n= 454 | ej+: 19/55 = 0.345 | ej-: 303/399 = 0.759 | OR=0.167 [0.092,0.305] p=3.6e-09
+  Australia                            n= 178 | ej+: 0/0 = nan | ej-: 178/178 = 1.000 | OR=nan [nan,nan] p=1
+  Eurasia                              n= 357 | ej+: 1/25 = 0.040 | ej-: 241/332 = 0.726 | OR=0.016 [0.002,0.118] p=4.8e-12
+  North America                        n= 132 | ej+: 7/56 = 0.125 | ej-: 24/76 = 0.316 | OR=0.310 [0.122,0.783] p=0.013
+  Papunesia                            n= 167 | ej+: 0/0 = nan | ej-: 115/167 = 0.689 | OR=nan [nan,nan] p=1
+  South America                        n= 260 | ej+: 4/21 = 0.190 | ej-: 44/239 = 0.184 | OR=1.043 [0.334,3.252] p=1
+
+Nearest-neighbour matching (different family, within radius):
+  radius 500km, ng_exact: pairs=131 supportive(ej-,nb+)=65 contrary(ej+,nb-)=8 ties=58  McNemar-exact p=3.2e-12; mean ŋ ej=0.19 nb=0.63
+  radius 500km, ng_any: pairs=131 supportive(ej-,nb+)=63 contrary(ej+,nb-)=7 ties=61  McNemar-exact p=2.3e-12; mean ŋ ej=0.22 nb=0.65
+  radius 1000km, ng_exact: pairs=150 supportive(ej-,nb+)=69 contrary(ej+,nb-)=9 ties=72  McNemar-exact p=1.4e-12; mean ŋ ej=0.19 nb=0.59
+  radius 1000km, ng_any: pairs=150 supportive(ej-,nb+)=68 contrary(ej+,nb-)=8 ties=74  McNemar-exact p=5.6e-13; mean ŋ ej=0.22 nb=0.62
+  radius 2000km, ng_exact: pairs=157 supportive(ej-,nb+)=70 contrary(ej+,nb-)=10 ties=77  McNemar-exact p=3.2e-12; mean ŋ ej=0.20 nb=0.58
+  radius 2000km, ng_any: pairs=157 supportive(ej-,nb+)=69 contrary(ej+,nb-)=9 ties=79  McNemar-exact p=1.4e-12; mean ŋ ej=0.22 nb=0.61
+
+====================================================================================================
+4. CONFOUNDERS
+  n_nasal: ej+ mean=3.17  ej- mean=3.81; corr with ŋ=0.52
+  n_seg: ej+ mean=43.01  ej- mean=32.89; corr with ŋ=0.11
+  n_cons: ej+ mean=33.59  ej- mean=21.93; corr with ŋ=0.07
+  uvular: ej+ mean=0.50  ej- mean=0.10; corr with ŋ=-0.12
+  glottal: ej+ mean=0.75  ej- mean=0.35; corr with ŋ=-0.11
+  implos: ej+ mean=0.19  ej- mean=0.12; corr with ŋ=0.06
+  click: ej+ mean=0.06  ej- mean=0.00; corr with ŋ=-0.01
+  Source x ejectives x ŋ:
+    source=aa                          n= 148 | ej+: 0/0 = nan | ej-: 111/148 = 0.750 | OR=nan [nan,nan] p=1
+    source=ea                          n= 224 | ej+: 0/18 = 0.000 | ej-: 138/206 = 0.670 | OR=0.000 [nan,nan] p=9.8e-09
+    source=er                          n= 323 | ej+: 0/0 = nan | ej-: 323/323 = 1.000 | OR=nan [nan,nan] p=1
+    source=ph                          n= 759 | ej+: 15/77 = 0.195 | ej-: 486/682 = 0.713 | OR=0.098 [0.054,0.176] p=1e-18
+    source=ra                          n=  70 | ej+: 0/0 = nan | ej-: 57/70 = 0.814 | OR=nan [nan,nan] p=1
+    source=saphon                      n= 290 | ej+: 3/21 = 0.143 | ej-: 59/269 = 0.219 | OR=0.593 [0.169,2.083] p=0.58
+    source=spa                         n=  86 | ej+: 3/15 = 0.200 | ej-: 41/71 = 0.577 | OR=0.183 [0.047,0.706] p=0.01
+    source=upsid                       n= 275 | ej+: 11/48 = 0.229 | ej-: 133/227 = 0.586 | OR=0.210 [0.102,0.433] p=6.3e-06
+
+  Stratified by n_nasal (exact count):
+exact ŋ | n_nasal                      MH OR=0.203 [0.116,0.354] CMH p=3.1e-11  informative strata=10, langs in them=1503
+any ŋ | n_nasal                        MH OR=0.164 [0.093,0.288] CMH p=5.3e-13  informative strata=10, langs in them=1503
+exact ŋ | consonant-count sextile      MH OR=0.087 [0.056,0.134] CMH p=0  informative strata=5, langs in them=1254
+exact ŋ | Source (all langs)           MH OR=0.139 [0.093,0.208] CMH p=0  informative strata=5, langs in them=1634
+exact ŋ | uvular                       MH OR=0.140 [0.092,0.215] CMH p=0  informative strata=2, langs in them=1548
+exact ŋ | glottal stop                 MH OR=0.143 [0.095,0.217] CMH p=0  informative strata=2, langs in them=1548
+exact ŋ | implosives                   MH OR=0.122 [0.080,0.185] CMH p=0  informative strata=2, langs in them=1548
+  ng ~ ej                                                                     ej coef=-2.024 (OR=0.132) cl-SE=0.305 p=3.1e-11
+  ng ~ ej + n_nasal + logcons + uv + gl + im                                  ej coef=-1.946 (OR=0.143) cl-SE=0.541 p=0.00032
+/usr/local/lib/python3.11/dist-packages/statsmodels/discrete/discrete_model.py:268: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  mlefit = super().fit(
+  ng ~ ej + n_nasal + logcons + uv + gl + im + C(Source)                      ej coef=-1.646 (OR=0.193) cl-SE=0.538 p=0.0022
+/usr/local/lib/python3.11/dist-packages/statsmodels/discrete/discrete_model.py:268: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  mlefit = super().fit(
+  ng ~ ej + n_nasal + logcons + uv + gl + im + C(Source) + C(Macroarea)       ej coef=-1.382 (OR=0.251) cl-SE=0.611 p=0.024
+  ngany ~ ej                                                                  ej coef=-2.063 (OR=0.127) cl-SE=0.304 p=1.1e-11
+  ngany ~ ej + n_nasal + logcons + uv + gl + im                               ej coef=-2.224 (OR=0.108) cl-SE=0.493 p=6.3e-06
+/usr/local/lib/python3.11/dist-packages/statsmodels/discrete/discrete_model.py:268: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  mlefit = super().fit(
+  ngany ~ ej + n_nasal + logcons + uv + gl + im + C(Source)                   ej coef=-2.098 (OR=0.123) cl-SE=0.492 p=2e-05
+/usr/local/lib/python3.11/dist-packages/statsmodels/discrete/discrete_model.py:268: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  mlefit = super().fit(
+  ngany ~ ej + n_nasal + logcons + uv + gl + im + C(Source) + C(Macroarea)    ej coef=-1.950 (OR=0.142) cl-SE=0.553 p=0.00042
+/usr/local/lib/python3.11/dist-packages/statsmodels/discrete/discrete_model.py:268: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  mlefit = super().fit(
+=================================================================================================
+                                    coef    std err          z      P>|z|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+Intercept                         3.0274      1.464      2.068      0.039       0.159       5.896
+C(Source)[T.ea]                  -0.2203      0.346     -0.637      0.524      -0.898       0.457
+C(Source)[T.er]                   1.1006      0.410      2.686      0.007       0.298       1.904
+C(Source)[T.ph]                  -0.4324      0.306     -1.415      0.157      -1.031       0.167
+C(Source)[T.ra]                   0.0193      0.454      0.043      0.966      -0.871       0.909
+C(Source)[T.saphon]              -0.6277      0.622     -1.009      0.313      -1.848       0.592
+C(Source)[T.spa]                 -1.5605      0.421     -3.705      0.000      -2.386      -0.735
+C(Source)[T.upsid]               -0.5903      0.288     -2.050      0.040      -1.155      -0.026
+C(Macroarea)[T.Australia]        19.2938      0.639     30.192      0.000      18.041      20.546
+C(Macroarea)[T.Eurasia]           0.4670      0.402      1.161      0.246      -0.321       1.255
+C(Macroarea)[T.North America]    -1.3723      0.492     -2.789      0.005      -2.337      -0.408
+C(Macroarea)[T.Papunesia]        -0.0972      0.603     -0.161      0.872      -1.279       1.084
+C(Macroarea)[T.South America]    -2.2182      0.569     -3.899      0.000      -3.333      -1.103
+ej                               -1.3824      0.611     -2.263      0.024      -2.580      -0.185
+n_nasal                           1.6460      0.213      7.743      0.000       1.229       2.063
+logcons                          -2.5356      0.502     -5.055      0.000      -3.519      -1.553
+uv                                0.6786      0.362      1.876      0.061      -0.031       1.388
+gl                                0.6811      0.218      3.121      0.002       0.253       1.109
+im                                1.0192      0.486      2.097      0.036       0.066       1.972
+=================================================================================================
+/usr/local/lib/python3.11/dist-packages/statsmodels/discrete/conditional_models.py:181: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  rslt = super().fit(
+  Conditional logit (family fixed effects), n= 1022
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+ej            -0.0414      0.451     -0.092      0.927      -0.925       0.842
+n_nasal        0.6799      0.087      7.855      0.000       0.510       0.850
+logcons        0.0179      0.374      0.048      0.962      -0.715       0.751
+uv             0.0047      0.270      0.017      0.986      -0.525       0.535
+gl             0.0312      0.197      0.158      0.874      -0.356       0.418
+im             0.0254      0.260      0.097      0.922      -0.485       0.535
+==============================================================================

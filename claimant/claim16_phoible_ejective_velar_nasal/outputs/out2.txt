@@ -1,0 +1,101 @@
+====================================================================================================
+4b. NASAL-SYSTEM CONFOUND: other-nasal count (excluding ŋ-based)
+n_other_nasal  0.0  1.0  2.0  3.0  4.0
+eject                                 
+False           37   15  454  539  346
+True             4    8   90   27   28
+  n_other_nasal=1                      n=  23 | ej+: 0/8 = 0.000 | ej-: 5/15 = 0.333 | OR=0.000 [nan,nan] p=0.12
+  n_other_nasal=2                      n= 544 | ej+: 10/90 = 0.111 | ej-: 221/454 = 0.487 | OR=0.132 [0.067,0.261] p=3e-12
+  n_other_nasal=3                      n= 566 | ej+: 13/27 = 0.481 | ej-: 388/539 = 0.720 | OR=0.361 [0.166,0.787] p=0.015
+  n_other_nasal=4+                     n= 374 | ej+: 8/28 = 0.286 | ej-: 289/346 = 0.835 | OR=0.079 [0.033,0.188] p=1.7e-09
+exact ŋ | n_other_nasal                MH OR=0.154 [0.099,0.240] CMH p=0  informative strata=8, langs in them=1530
+any ŋ | n_other_nasal                  MH OR=0.148 [0.096,0.227] CMH p=0  informative strata=8, langs in them=1530
+exact ŋ | family × n_other_nasal       MH OR=0.151 [0.053,0.434] CMH p=8.4e-05  informative strata=21, langs in them=346
+exact ŋ | macroarea × n_other_nasal    MH OR=0.214 [0.135,0.339] CMH p=8.8e-14  informative strata=20, langs in them=1096
+  exactly 2 non-ŋ nasals (m,n)         n= 544 | ej+: 10/90 = 0.111 | ej-: 221/454 = 0.487 | OR=0.132 [0.067,0.261] p=3e-12
+  m,n only | macroarea                 MH OR=0.155 [0.078,0.312] CMH p=1e-09  informative strata=4, langs in them=444
+  m,n only | family                    MH OR=0.131 [0.029,0.598] CMH p=0.0049  informative strata=9, langs in them=112
+  >=3 non-ŋ nasals (m,n,ɲ..)           n= 940 | ej+: 21/55 = 0.382 | ej-: 677/885 = 0.765 | OR=0.190 [0.108,0.334] p=5.9e-09
+  >=3 non-ŋ | macroarea                MH OR=0.301 [0.163,0.557] CMH p=1.4e-05  informative strata=4, langs in them=701
+
+  palatal nasal ɲ vs ejectives (is it 'ejective langs lack ALL non-anterior nasals'?):
+  P(ɲ|ej) vs P(ɲ|no ej)                n=1548 | ej+: 31/157 = 0.197 | ej-: 604/1391 = 0.434 | OR=0.321 [0.213,0.482] p=3.6e-09
+  ɲ | macroarea                        MH OR=0.236 [0.147,0.377] CMH p=1.3e-10  informative strata=4, langs in them=1203
+
+====================================================================================================
+2d. MH BY GLOTTOLOG SUBFAMILY (grambank lineage 2nd/3rd node; WALS-only langs = family|nosub)
+exact ŋ | subfamily(2)                 MH OR=0.186 [0.070,0.492] CMH p=8.4e-05  informative strata=21, langs in them=355
+exact ŋ | subfamily(3)                 MH OR=0.162 [0.053,0.493] CMH p=0.00012  informative strata=20, langs in them=260
+  informative subfamilies:
+   Afro-Asiatic|nosub                            ej: 0/10  non-ej: 10/16
+   Chukotko-Kamchatkan|nosub                     ej: 1/1  non-ej: 2/2
+   Hokan|nosub                                   ej: 0/2  non-ej: 0/2
+   Indo-European|nosub                           ej: 0/1  non-ej: 20/44
+   Mayan|nosub                                   ej: 0/6  non-ej: 0/1
+   Quechuan|nosub                                ej: 0/1  non-ej: 0/1
+   Salishan|nosub                                ej: 0/2  non-ej: 0/2
+   Siouan|nosub                                  ej: 0/1  non-ej: 0/1
+   Sáliban|nosub                                 ej: 0/1  non-ej: 0/1
+   Totonacan|nosub                               ej: 0/1  non-ej: 0/1
+   afro1255/chad1250/bium1280                    ej: 0/3  non-ej: 10/13
+   afro1255/chad1250/west2785                    ej: 0/1  non-ej: 5/5
+   afro1255/cush1243/cent2193                    ej: 1/2  non-ej: 1/1
+   afro1255/cush1243/east2699                    ej: 1/10  non-ej: 1/3
+   afro1255/semi1276/west2786                    ej: 1/2  non-ej: 0/7
+   atla1278/volt1241/benu1247                    ej: 3/4  non-ej: 81/101
+   choc1280/embe1258/atra1235                    ej: 0/1  non-ej: 0/1
+   gong1255/gong1256                             ej: 0/1  non-ej: 1/1
+   quec1387/quec1388/quec1389                    ej: 0/1  non-ej: 0/4
+   sali1255/coas1325/cent2129                    ej: 0/1  non-ej: 0/1
+
+====================================================================================================
+4c. LOGIT WITHOUT AUSTRALIA/PAPUNESIA (no ejective langs there; Australia causes separation), family-clustered SE
+  ng ~ ej                                                                n=1203 ej OR=0.174 [0.098,0.311] p=3.1e-09
+  ng ~ ej + C(Macroarea)                                                 n=1203 ej OR=0.162 [0.079,0.333] p=7.3e-07
+  ng ~ ej + on                                                           n=1203 ej OR=0.174 [0.092,0.329] p=8e-08
+  ng ~ ej + on + logcons + uv + gl + im                                  n=1203 ej OR=0.102 [0.052,0.197] p=1.3e-11
+  ng ~ ej + on + logcons + uv + gl + im + C(Source) + C(Macroarea)       n=1203 ej OR=0.155 [0.080,0.303] p=4.6e-08
+  Family fixed-effects logit ['ej']: ej OR=0.168 [0.070,0.402] p=6.4e-05 (n=885)
+  Family fixed-effects logit ['ej', 'on']: ej OR=0.132 [0.053,0.329] p=1.4e-05 (n=885)
+  Family fixed-effects logit ['ej', 'on', 'logcons', 'uv', 'gl', 'im']: ej OR=0.110 [0.043,0.281] p=4e-06 (n=885)
+  Random-intercept(family) logit ng ~ ej: ej OR=0.175, sd=0.242, approx z=-7.18
+  Random-intercept(family) logit ng ~ ej + on + C(Macroarea): ej OR=0.166, sd=0.233, approx z=-7.71
+
+====================================================================================================
+6b. MORE BREAK ATTEMPTS
+North America                          n= 132 | ej+: 7/56 = 0.125 | ej-: 24/76 = 0.316 | OR=0.310 [0.122,0.783] p=0.013
+  N America | family                   MH OR=nan [nan,nan] CMH p=0.76  informative strata=5, langs in them=31
+South America                          n= 260 | ej+: 4/21 = 0.190 | ej-: 44/239 = 0.184 | OR=1.043 [0.334,3.252] p=1
+Eurasia                                n= 357 | ej+: 1/25 = 0.040 | ej-: 241/332 = 0.726 | OR=0.016 [0.002,0.118] p=4.8e-12
+Eurasia minus Caucasian fams           n= 337 | ej+: 1/5 = 0.200 | ej-: 241/332 = 0.726 | OR=0.094 [0.010,0.856] p=0.024
+  Eurasian ejective languages:
+LanguageName         Family_name  ng_exact
+         Laz          Kartvelian     False
+Iron Ossetic       Indo-European     False
+    ARMENIAN       Indo-European     False
+     Chechen   Nakh-Daghestanian     False
+    GEORGIAN          Kartvelian     False
+       ARCHI   Nakh-Daghestanian     False
+         Lak   Nakh-Daghestanian     False
+     ITELMEN Chukotko-Kamchatkan      True
+      Abkhaz        Abkhaz-Adyge     False
+      Tukita   Nakh-Daghestanian     False
+        Svan          Kartvelian     False
+        Andi   Nakh-Daghestanian     False
+       RUTUL   Nakh-Daghestanian     False
+   Kabardian        Abkhaz-Adyge     False
+        Avar   Nakh-Daghestanian     False
+        BATS   Nakh-Daghestanian     False
+     Jibbali        Afro-Asiatic     False
+  Mingrelian          Kartvelian     False
+     Lezgian   Nakh-Daghestanian     False
+       Mehri        Afro-Asiatic     False
+      Ingush   Nakh-Daghestanian     False
+    Godoberi   Nakh-Daghestanian     False
+      Hunzib   Nakh-Daghestanian     False
+      Adyghe Northwest Caucasian     False
+        Tsez   Nakh-Daghestanian     False
+Africa: Ethiopia/Horn box              n=  59 | ej+: 12/37 = 0.324 | ej-: 19/22 = 0.864 | OR=0.076 [0.019,0.307] p=0.0001
+Africa: outside Horn box               n= 395 | ej+: 7/18 = 0.389 | ej-: 284/377 = 0.753 | OR=0.208 [0.079,0.553] p=0.0015
+  Africa | subfamily3                  MH OR=0.156 [0.051,0.481] CMH p=0.00022  informative strata=8, langs in them=173
+  Horn box | family                    MH OR=0.148 [0.022,1.000] CMH p=0.039  informative strata=4, langs in them=40

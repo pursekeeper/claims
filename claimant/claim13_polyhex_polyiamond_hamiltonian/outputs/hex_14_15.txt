@@ -1,0 +1,2 @@
+HEX n=14 fixed=189492795 free=15796897 hampath=3616389 hamcycle=5670 maxcycles=124 time=40.2s
+HEX n=15 fixed=918837374 free=76581875 hampath=14358240 hamcycle=17787 maxcycles=145 time=203.3s

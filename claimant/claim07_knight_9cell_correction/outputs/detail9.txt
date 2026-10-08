@@ -1,0 +1,310 @@
+board w=3 h=4 |Aut|=1 directedPaths=2 undirected=1 toursUpToSym=1
+##.
+#.#
+###
+.##
+board w=4 h=4 |Aut|=2 directedPaths=12 undirected=6 toursUpToSym=4
+.#..
+###.
+#.##
+.##.
+board w=4 h=4 |Aut|=1 directedPaths=4 undirected=2 toursUpToSym=2
+.#..
+.###
+###.
+#.#.
+board w=4 h=4 |Aut|=1 directedPaths=2 undirected=1 toursUpToSym=1
+.#..
+.###
+##.#
+##..
+board w=4 h=4 |Aut|=1 directedPaths=6 undirected=3 toursUpToSym=3
+.#..
+.###
+##.#
+.##.
+board w=4 h=4 |Aut|=1 directedPaths=4 undirected=2 toursUpToSym=2
+.#..
+.###
+##.#
+.#.#
+board w=4 h=4 |Aut|=1 directedPaths=2 undirected=1 toursUpToSym=1
+.#..
+.###
+##..
+.###
+board w=4 h=4 |Aut|=1 directedPaths=2 undirected=1 toursUpToSym=1
+#...
+###.
+#.##
+.##.
+board w=4 h=4 |Aut|=1 directedPaths=2 undirected=1 toursUpToSym=1
+.#..
+.##.
+####
+#..#
+board w=4 h=4 |Aut|=1 directedPaths=4 undirected=2 toursUpToSym=2
+#...
+###.
+.###
+##..
+board w=3 h=4 |Aut|=1 directedPaths=2 undirected=1 toursUpToSym=1
+#..
+###
+.##
+###
+board w=4 h=4 |Aut|=1 directedPaths=8 undirected=4 toursUpToSym=4
+.#..
+.###
+#.#.
+###.
+board w=4 h=4 |Aut|=1 directedPaths=2 undirected=1 toursUpToSym=1
+#...
+####
+..#.
+###.
+board w=3 h=5 |Aut|=2 directedPaths=2 undirected=1 toursUpToSym=1
+#..
+###
+..#
+###
+#..
+board w=3 h=5 |Aut|=1 directedPaths=2 undirected=1 toursUpToSym=1
+#..
+##.
+.##
+###
+#..
+board w=4 h=4 |Aut|=1 directedPaths=2 undirected=1 toursUpToSym=1
+.#..
+.#.#
+####
+#.#.
+board w=4 h=5 |Aut|=1 directedPaths=6 undirected=3 toursUpToSym=3
+.#..
+.#..
+####
+#.#.
+..#.
+board w=4 h=5 |Aut|=1 directedPaths=2 undirected=1 toursUpToSym=1
+.#..
+.#..
+####
+..##
+..#.
+board w=4 h=5 |Aut|=1 directedPaths=2 undirected=1 toursUpToSym=1
+.#..
+.#..
+####
+..#.
+..##
+board w=4 h=5 |Aut|=1 directedPaths=4 undirected=2 toursUpToSym=2
+.#..
+.#..
+####
+..#.
+.##.
+board w=5 h=5 |Aut|=2 directedPaths=2 undirected=1 toursUpToSym=1
+.#...
+.#...
+###..
+..###
+..#..
+board w=4 h=5 |Aut|=1 directedPaths=2 undirected=1 toursUpToSym=1
+.#..
+.#..
+###.
+..##
+.##.
+board w=3 h=5 |Aut|=2 directedPaths=2 undirected=1 toursUpToSym=1
+#..
+#.#
+###
+#.#
+..#
+board w=3 h=4 |Aut|=2 directedPaths=2 undirected=1 toursUpToSym=1
+#.#
+#.#
+###
+#.#
+board w=4 h=5 |Aut|=1 directedPaths=2 undirected=1 toursUpToSym=1
+#...
+#.#.
+####
+.#..
+.#..
+board w=4 h=5 |Aut|=1 directedPaths=2 undirected=1 toursUpToSym=1
+#...
+#...
+####
+.#..
+.##.
+board w=4 h=5 |Aut|=1 directedPaths=4 undirected=2 toursUpToSym=2
+#...
+#.##
+###.
+.#..
+.#..
+board w=3 h=5 |Aut|=1 directedPaths=4 undirected=2 toursUpToSym=2
+#..
+#.#
+###
+.#.
+.##
+board w=3 h=5 |Aut|=1 directedPaths=4 undirected=2 toursUpToSym=2
+#..
+#.#
+###
+.#.
+##.
+board w=3 h=4 |Aut|=1 directedPaths=4 undirected=2 toursUpToSym=2
+##.
+.##
+###
+#.#
+board w=4 h=4 |Aut|=1 directedPaths=2 undirected=1 toursUpToSym=1
+##..
+.#.#
+.###
+##..
+board w=3 h=4 |Aut|=2 directedPaths=12 undirected=6 toursUpToSym=3
+.#.
+###
+#.#
+###
+board w=3 h=4 |Aut|=1 directedPaths=2 undirected=1 toursUpToSym=1
+#..
+###
+###
+#.#
+board w=3 h=4 |Aut|=1 directedPaths=4 undirected=2 toursUpToSym=2
+#..
+###
+#.#
+###
+board w=3 h=5 |Aut|=1 directedPaths=2 undirected=1 toursUpToSym=1
+#..
+###
+#.#
+.##
+.#.
+board w=4 h=4 |Aut|=1 directedPaths=2 undirected=1 toursUpToSym=1
+.#..
+.##.
+##.#
+.###
+board w=4 h=4 |Aut|=1 directedPaths=2 undirected=1 toursUpToSym=1
+#...
+####
+.##.
+.##.
+board w=4 h=4 |Aut|=1 directedPaths=2 undirected=1 toursUpToSym=1
+#...
+####
+.##.
+##..
+board w=4 h=4 |Aut|=1 directedPaths=4 undirected=2 toursUpToSym=2
+#...
+####
+.#.#
+.##.
+board w=4 h=4 |Aut|=1 directedPaths=2 undirected=1 toursUpToSym=1
+#...
+####
+.#..
+###.
+board w=3 h=5 |Aut|=2 directedPaths=2 undirected=1 toursUpToSym=1
+#..
+###
+.#.
+###
+..#
+board w=3 h=5 |Aut|=2 directedPaths=2 undirected=1 toursUpToSym=1
+#..
+###
+.#.
+###
+#..
+board w=4 h=4 |Aut|=1 directedPaths=2 undirected=1 toursUpToSym=1
+#...
+##.#
+.###
+.##.
+board w=4 h=5 |Aut|=1 directedPaths=2 undirected=1 toursUpToSym=1
+#...
+##..
+.###
+.#.#
+.#..
+board w=4 h=4 |Aut|=1 directedPaths=12 undirected=6 toursUpToSym=6
+.#..
+.##.
+#.##
+###.
+board w=4 h=4 |Aut|=1 directedPaths=4 undirected=2 toursUpToSym=2
+.#..
+##.#
+.###
+.##.
+board w=4 h=4 |Aut|=1 directedPaths=4 undirected=2 toursUpToSym=2
+.#..
+##.#
+.###
+##..
+board w=4 h=4 |Aut|=1 directedPaths=2 undirected=1 toursUpToSym=1
+.#..
+##.#
+.###
+.#.#
+board w=4 h=4 |Aut|=2 directedPaths=12 undirected=6 toursUpToSym=4
+.#..
+##..
+#.##
+###.
+board w=4 h=5 |Aut|=1 directedPaths=4 undirected=2 toursUpToSym=2
+.#..
+.#..
+###.
+#.##
+..#.
+board w=3 h=5 |Aut|=2 directedPaths=12 undirected=6 toursUpToSym=3
+.#.
+.#.
+###
+#.#
+#.#
+board w=4 h=5 |Aut|=1 directedPaths=2 undirected=1 toursUpToSym=1
+.#..
+.#..
+###.
+#.#.
+..##
+board w=3 h=5 |Aut|=1 directedPaths=4 undirected=2 toursUpToSym=2
+.#.
+.#.
+###
+#.#
+##.
+board w=3 h=5 |Aut|=1 directedPaths=2 undirected=1 toursUpToSym=1
+#..
+#.#
+###
+.##
+.#.
+board w=4 h=4 |Aut|=1 directedPaths=4 undirected=2 toursUpToSym=2
+#...
+#.##
+###.
+.##.
+board w=3 h=5 |Aut|=1 directedPaths=2 undirected=1 toursUpToSym=1
+#..
+#..
+###
+.##
+##.
+board w=4 h=4 |Aut|=1 directedPaths=2 undirected=1 toursUpToSym=1
+.#..
+.#.#
+##.#
+.###
+n=9 fixed=9910 K=181 tourableBoards(O)=57 closedTourable(C)=0 toursUpToBoardSymmetry=94
