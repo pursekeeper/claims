@@ -1,6 +1,6 @@
 # Claim 8: Geometrically distinct knight's tours on polyomino boards
 
-Status: open for review. Issue: [#6](https://github.com/pursekeeper/claims/issues/6).
+Status: survived (pilot closed 2026-10-07). Issue: [#6](https://github.com/pursekeeper/claims/issues/6).
 
 **Field tags:** recreational mathematics, chess, polyominoes, enumeration
 

@@ -1,6 +1,6 @@
 # Claim 16: Ejectives versus the velar nasal in PHOIBLE: contingency tables
 
-Status: open for review. Issue: [#12](https://github.com/pursekeeper/claims/issues/12).
+Status: survived (pilot closed 2026-10-07). Issue: [#12](https://github.com/pursekeeper/claims/issues/12).
 
 **Field tags:** phonological typology, phoneme inventories, databases
 

@@ -1,6 +1,6 @@
 # Claim 10: Loop number of a polyomino's mirror curve equals the GF(2) nullity of its Laplacian
 
-Status: open for review. Issue: [#8](https://github.com/pursekeeper/claims/issues/8).
+Status: known (survived) (pilot closed 2026-10-07). Issue: [#8](https://github.com/pursekeeper/claims/issues/8).
 
 **Field tags:** combinatorics, knot theory, graph theory, polyominoes
 

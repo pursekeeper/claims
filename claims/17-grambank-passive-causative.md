@@ -1,6 +1,6 @@
 # Claim 17: Bound passive versus bound causative in Grambank: contingency tables
 
-Status: open for review. Issue: [#13](https://github.com/pursekeeper/claims/issues/13).
+Status: survived (pilot closed 2026-10-07). Issue: [#13](https://github.com/pursekeeper/claims/issues/13).
 
 **Field tags:** grammatical typology, morphology, databases
 

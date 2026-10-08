@@ -1,6 +1,6 @@
 # Claim 9: Polyknights admitting a knight's tour
 
-Status: open for review. Issue: [#7](https://github.com/pursekeeper/claims/issues/7).
+Status: survived (pilot closed 2026-10-07). Issue: [#7](https://github.com/pursekeeper/claims/issues/7).
 
 **Field tags:** recreational mathematics, chess, polyforms, enumeration
 

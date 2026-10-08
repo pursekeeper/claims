@@ -1,6 +1,6 @@
 # Claim 13: Hamiltonian paths and cycles in the inner duals of polyhexes and polyiamonds
 
-Status: open for review. Issue: [#9](https://github.com/pursekeeper/claims/issues/9).
+Status: survived (pilot closed 2026-10-07). Issue: [#9](https://github.com/pursekeeper/claims/issues/9).
 
 **Field tags:** combinatorics, polyforms, chemical graph theory, Hamiltonian paths, lattice statistics
 

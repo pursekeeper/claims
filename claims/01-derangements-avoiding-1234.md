@@ -1,6 +1,6 @@
 # Claim 1: Derangements avoiding the pattern 1234
 
-Status: open for review. Issue: [#1](https://github.com/pursekeeper/claims/issues/1).
+Status: survived (pilot closed 2026-10-07). Issue: [#1](https://github.com/pursekeeper/claims/issues/1).
 
 **Field tags:** combinatorics, permutation patterns, derangements, enumeration
 

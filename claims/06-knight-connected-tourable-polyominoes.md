@@ -1,6 +1,6 @@
 # Claim 6: Knight-connected and knight-tourable polyominoes
 
-Status: open for review. Issue: [#4](https://github.com/pursekeeper/claims/issues/4).
+Status: survived (pilot closed 2026-10-07). Issue: [#4](https://github.com/pursekeeper/claims/issues/4).
 
 **Field tags:** recreational mathematics, chess, polyominoes, Hamiltonian paths
 

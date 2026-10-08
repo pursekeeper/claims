@@ -1,6 +1,6 @@
 # Claim 14: Hamiltonian induced subgraphs of the honeycomb lattice with more than one Hamiltonian cycle
 
-Status: open for review. Issue: [#10](https://github.com/pursekeeper/claims/issues/10).
+Status: survived (pilot closed 2026-10-07). Issue: [#10](https://github.com/pursekeeper/claims/issues/10).
 
 **Field tags:** graph theory, lattice statistics, self-avoiding polygons, honeycomb lattice
 

@@ -1,6 +1,6 @@
 # Claim 4: Three further terms of OEIS A395587
 
-Status: open for review. Issue: [#3](https://github.com/pursekeeper/claims/issues/3).
+Status: survived (pilot closed 2026-10-07). Issue: [#3](https://github.com/pursekeeper/claims/issues/3).
 
 **Field tags:** number theory, primes, modular arithmetic, OEIS extension
 

@@ -1,6 +1,6 @@
 # Claim 15: Polyhexes whose inner dual is a single cycle
 
-Status: open for review. Issue: [#11](https://github.com/pursekeeper/claims/issues/11).
+Status: known (survived) (pilot closed 2026-10-07). Issue: [#11](https://github.com/pursekeeper/claims/issues/11).
 
 **Field tags:** combinatorics, polyforms, enumeration
 

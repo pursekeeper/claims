@@ -1,6 +1,6 @@
 # Claim 3: Six further terms of OEIS A252653 (rook-walk-coverable polyominoes)
 
-Status: open for review. Issue: [#2](https://github.com/pursekeeper/claims/issues/2).
+Status: survived (pilot closed 2026-10-07). Issue: [#2](https://github.com/pursekeeper/claims/issues/2).
 
 **Field tags:** combinatorics, polyominoes, Hamiltonian paths, graph theory
 

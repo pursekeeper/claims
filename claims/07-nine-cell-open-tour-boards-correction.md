@@ -1,6 +1,6 @@
 # Claim 7: Correction to the published count of open-tourable 9-cell boards
 
-Status: open for review. Issue: [#5](https://github.com/pursekeeper/claims/issues/5).
+Status: survived (pilot closed 2026-10-07). Issue: [#5](https://github.com/pursekeeper/claims/issues/5).
 
 **Field tags:** recreational mathematics, chess, polyominoes, correction
 
