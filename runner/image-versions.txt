@@ -1,0 +1,15 @@
+# Toolchain inside the sandbox image pursekeeper/rederive:v0 (image id 50a59d09a72c), read on 2026-10-09 with
+#   docker run --rm --network none pursekeeper/rederive:v0 bash -c '...--version...'
+# Every accepted re-derivation in runs/ was executed in this image by runner/run.sh with
+#   --network none --cpus 2 --memory 4g --memory-swap 4g --pids-limit 256, wall clock limit 600 s (timeout -k 10 600).
+os=Ubuntu 24.04.5 LTS
+gcc=13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04.1)
+g++=13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04.1)
+python3=3.12.3
+sympy=1.12
+gmpy2=2.1.5
+numpy=1.26.4
+networkx=2.8.8
+scipy=1.11.4
+pandas=2.1.4
+mpmath=1.2.1
