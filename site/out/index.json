@@ -136,7 +136,7 @@
   "claimant_code": "claimant/claim02_derangements_4321",
   "terms_claimed": 24,
   "terms_both": 12,
-  "terms_rule": "B(13) reported outside the sandbox does not count",
+  "terms_rule": "The term b(13) reported outside the sandbox does not count",
   "url": "https://pursekeeper.dev/verified/02-derangements-avoiding-4321"
  },
  {
