@@ -92,7 +92,9 @@
   "terms_claimed": 24,
   "terms_both": 12,
   "relations": [],
-  "url": "https://pursekeeper.dev/verified/01-derangements-avoiding-1234"
+  "url": "https://pursekeeper.dev/verified/01-derangements-avoiding-1234",
+  "statement_sha256": "00c075b8a835ea74ca27497780d35a0a2547d7cd337698bf596d3d08d33bae74",
+  "file_sha256": "f484d2183fd27f7b092026e4495041d4937bde6e379f3a148e7070bb2fba4856"
  },
  {
   "n": 2,
@@ -188,7 +190,9 @@
   "terms_both": 12,
   "terms_rule": "The term b(13) reported outside the sandbox does not count",
   "relations": [],
-  "url": "https://pursekeeper.dev/verified/02-derangements-avoiding-4321"
+  "url": "https://pursekeeper.dev/verified/02-derangements-avoiding-4321",
+  "statement_sha256": "c88b627e1057ac878a8a7be2723d61b9696bc3800807d7c67415c37d2c209a1a",
+  "file_sha256": "822bcc6ae61dd93b03ccf7c8817075bf1641df7374dd7f105d1455ef0dcad0a0"
  },
  {
   "n": 3,
@@ -290,7 +294,9 @@
     "note": "the claim states new terms of this sequence beyond the published ones"
    }
   ],
-  "url": "https://pursekeeper.dev/verified/03-A252653-rook-walk-coverable-polyominoes"
+  "url": "https://pursekeeper.dev/verified/03-A252653-rook-walk-coverable-polyominoes",
+  "statement_sha256": "b537828acae6e6b30b346072a3a2ea51aad584f134bb9457a8b21db6dbd06f3b",
+  "file_sha256": "ce30ef791cdd2226c74ce748b0b92871beac1afaf1b66073ba95f7a679ac42de"
  },
  {
   "n": 4,
@@ -394,7 +400,9 @@
     "note": "the claim states new terms of this sequence beyond the published ones"
    }
   ],
-  "url": "https://pursekeeper.dev/verified/04-A395587-three-terms"
+  "url": "https://pursekeeper.dev/verified/04-A395587-three-terms",
+  "statement_sha256": "aa3ad8995a3e6db289a9cd30972a2cdc9ef1f44b932806f3d9199b539f4b3fa6",
+  "file_sha256": "bf093a0448e5972d45dcb02b88f5b4ea69eff34deffd3740b1766d836185a768"
  },
  {
   "n": 5,
@@ -495,7 +503,9 @@
     "note": "the claim states new terms of this sequence beyond the published ones"
    }
   ],
-  "url": "https://pursekeeper.dev/verified/05-A396786-three-terms"
+  "url": "https://pursekeeper.dev/verified/05-A396786-three-terms",
+  "statement_sha256": "229aaf8ade95dc8ee34687e5f9a6a20fb91a65d223ab0b07770a6c60f487745b",
+  "file_sha256": "34bac4460a2b47be68c0c7268a7a8e2245da95a1603fcbddf50ced6b22278486"
  },
  {
   "n": 6,
@@ -592,7 +602,9 @@
   "terms_claimed": 54,
   "terms_both": 42,
   "relations": [],
-  "url": "https://pursekeeper.dev/verified/06-knight-connected-tourable-polyominoes"
+  "url": "https://pursekeeper.dev/verified/06-knight-connected-tourable-polyominoes",
+  "statement_sha256": "6df5a86eb9aa18a31ed59e2694a9a9e11344c5dc30aa19fb6b59c67625d22712",
+  "file_sha256": "7267ff0c78963cdf749fd36352fb4cd0232a470494842e4240b1e893197e6a65"
  },
  {
   "n": 7,
@@ -687,7 +699,9 @@
   "terms_both": 22,
   "terms_rule": "22 named outputs: 2 totals, 5 distribution counts, 10 bounding-box counts, 5 counts within the 4 x 4 frame",
   "relations": [],
-  "url": "https://pursekeeper.dev/verified/07-nine-cell-open-tour-boards-correction"
+  "url": "https://pursekeeper.dev/verified/07-nine-cell-open-tour-boards-correction",
+  "statement_sha256": "0cc2a9f44176adac1a76c1b3fcf6112edb8a3cda32a9dbbaccb3489083bdd072",
+  "file_sha256": "950c1b77b099fe9b2943054b01dde3bb57f1efca09e6ee643a549b0a84ce8ded"
  },
  {
   "n": 8,
@@ -780,7 +794,9 @@
   "terms_claimed": 60,
   "terms_both": 36,
   "relations": [],
-  "url": "https://pursekeeper.dev/verified/08-knight-tours-polyomino-boards"
+  "url": "https://pursekeeper.dev/verified/08-knight-tours-polyomino-boards",
+  "statement_sha256": "564fc5fe9a0a4d8282269312d18992e1ba43876e957f07abafabc7f41e7f6544",
+  "file_sha256": "03a2bbc8a87cd021425cf05f60bff803a9286d7e99e14cc736172f71c8ad5811"
  },
  {
   "n": 9,
@@ -873,7 +889,9 @@
   "terms_claimed": 20,
   "terms_both": 16,
   "relations": [],
-  "url": "https://pursekeeper.dev/verified/09-polyknight-tours"
+  "url": "https://pursekeeper.dev/verified/09-polyknight-tours",
+  "statement_sha256": "b97343214638116b19208eb056271172b13d5f0e60c8051f73973ba0f442d25e",
+  "file_sha256": "8416f2d7909a9b4f9ae19770b850da965048112987a96e26074e66e0822c4dec"
  },
  {
   "n": 10,
@@ -1003,7 +1021,9 @@
     "note": "the result was already published before the claim"
    }
   ],
-  "url": "https://pursekeeper.dev/verified/10-mirror-curve-loops-gf2-nullity"
+  "url": "https://pursekeeper.dev/verified/10-mirror-curve-loops-gf2-nullity",
+  "statement_sha256": "6f2d6fca96820fc3fa823a1c4bef03bb5d17a411265c63bf53aff354308335f8",
+  "file_sha256": "a53e016e7da726100383fee442dee43751c31e72f1fa578eb86b0996d9e11fe4"
  },
  {
   "n": 11,
@@ -1118,7 +1138,9 @@
     "note": "the named component was already published; the rest of the claim stands as new"
    }
   ],
-  "url": "https://pursekeeper.dev/verified/11-spanning-tree-statistics-polyominoes"
+  "url": "https://pursekeeper.dev/verified/11-spanning-tree-statistics-polyominoes",
+  "statement_sha256": "0f04d0bcece5000dc1d79636998abf1015c60e60d3e7d07ff504e09377ca2b04",
+  "file_sha256": "3310fcf83e5a9f54ea432b4d67b7ff565d74cb64269383527bb8951083686545"
  },
  {
   "n": 12,
@@ -1234,7 +1256,9 @@
     "note": "the named component was already published; the rest of the claim stands as new"
    }
   ],
-  "url": "https://pursekeeper.dev/verified/12-independent-sets-domino-tilings-polyominoes"
+  "url": "https://pursekeeper.dev/verified/12-independent-sets-domino-tilings-polyominoes",
+  "statement_sha256": "05eab0c64e7438b59c65af47ce83e4abf497139e5970822e3a34bf689add22b8",
+  "file_sha256": "77387dfe2f8951da5c0efae1b5e4ec602497ef698e8b23a32e640fc291de9a59"
  },
  {
   "n": 13,
@@ -1332,7 +1356,9 @@
   "terms_claimed": 63,
   "terms_both": 51,
   "relations": [],
-  "url": "https://pursekeeper.dev/verified/13-polyhex-polyiamond-inner-dual-hamiltonian"
+  "url": "https://pursekeeper.dev/verified/13-polyhex-polyiamond-inner-dual-hamiltonian",
+  "statement_sha256": "29b86b541374e418557f5ec1549be22c6bc845ee3ab22b8b9c8e404f7306683a",
+  "file_sha256": "09f30dc4fbe65abd04452eeb31af61943fc51d8f9d999fa3fcd73270ca048fd8"
  },
  {
   "n": 14,
@@ -1427,7 +1453,9 @@
   "terms_both": 3,
   "terms_rule": "5 named outputs: 3 for part (b), 2 for part (a); part (a) to 30 vertices is a partial of one output and does not count",
   "relations": [],
-  "url": "https://pursekeeper.dev/verified/14-honeycomb-unique-hamiltonian-cycle"
+  "url": "https://pursekeeper.dev/verified/14-honeycomb-unique-hamiltonian-cycle",
+  "statement_sha256": "61db5c9a250e1e305f8779f8a60cfe0f631ab3a9e58bca90e3a800b9dd67e971",
+  "file_sha256": "634bac921e54a9e1272eb4d0fdccca28ba7dad35a591610a8c69567298e99c36"
  },
  {
   "n": 15,
@@ -1537,7 +1565,9 @@
     "note": "the result was already published before the claim"
    }
   ],
-  "url": "https://pursekeeper.dev/verified/15-ring-polyhexes"
+  "url": "https://pursekeeper.dev/verified/15-ring-polyhexes",
+  "statement_sha256": "3e38f5c04a6a5bd0eec5925d1a6c2c1ec6d1f7d27058ab5214087d0c718c2e57",
+  "file_sha256": "0c1ca966b1804b8b7f15076abe0f49c549f6efc891b2b9b8b12788daee2e9876"
  },
  {
   "n": 16,
@@ -1629,7 +1659,9 @@
   "terms_claimed": 8,
   "terms_both": 8,
   "relations": [],
-  "url": "https://pursekeeper.dev/verified/16-phoible-ejectives-velar-nasal"
+  "url": "https://pursekeeper.dev/verified/16-phoible-ejectives-velar-nasal",
+  "statement_sha256": "4886c10779f871db125615dc2b2c6b2cb511e54f5dd9ce79af9295e5d3ca3369",
+  "file_sha256": "a8d94b4f2d93b1a8496bd52e2a731165771f6cb81a8e752eb8e25af844ff334c"
  },
  {
   "n": 17,
@@ -1724,6 +1756,8 @@
   "terms_claimed": 8,
   "terms_both": 8,
   "relations": [],
-  "url": "https://pursekeeper.dev/verified/17-grambank-passive-causative"
+  "url": "https://pursekeeper.dev/verified/17-grambank-passive-causative",
+  "statement_sha256": "531a35790133a4cf194d9160d80233f892225d4ac5bceecd7b04eafb58f518cc",
+  "file_sha256": "ab890af9147d8226b95d776c34213bf0ef34a7fbea465d4d067b94a79492a602"
  }
 ]

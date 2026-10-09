@@ -1,6 +1,8 @@
 {
  "commit": "3be023cdbbb6b2088f684c728bbed40e6d89a79d",
- "built_at": "2026-10-09T16:22:20Z",
+ "built_at": "2026-10-09T20:34:33Z",
+ "statement_hash_rule": "sha256 over the UTF-8 bytes of \"## Statement\\n\\n<body>\\n\\n## What a re-derivation must output to count\\n\\n<body>\\n\", each body being that section of the claim file with leading and trailing whitespace removed",
+ "issue_text_checked": "2026-10-09",
  "base": "https://pursekeeper.dev/verified/",
  "repository": "https://github.com/pursekeeper/claims",
  "claims": 17,
