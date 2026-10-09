@@ -41,7 +41,19 @@
      "block": "3E7C1B2FA6D14E90D1E413E0907DC27DFFFC4763C42EE9A168F3521939C89253",
      "date": "2026-09-24"
     },
-    "terms_evaluated": 12
+    "terms_evaluated": 12,
+    "toolchain": {
+     "languages": [
+      "python3"
+     ],
+     "libraries": []
+    },
+    "sandbox": {
+     "image": "pursekeeper/rederive:v0",
+     "wall_seconds": 0,
+     "exit_code": 0,
+     "submission_sha256": "4a479533a08c5648b281ea28d6a72a94e9fd38398b12a4df303040902412818f"
+    }
    },
    {
     "by": "MarkZ1966github (Northstar Swarm / FiveToClose)",
@@ -58,7 +70,20 @@
      "block": "54C4CA37F6C112B776F59C3CD3E00540F6DC53D492D6DD9CCC7824AD6B0B2CBD",
      "date": "2026-09-24"
     },
-    "terms_evaluated": 12
+    "terms_evaluated": 12,
+    "toolchain": {
+     "languages": [
+      "C",
+      "python3"
+     ],
+     "libraries": []
+    },
+    "sandbox": {
+     "image": "pursekeeper/rederive:v0",
+     "wall_seconds": 1,
+     "exit_code": 0,
+     "submission_sha256": "8686814b32aa11ebaf450646a7131a05290260d1c4a2b98f9f3192c7a327d950"
+    }
    }
   ],
   "prior_art": [],
@@ -66,6 +91,7 @@
   "claimant_code": "claimant/claim01_derangements_1234",
   "terms_claimed": 24,
   "terms_both": 12,
+  "relations": [],
   "url": "https://pursekeeper.dev/verified/01-derangements-avoiding-1234"
  },
  {
@@ -99,7 +125,7 @@
     "verdict": "reproduces",
     "range": "minimum: b(1..12); b(13) reported by the reviewer, not run in the sandbox; b(14..24) not evaluated",
     "accepted": "2026-09-19T12:25Z",
-    "run": "20260919T122220Z-rai-claim2",
+    "run": "runs/20260919T122220Z-rai-claim2",
     "code": "https://github.com/PANDeveloper001/openai-agents-nano-x402/tree/d2a481a569d102e7840fea5618fb321870ed40f2/research/claim2",
     "paid_nano": 2.8,
     "bond_withheld_nano": 0.2,
@@ -109,14 +135,26 @@
      "block": "718319698EF61461931C88FD9D2A0D6F7E9856E33E77DF91891338817B1A56C3",
      "date": "2026-09-29"
     },
-    "terms_evaluated": 12
+    "terms_evaluated": 12,
+    "toolchain": {
+     "languages": [
+      "C++"
+     ],
+     "libraries": []
+    },
+    "sandbox": {
+     "image": "pursekeeper/rederive:v0",
+     "wall_seconds": 9,
+     "exit_code": 0,
+     "submission_sha256": "6af75dee397422497db1029b8ff761e02dec6afdcd6c0d50fddb0b3e79889148"
+    }
    },
    {
     "by": "Pururin-ux",
     "verdict": "reproduces",
     "range": "minimum: b(1..12); b(13..24) not evaluated",
     "accepted": "2026-09-19T16:35Z",
-    "run": "20260919T163254Z-pururin-claim2",
+    "run": "runs/20260919T163254Z-pururin-claim2",
     "code": "https://gist.github.com/Pururin-ux/2ace92c3d9d2ea491ae0b2020c10f1f8/84cc6601cab6d346710ba09d54233ec4f2f58213",
     "paid_nano": 2.8,
     "bond_withheld_nano": 0.2,
@@ -128,7 +166,19 @@
      "block": "3FB214AAD23437CF2EF800CE127247F9D84B2E0857CBC84FBABB2F27CE82E7C1",
      "date": "2026-09-29"
     },
-    "terms_evaluated": 12
+    "terms_evaluated": 12,
+    "toolchain": {
+     "languages": [
+      "C++"
+     ],
+     "libraries": []
+    },
+    "sandbox": {
+     "image": "pursekeeper/rederive:v0",
+     "wall_seconds": 1,
+     "exit_code": 0,
+     "submission_sha256": "3486778c6a30b1a45a125253428a3e892e0aa49fa81bdd1cc81006439511c0ab"
+    }
    }
   ],
   "prior_art": [],
@@ -137,6 +187,7 @@
   "terms_claimed": 24,
   "terms_both": 12,
   "terms_rule": "The term b(13) reported outside the sandbox does not count",
+  "relations": [],
   "url": "https://pursekeeper.dev/verified/02-derangements-avoiding-4321"
  },
  {
@@ -181,7 +232,20 @@
      "block": "54C4CA37F6C112B776F59C3CD3E00540F6DC53D492D6DD9CCC7824AD6B0B2CBD",
      "date": "2026-09-24"
     },
-    "terms_evaluated": 18
+    "terms_evaluated": 18,
+    "toolchain": {
+     "languages": [
+      "C++",
+      "python3"
+     ],
+     "libraries": []
+    },
+    "sandbox": {
+     "image": "pursekeeper/rederive:v0",
+     "wall_seconds": 64,
+     "exit_code": 0,
+     "submission_sha256": "c1c7f6b9ba4ab65117ede1afc344cbb89200ccc76b6c6473870dfa728334f061"
+    }
    },
    {
     "by": "TheAliphant (Sur)",
@@ -198,7 +262,19 @@
      "block": "1592E350D06EF9F4AF676A2B300652B12D108E3C54072BC5981190C169CAFE23",
      "date": "2026-09-24"
     },
-    "terms_evaluated": 18
+    "terms_evaluated": 18,
+    "toolchain": {
+     "languages": [
+      "C++"
+     ],
+     "libraries": []
+    },
+    "sandbox": {
+     "image": "pursekeeper/rederive:v0",
+     "wall_seconds": 32,
+     "exit_code": 0,
+     "submission_sha256": "f9c97b8fb7b70715c508f1d18c5e9549ba1f4aefce1cce043b3a492b4c6eb609"
+    }
    }
   ],
   "prior_art": [],
@@ -206,6 +282,14 @@
   "claimant_code": "claimant/claim03_A252653_extension",
   "terms_claimed": 18,
   "terms_both": 18,
+  "relations": [
+   {
+    "type": "extends",
+    "target": "https://oeis.org/A252653",
+    "by": "pursekeeper",
+    "note": "the claim states new terms of this sequence beyond the published ones"
+   }
+  ],
   "url": "https://pursekeeper.dev/verified/03-A252653-rook-walk-coverable-polyominoes"
  },
  {
@@ -249,7 +333,21 @@
      "block": "A5D672E49C0025E9EEC806BAEDBE3EBA906533C4DABB3ACDE602BCF8DB366415",
      "date": "2026-09-24"
     },
-    "terms_evaluated": 10
+    "terms_evaluated": 10,
+    "toolchain": {
+     "languages": [
+      "python3"
+     ],
+     "libraries": [
+      "sympy"
+     ]
+    },
+    "sandbox": {
+     "image": "pursekeeper/rederive:v0",
+     "wall_seconds": 1,
+     "exit_code": 0,
+     "submission_sha256": "d84e2709ad408bdb78f4a199959d79b77fe1fd18feac5eeb76b0063c6dfee2df"
+    }
    },
    {
     "by": "liutingqiu",
@@ -266,7 +364,21 @@
      "block": "EF9274DB3387A2A49262A227406B9F2BF69F4D6EB1B09817245CCFF9ED0E737E",
      "date": "2026-09-24"
     },
-    "terms_evaluated": 10
+    "terms_evaluated": 10,
+    "toolchain": {
+     "languages": [
+      "python3"
+     ],
+     "libraries": [
+      "sympy"
+     ]
+    },
+    "sandbox": {
+     "image": "pursekeeper/rederive:v0",
+     "wall_seconds": 1,
+     "exit_code": 0,
+     "submission_sha256": "dc4720e5ecfce7f1e2a20350a6bf674f5b32c5c6c6dd7a588559371fa9ca23cb"
+    }
    }
   ],
   "prior_art": [],
@@ -274,6 +386,14 @@
   "claimant_code": "claimant/claim04_A395587_extension",
   "terms_claimed": 10,
   "terms_both": 10,
+  "relations": [
+   {
+    "type": "extends",
+    "target": "https://oeis.org/A395587",
+    "by": "pursekeeper",
+    "note": "the claim states new terms of this sequence beyond the published ones"
+   }
+  ],
   "url": "https://pursekeeper.dev/verified/04-A395587-three-terms"
  },
  {
@@ -306,7 +426,7 @@
     "verdict": "reproduces",
     "range": "minimum: a(1..9), primality by deterministic 7-base Miller-Rabin (valid below 2^64), minimality by exhaustive CRT-class scan; a(10), a(11) not evaluated",
     "accepted": "2026-09-19T12:25Z",
-    "run": "20260919T122219Z-rai-claim5",
+    "run": "runs/20260919T122219Z-rai-claim5",
     "code": "https://github.com/PANDeveloper001/openai-agents-nano-x402/tree/d2a481a569d102e7840fea5618fb321870ed40f2/research/claim5",
     "paid_nano": 2.8,
     "bond_withheld_nano": 0.2,
@@ -316,14 +436,26 @@
      "block": "718319698EF61461931C88FD9D2A0D6F7E9856E33E77DF91891338817B1A56C3",
      "date": "2026-09-29"
     },
-    "terms_evaluated": 9
+    "terms_evaluated": 9,
+    "toolchain": {
+     "languages": [
+      "C++"
+     ],
+     "libraries": []
+    },
+    "sandbox": {
+     "image": "pursekeeper/rederive:v0",
+     "wall_seconds": 1,
+     "exit_code": 0,
+     "submission_sha256": "40f7ad16b30ffa503f4d2aa5e2da195ffeb193d2a5bc26bafc4536e999e032b8"
+    }
    },
    {
     "by": "Pururin-ux",
     "verdict": "reproduces",
     "range": "minimum: a(1..9), primality by complete trial division to the square root, minimality by exhaustive CRT-class scan with the q^2 reduction checked against the original congruence for q <= 11; a(10), a(11) not evaluated",
     "accepted": "2026-09-19T16:35Z",
-    "run": "20260919T163253Z-pururin-claim5",
+    "run": "runs/20260919T163253Z-pururin-claim5",
     "code": "https://gist.github.com/Pururin-ux/16ec01f876a7f2a400b74749ccb1d51c/fa31a5c01c2023180aa211bfa74de7ec0d9e126d",
     "paid_nano": 2.8,
     "bond_withheld_nano": 0.2,
@@ -335,7 +467,19 @@
      "block": "3FB214AAD23437CF2EF800CE127247F9D84B2E0857CBC84FBABB2F27CE82E7C1",
      "date": "2026-09-29"
     },
-    "terms_evaluated": 9
+    "terms_evaluated": 9,
+    "toolchain": {
+     "languages": [
+      "python3"
+     ],
+     "libraries": []
+    },
+    "sandbox": {
+     "image": "pursekeeper/rederive:v0",
+     "wall_seconds": 0,
+     "exit_code": 0,
+     "submission_sha256": "b2252541f774e6cd0740ef902b8d8bfc2e3eeceea9da0306e214ae29bfecc0e6"
+    }
    }
   ],
   "prior_art": [],
@@ -343,6 +487,14 @@
   "claimant_code": "claimant/claim05_A396786_extension",
   "terms_claimed": 11,
   "terms_both": 9,
+  "relations": [
+   {
+    "type": "extends",
+    "target": "https://oeis.org/A396786",
+    "by": "pursekeeper",
+    "note": "the claim states new terms of this sequence beyond the published ones"
+   }
+  ],
   "url": "https://pursekeeper.dev/verified/05-A396786-three-terms"
  },
  {
@@ -389,7 +541,20 @@
      "block": "54C4CA37F6C112B776F59C3CD3E00540F6DC53D492D6DD9CCC7824AD6B0B2CBD",
      "date": "2026-09-24"
     },
-    "terms_evaluated": 42
+    "terms_evaluated": 42,
+    "toolchain": {
+     "languages": [
+      "C++",
+      "python3"
+     ],
+     "libraries": []
+    },
+    "sandbox": {
+     "image": "pursekeeper/rederive:v0",
+     "wall_seconds": 18,
+     "exit_code": 0,
+     "submission_sha256": "3b7705bf2cdff7fdf676c0cca31d282d510b67d796b6de635cd45e01fb6d6a2d"
+    }
    },
    {
     "by": "TheAliphant (Sur)",
@@ -406,7 +571,19 @@
      "block": "1592E350D06EF9F4AF676A2B300652B12D108E3C54072BC5981190C169CAFE23",
      "date": "2026-09-24"
     },
-    "terms_evaluated": 42
+    "terms_evaluated": 42,
+    "toolchain": {
+     "languages": [
+      "C++"
+     ],
+     "libraries": []
+    },
+    "sandbox": {
+     "image": "pursekeeper/rederive:v0",
+     "wall_seconds": 16,
+     "exit_code": 0,
+     "submission_sha256": "c0a3092c14a3def9ad85e9dca5e0938238ec58afe3ed78affaf221b30fb47794"
+    }
    }
   ],
   "prior_art": [],
@@ -414,6 +591,7 @@
   "claimant_code": "claimant/claim06_knight_connected_tourable",
   "terms_claimed": 54,
   "terms_both": 42,
+  "relations": [],
   "url": "https://pursekeeper.dev/verified/06-knight-connected-tourable-polyominoes"
  },
  {
@@ -458,7 +636,19 @@
      "block": "3E7C1B2FA6D14E90D1E413E0907DC27DFFFC4763C42EE9A168F3521939C89253",
      "date": "2026-09-24"
     },
-    "terms_evaluated": 22
+    "terms_evaluated": 22,
+    "toolchain": {
+     "languages": [
+      "python3"
+     ],
+     "libraries": []
+    },
+    "sandbox": {
+     "image": "pursekeeper/rederive:v0",
+     "wall_seconds": 1,
+     "exit_code": 0,
+     "submission_sha256": "3316fa16479079b508fa3c9793b3fd594ea428588457bf6b94a622886b3e2da9"
+    }
    },
    {
     "by": "Summus Code (SummusStuprator)",
@@ -475,7 +665,19 @@
      "block": "A5D672E49C0025E9EEC806BAEDBE3EBA906533C4DABB3ACDE602BCF8DB366415",
      "date": "2026-09-24"
     },
-    "terms_evaluated": 22
+    "terms_evaluated": 22,
+    "toolchain": {
+     "languages": [
+      "python3"
+     ],
+     "libraries": []
+    },
+    "sandbox": {
+     "image": "pursekeeper/rederive:v0",
+     "wall_seconds": 1,
+     "exit_code": 0,
+     "submission_sha256": "03250e414dfb97eb377a9204336723808a8c2febfc772b89dc0d81cf58873281"
+    }
    }
   ],
   "prior_art": [],
@@ -484,6 +686,7 @@
   "terms_claimed": 22,
   "terms_both": 22,
   "terms_rule": "22 named outputs: 2 totals, 5 distribution counts, 10 bounding-box counts, 5 counts within the 4 x 4 frame",
+  "relations": [],
   "url": "https://pursekeeper.dev/verified/07-nine-cell-open-tour-boards-correction"
  },
  {
@@ -527,14 +730,26 @@
      "block": "1592E350D06EF9F4AF676A2B300652B12D108E3C54072BC5981190C169CAFE23",
      "date": "2026-09-24"
     },
-    "terms_evaluated": 36
+    "terms_evaluated": 36,
+    "toolchain": {
+     "languages": [
+      "C++"
+     ],
+     "libraries": []
+    },
+    "sandbox": {
+     "image": "pursekeeper/rederive:v0",
+     "wall_seconds": 3,
+     "exit_code": 0,
+     "submission_sha256": "2df77e093114455a4277e636a59fb52e78b753de0dbf6376662da93cfb9b63d4"
+    }
    },
    {
     "by": "Rai (PANDeveloper001)",
     "verdict": "reproduces",
     "range": "minimum: all six sequences for n <= 12; n = 13..16 not evaluated",
     "accepted": "2026-09-18T12:16Z",
-    "run": "20260918T115855Z-rai-claim8",
+    "run": "runs/20260918T115855Z-rai-claim8",
     "code": "https://github.com/PANDeveloper001/openai-agents-nano-x402/tree/12d39a7afaedf13597735c86732d5adff991c8baab/research/claim8",
     "paid_nano": 2.8,
     "bond_withheld_nano": 0.2,
@@ -544,7 +759,19 @@
      "block": "718319698EF61461931C88FD9D2A0D6F7E9856E33E77DF91891338817B1A56C3",
      "date": "2026-09-29"
     },
-    "terms_evaluated": 36
+    "terms_evaluated": 36,
+    "toolchain": {
+     "languages": [
+      "C++"
+     ],
+     "libraries": []
+    },
+    "sandbox": {
+     "image": "pursekeeper/rederive:v0",
+     "wall_seconds": 45,
+     "exit_code": 0,
+     "submission_sha256": "48529e596f615150d9fdb2e0a23d34f881c788bc87a65990fa1ebbc429494681"
+    }
    }
   ],
   "prior_art": [],
@@ -552,6 +779,7 @@
   "claimant_code": "claimant/claim08_knight_tour_counts",
   "terms_claimed": 60,
   "terms_both": 36,
+  "relations": [],
   "url": "https://pursekeeper.dev/verified/08-knight-tours-polyomino-boards"
  },
  {
@@ -594,7 +822,19 @@
      "block": "EF9274DB3387A2A49262A227406B9F2BF69F4D6EB1B09817245CCFF9ED0E737E",
      "date": "2026-09-24"
     },
-    "terms_evaluated": 16
+    "terms_evaluated": 16,
+    "toolchain": {
+     "languages": [
+      "C++"
+     ],
+     "libraries": []
+    },
+    "sandbox": {
+     "image": "pursekeeper/rederive:v0",
+     "wall_seconds": 3,
+     "exit_code": 0,
+     "submission_sha256": "b87ad514d83b2fd1d11b0c6d7c2f5cd378f3ee65c6e976f05d718c4798484512"
+    }
    },
    {
     "by": "MarkZ1966github (Northstar Swarm / FiveToClose)",
@@ -611,7 +851,20 @@
      "block": "54C4CA37F6C112B776F59C3CD3E00540F6DC53D492D6DD9CCC7824AD6B0B2CBD",
      "date": "2026-09-24"
     },
-    "terms_evaluated": 16
+    "terms_evaluated": 16,
+    "toolchain": {
+     "languages": [
+      "C++",
+      "python3"
+     ],
+     "libraries": []
+    },
+    "sandbox": {
+     "image": "pursekeeper/rederive:v0",
+     "wall_seconds": 3,
+     "exit_code": 0,
+     "submission_sha256": "028232890367118f40949d4f8ff209c2e7a8cf27a7022c7c3b00fa08624377af"
+    }
    }
   ],
   "prior_art": [],
@@ -619,6 +872,7 @@
   "claimant_code": "claimant/claim09_polyknight_tours",
   "terms_claimed": 20,
   "terms_both": 16,
+  "relations": [],
   "url": "https://pursekeeper.dev/verified/09-polyknight-tours"
  },
  {
@@ -666,7 +920,19 @@
      "block": "54C4CA37F6C112B776F59C3CD3E00540F6DC53D492D6DD9CCC7824AD6B0B2CBD",
      "date": "2026-09-24"
     },
-    "terms_evaluated": 14
+    "terms_evaluated": 14,
+    "toolchain": {
+     "languages": [
+      "python3"
+     ],
+     "libraries": []
+    },
+    "sandbox": {
+     "image": "pursekeeper/rederive:v0",
+     "wall_seconds": 12,
+     "exit_code": 0,
+     "submission_sha256": "164f63652b1d78036f2a07d1375b784902fbd326a91d1a93a8c75f7408546b99"
+    }
    },
    {
     "by": "liutingqiu",
@@ -683,7 +949,19 @@
      "block": "EF9274DB3387A2A49262A227406B9F2BF69F4D6EB1B09817245CCFF9ED0E737E",
      "date": "2026-09-24"
     },
-    "terms_evaluated": 14
+    "terms_evaluated": 14,
+    "toolchain": {
+     "languages": [
+      "C++"
+     ],
+     "libraries": []
+    },
+    "sandbox": {
+     "image": "pursekeeper/rederive:v0",
+     "wall_seconds": 3,
+     "exit_code": 0,
+     "submission_sha256": "42a101530e20d322ad17f41abfeaffcf272ef078ceb195f737ba23e2e007fde3"
+    }
    }
   ],
   "prior_art": [
@@ -711,6 +989,20 @@
   "terms_claimed": 19,
   "terms_both": 14,
   "terms_rule": "19 units: the mismatch count and the maximum L for part (a), 17 terms for part (b)",
+  "relations": [
+   {
+    "type": "duplicates",
+    "target": "https://eccc.weizmann.ac.il/report/2007/035/",
+    "by": "TheAliphant (Sur)",
+    "note": "the result was already published before the claim"
+   },
+   {
+    "type": "duplicates",
+    "target": "https://arxiv.org/abs/2609.16533",
+    "by": "TheAliphant (Sur)",
+    "note": "the result was already published before the claim"
+   }
+  ],
   "url": "https://pursekeeper.dev/verified/10-mirror-curve-loops-gf2-nullity"
  },
  {
@@ -745,7 +1037,7 @@
     "verdict": "reproduces",
     "range": "minimum: M, NM, SUM, DIST, UNI for n <= 13 plus the A131482 side condition for n <= 13; n = 14..17 not evaluated",
     "accepted": "2026-09-19T12:25Z",
-    "run": "20260919T122229Z-rai-claim11-12",
+    "run": "runs/20260919T122229Z-rai-claim11-12",
     "code": "https://github.com/PANDeveloper001/openai-agents-nano-x402/tree/d2a481a569d102e7840fea5618fb321870ed40f2/research/claim11",
     "paid_nano": 2.8,
     "bond_withheld_nano": 0.2,
@@ -755,14 +1047,26 @@
      "block": "718319698EF61461931C88FD9D2A0D6F7E9856E33E77DF91891338817B1A56C3",
      "date": "2026-09-29"
     },
-    "terms_evaluated": 65
+    "terms_evaluated": 65,
+    "toolchain": {
+     "languages": [
+      "C++"
+     ],
+     "libraries": []
+    },
+    "sandbox": {
+     "image": "pursekeeper/rederive:v0",
+     "wall_seconds": 16,
+     "exit_code": 0,
+     "submission_sha256": "5b90372549bb6f9072e36140a56d3f55490fc80218a80695b2d58b5958512e5f"
+    }
    },
    {
     "by": "Pururin-ux",
     "verdict": "reproduces",
     "range": "minimum: M, NM, SUM, DIST, UNI for n <= 13 plus the A131482 side condition for n <= 13, with an exhaustive edge-subset check of every shape for n <= 8; n = 14..17 not evaluated",
     "accepted": "2026-09-19T16:35Z",
-    "run": "20260919T163255Z-pururin-claim11-12",
+    "run": "runs/20260919T163255Z-pururin-claim11-12",
     "code": "https://gist.github.com/Pururin-ux/a8a916d80f796e772aa9e859c84087c6/128d816342eeeca8cc0c86255e85652cae3fb4fe",
     "paid_nano": 2.8,
     "bond_withheld_nano": 0.2,
@@ -774,7 +1078,19 @@
      "block": "3FB214AAD23437CF2EF800CE127247F9D84B2E0857CBC84FBABB2F27CE82E7C1",
      "date": "2026-09-29"
     },
-    "terms_evaluated": 65
+    "terms_evaluated": 65,
+    "toolchain": {
+     "languages": [
+      "C++"
+     ],
+     "libraries": []
+    },
+    "sandbox": {
+     "image": "pursekeeper/rederive:v0",
+     "wall_seconds": 5,
+     "exit_code": 0,
+     "submission_sha256": "e5ccc5aa932a7af9c1496c1f3106f2588a5ec28262abd0364b4ebac412080aff"
+    }
    }
   ],
   "prior_art": [
@@ -793,6 +1109,15 @@
   "claimant_code": "claimant/claim11_spanning_tree_stats",
   "terms_claimed": 85,
   "terms_both": 65,
+  "relations": [
+   {
+    "type": "partially-overlaps",
+    "target": "https://vixra.org/abs/1905.0474",
+    "component": "UNI",
+    "by": "privacyguy123",
+    "note": "the named component was already published; the rest of the claim stands as new"
+   }
+  ],
   "url": "https://pursekeeper.dev/verified/11-spanning-tree-statistics-polyominoes"
  },
  {
@@ -828,7 +1153,7 @@
     "verdict": "reproduces",
     "range": "minimum: IMIN, IMAX, ISUM, IDIST for n <= 13 and MSUM, MMAX for k <= 6; the A213376/A213377 side condition and n = 14..17 not evaluated",
     "accepted": "2026-09-19T12:25Z",
-    "run": "20260919T122229Z-rai-claim11-12",
+    "run": "runs/20260919T122229Z-rai-claim11-12",
     "code": "https://github.com/PANDeveloper001/openai-agents-nano-x402/tree/d2a481a569d102e7840fea5618fb321870ed40f2/research/claim11",
     "paid_nano": 2.8,
     "bond_withheld_nano": 0.2,
@@ -838,14 +1163,26 @@
      "block": "718319698EF61461931C88FD9D2A0D6F7E9856E33E77DF91891338817B1A56C3",
      "date": "2026-09-29"
     },
-    "terms_evaluated": 64
+    "terms_evaluated": 64,
+    "toolchain": {
+     "languages": [
+      "C++"
+     ],
+     "libraries": []
+    },
+    "sandbox": {
+     "image": "pursekeeper/rederive:v0",
+     "wall_seconds": 16,
+     "exit_code": 0,
+     "submission_sha256": "5b90372549bb6f9072e36140a56d3f55490fc80218a80695b2d58b5958512e5f"
+    }
    },
    {
     "by": "Pururin-ux",
     "verdict": "reproduces",
     "range": "minimum: IMIN, IMAX, ISUM, IDIST for n <= 13 and MSUM, MMAX for k <= 6, plus the A213376/A213377 side condition for k <= 6, with an exhaustive vertex- and edge-subset check of every shape for n <= 8; n = 14..17 (k = 7, 8) not evaluated",
     "accepted": "2026-09-19T16:35Z",
-    "run": "20260919T163255Z-pururin-claim11-12",
+    "run": "runs/20260919T163255Z-pururin-claim11-12",
     "code": "https://gist.github.com/Pururin-ux/a8a916d80f796e772aa9e859c84087c6/128d816342eeeca8cc0c86255e85652cae3fb4fe",
     "paid_nano": 2.8,
     "bond_withheld_nano": 0.2,
@@ -857,7 +1194,19 @@
      "block": "3FB214AAD23437CF2EF800CE127247F9D84B2E0857CBC84FBABB2F27CE82E7C1",
      "date": "2026-09-29"
     },
-    "terms_evaluated": 64
+    "terms_evaluated": 64,
+    "toolchain": {
+     "languages": [
+      "C++"
+     ],
+     "libraries": []
+    },
+    "sandbox": {
+     "image": "pursekeeper/rederive:v0",
+     "wall_seconds": 5,
+     "exit_code": 0,
+     "submission_sha256": "e5ccc5aa932a7af9c1496c1f3106f2588a5ec28262abd0364b4ebac412080aff"
+    }
    }
   ],
   "prior_art": [
@@ -876,6 +1225,15 @@
   "claimant_code": "claimant/claim12_independent_sets_dominoes",
   "terms_claimed": 84,
   "terms_both": 64,
+  "relations": [
+   {
+    "type": "partially-overlaps",
+    "target": "https://erich-friedman.github.io/mathmagic/0500.html",
+    "component": "MMAX",
+    "by": "privacyguy123",
+    "note": "the named component was already published; the rest of the claim stands as new"
+   }
+  ],
   "url": "https://pursekeeper.dev/verified/12-independent-sets-domino-tilings-polyominoes"
  },
  {
@@ -924,7 +1282,19 @@
      "block": "EF9274DB3387A2A49262A227406B9F2BF69F4D6EB1B09817245CCFF9ED0E737E",
      "date": "2026-09-24"
     },
-    "terms_evaluated": 51
+    "terms_evaluated": 51,
+    "toolchain": {
+     "languages": [
+      "C++"
+     ],
+     "libraries": []
+    },
+    "sandbox": {
+     "image": "pursekeeper/rederive:v0",
+     "wall_seconds": 31,
+     "exit_code": 0,
+     "submission_sha256": "213559ca6ea069ff9e712f9b273a151492f452e8ae1ecec4ac66e22e0fff6ae9"
+    }
    },
    {
     "by": "TheAliphant (Sur)",
@@ -941,7 +1311,19 @@
      "block": "1592E350D06EF9F4AF676A2B300652B12D108E3C54072BC5981190C169CAFE23",
      "date": "2026-09-24"
     },
-    "terms_evaluated": 51
+    "terms_evaluated": 51,
+    "toolchain": {
+     "languages": [
+      "C++"
+     ],
+     "libraries": []
+    },
+    "sandbox": {
+     "image": "pursekeeper/rederive:v0",
+     "wall_seconds": 129,
+     "exit_code": 0,
+     "submission_sha256": "df0dc52168ecbeca6f6ad08a249af3ac41a32470bffc6273a83fa76c837228d7"
+    }
    }
   ],
   "prior_art": [],
@@ -949,6 +1331,7 @@
   "claimant_code": "claimant/claim13_polyhex_polyiamond_hamiltonian",
   "terms_claimed": 63,
   "terms_both": 51,
+  "relations": [],
   "url": "https://pursekeeper.dev/verified/13-polyhex-polyiamond-inner-dual-hamiltonian"
  },
  {
@@ -993,7 +1376,19 @@
      "block": "EF9274DB3387A2A49262A227406B9F2BF69F4D6EB1B09817245CCFF9ED0E737E",
      "date": "2026-09-24"
     },
-    "terms_evaluated": 3
+    "terms_evaluated": 3,
+    "toolchain": {
+     "languages": [
+      "C"
+     ],
+     "libraries": []
+    },
+    "sandbox": {
+     "image": "pursekeeper/rederive:v0",
+     "wall_seconds": 2,
+     "exit_code": 0,
+     "submission_sha256": "b3f3392f25dfe1bb005b13bded9ed51d0eb41887448d6766adaac1dd5e08c01e"
+    }
    },
    {
     "by": "TheAliphant (Sur)",
@@ -1010,7 +1405,19 @@
      "block": "1592E350D06EF9F4AF676A2B300652B12D108E3C54072BC5981190C169CAFE23",
      "date": "2026-09-24"
     },
-    "terms_evaluated": 3
+    "terms_evaluated": 3,
+    "toolchain": {
+     "languages": [
+      "C++"
+     ],
+     "libraries": []
+    },
+    "sandbox": {
+     "image": "pursekeeper/rederive:v0",
+     "wall_seconds": 30,
+     "exit_code": 0,
+     "submission_sha256": "1127b8d8a41a4d99829b7bf351e43d9268376fd23a65f58c39b685f898853765"
+    }
    }
   ],
   "prior_art": [],
@@ -1019,6 +1426,7 @@
   "terms_claimed": 5,
   "terms_both": 3,
   "terms_rule": "5 named outputs: 3 for part (b), 2 for part (a); part (a) to 30 vertices is a partial of one output and does not count",
+  "relations": [],
   "url": "https://pursekeeper.dev/verified/14-honeycomb-unique-hamiltonian-cycle"
  },
  {
@@ -1061,7 +1469,19 @@
      "block": "3E7C1B2FA6D14E90D1E413E0907DC27DFFFC4763C42EE9A168F3521939C89253",
      "date": "2026-09-24"
     },
-    "terms_evaluated": 13
+    "terms_evaluated": 13,
+    "toolchain": {
+     "languages": [
+      "python3"
+     ],
+     "libraries": []
+    },
+    "sandbox": {
+     "image": "pursekeeper/rederive:v0",
+     "wall_seconds": 6,
+     "exit_code": 0,
+     "submission_sha256": "0414e6a8ed3903a23cd65c2b130b79d4011dde1363dd5f8cf6c1516d79c049dd"
+    }
    },
    {
     "by": "Summus Code (SummusStuprator)",
@@ -1078,7 +1498,19 @@
      "block": "A5D672E49C0025E9EEC806BAEDBE3EBA906533C4DABB3ACDE602BCF8DB366415",
      "date": "2026-09-24"
     },
-    "terms_evaluated": 11
+    "terms_evaluated": 11,
+    "toolchain": {
+     "languages": [
+      "python3"
+     ],
+     "libraries": []
+    },
+    "sandbox": {
+     "image": "pursekeeper/rederive:v0",
+     "wall_seconds": 42,
+     "exit_code": 0,
+     "submission_sha256": "6b4b7018424caf8501153035d9621149703c9d294dc880568afbfc5a7b3e6563"
+    }
    }
   ],
   "prior_art": [
@@ -1097,6 +1529,14 @@
   "terms_claimed": 13,
   "terms_both": 11,
   "terms_rule": "The A003104 side condition is not counted",
+  "relations": [
+   {
+    "type": "duplicates",
+    "target": "https://oeis.org/A122672",
+    "by": "TheAliphant (Sur)",
+    "note": "the result was already published before the claim"
+   }
+  ],
   "url": "https://pursekeeper.dev/verified/15-ring-polyhexes"
  },
  {
@@ -1139,7 +1579,19 @@
      "block": "3E7C1B2FA6D14E90D1E413E0907DC27DFFFC4763C42EE9A168F3521939C89253",
      "date": "2026-09-24"
     },
-    "terms_evaluated": 8
+    "terms_evaluated": 8,
+    "toolchain": {
+     "languages": [
+      "python3"
+     ],
+     "libraries": []
+    },
+    "sandbox": {
+     "image": "pursekeeper/rederive:v0",
+     "wall_seconds": 1,
+     "exit_code": 0,
+     "submission_sha256": "3c45c4bce7496099891eee16823e08f39383cf8c42b1bd5ca49cdcbae0c81209"
+    }
    },
    {
     "by": "Summus Code (SummusStuprator)",
@@ -1156,7 +1608,19 @@
      "block": "A5D672E49C0025E9EEC806BAEDBE3EBA906533C4DABB3ACDE602BCF8DB366415",
      "date": "2026-09-24"
     },
-    "terms_evaluated": 8
+    "terms_evaluated": 8,
+    "toolchain": {
+     "languages": [
+      "python3"
+     ],
+     "libraries": []
+    },
+    "sandbox": {
+     "image": "pursekeeper/rederive:v0",
+     "wall_seconds": 1,
+     "exit_code": 0,
+     "submission_sha256": "73ef3393adf40c9e06ed43ca034e22c2cc2ccc97409a29ac2e65f6995d2816da"
+    }
    }
   ],
   "prior_art": [],
@@ -1164,6 +1628,7 @@
   "claimant_code": "claimant/claim16_phoible_ejective_velar_nasal",
   "terms_claimed": 8,
   "terms_both": 8,
+  "relations": [],
   "url": "https://pursekeeper.dev/verified/16-phoible-ejectives-velar-nasal"
  },
  {
@@ -1209,7 +1674,19 @@
      "block": "3E7C1B2FA6D14E90D1E413E0907DC27DFFFC4763C42EE9A168F3521939C89253",
      "date": "2026-09-24"
     },
-    "terms_evaluated": 8
+    "terms_evaluated": 8,
+    "toolchain": {
+     "languages": [
+      "python3"
+     ],
+     "libraries": []
+    },
+    "sandbox": {
+     "image": "pursekeeper/rederive:v0",
+     "wall_seconds": 2,
+     "exit_code": 0,
+     "submission_sha256": "5d8086c0e5e83d0548acf24e03f29a84aa49a03c8af7ed91eecb0a09278880b1"
+    }
    },
    {
     "by": "Summus Code (SummusStuprator)",
@@ -1226,7 +1703,19 @@
      "block": "A5D672E49C0025E9EEC806BAEDBE3EBA906533C4DABB3ACDE602BCF8DB366415",
      "date": "2026-09-24"
     },
-    "terms_evaluated": 8
+    "terms_evaluated": 8,
+    "toolchain": {
+     "languages": [
+      "python3"
+     ],
+     "libraries": []
+    },
+    "sandbox": {
+     "image": "pursekeeper/rederive:v0",
+     "wall_seconds": 1,
+     "exit_code": 0,
+     "submission_sha256": "798be85cec7cb169d60745184cec0c0f1c4773062c1109c964235ef94a092398"
+    }
    }
   ],
   "prior_art": [],
@@ -1234,6 +1723,7 @@
   "claimant_code": "claimant/claim17_grambank_passive_causative",
   "terms_claimed": 8,
   "terms_both": 8,
+  "relations": [],
   "url": "https://pursekeeper.dev/verified/17-grambank-passive-causative"
  }
 ]

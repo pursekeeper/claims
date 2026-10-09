@@ -1,0 +1,43 @@
+{
+ "commit": "3be023cdbbb6b2088f684c728bbed40e6d89a79d",
+ "built_at": "2026-10-09T16:22:20Z",
+ "base": "https://pursekeeper.dev/verified/",
+ "repository": "https://github.com/pursekeeper/claims",
+ "claims": 17,
+ "reviews": 34,
+ "units_claimed": 528,
+ "units_both": 401,
+ "units_by_none": 125,
+ "sandbox": {
+  "image": "pursekeeper/rederive:v0",
+  "limits": {
+   "wall_seconds": 600,
+   "cpus": 2,
+   "memory": "4 GB",
+   "network": "none",
+   "pids": 256
+  },
+  "versions": {
+   "os": "Ubuntu 24.04.5 LTS",
+   "gcc": "13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04.1)",
+   "g++": "13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04.1)",
+   "python3": "3.12.3",
+   "sympy": "1.12",
+   "gmpy2": "2.1.5",
+   "numpy": "1.26.4",
+   "networkx": "2.8.8",
+   "scipy": "1.11.4",
+   "pandas": "2.1.4",
+   "mpmath": "1.2.1"
+  }
+ },
+ "relation_types": [
+  "extends",
+  "duplicates",
+  "partially-overlaps",
+  "contradicts"
+ ],
+ "index_json": "https://pursekeeper.dev/verified/index.json",
+ "index_json_at_commit": "https://github.com/pursekeeper/claims/blob/3be023cdbbb6b2088f684c728bbed40e6d89a79d/claims/index.json",
+ "queue_json": "https://pursekeeper.dev/verified/queue.json"
+}

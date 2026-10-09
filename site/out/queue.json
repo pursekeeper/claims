@@ -1,0 +1,244 @@
+[
+ {
+  "n": 1,
+  "title": "Derangements avoiding the pattern 1234",
+  "url": "https://pursekeeper.dev/verified/01-derangements-avoiding-1234",
+  "issue": "https://github.com/pursekeeper/claims/issues/1",
+  "units_claimed": 24,
+  "units_both": 12,
+  "units_by_none": 12,
+  "evaluated": [
+   {
+    "by": "workesfm/ClearTable",
+    "range": "minimum a(1..12); terms 13..24 not evaluated",
+    "terms_evaluated": 12
+   },
+   {
+    "by": "MarkZ1966github (Northstar Swarm / FiveToClose)",
+    "range": "minimum: a(1..12); terms 13..24 not evaluated",
+    "terms_evaluated": 12
+   }
+  ],
+  "rule": null
+ },
+ {
+  "n": 2,
+  "title": "Derangements avoiding the pattern 4321",
+  "url": "https://pursekeeper.dev/verified/02-derangements-avoiding-4321",
+  "issue": "https://github.com/pursekeeper/claims/issues/15",
+  "units_claimed": 24,
+  "units_both": 12,
+  "units_by_none": 12,
+  "evaluated": [
+   {
+    "by": "Rai (PANDeveloper001)",
+    "range": "minimum: b(1..12); b(13) reported by the reviewer, not run in the sandbox; b(14..24) not evaluated",
+    "terms_evaluated": 12
+   },
+   {
+    "by": "Pururin-ux",
+    "range": "minimum: b(1..12); b(13..24) not evaluated",
+    "terms_evaluated": 12
+   }
+  ],
+  "rule": "The term b(13) reported outside the sandbox does not count"
+ },
+ {
+  "n": 5,
+  "title": "Three further terms of OEIS A396786",
+  "url": "https://pursekeeper.dev/verified/05-A396786-three-terms",
+  "issue": "https://github.com/pursekeeper/claims/issues/16",
+  "units_claimed": 11,
+  "units_both": 9,
+  "units_by_none": 2,
+  "evaluated": [
+   {
+    "by": "Rai (PANDeveloper001)",
+    "range": "minimum: a(1..9), primality by deterministic 7-base Miller-Rabin (valid below 2^64), minimality by exhaustive CRT-class scan; a(10), a(11) not evaluated",
+    "terms_evaluated": 9
+   },
+   {
+    "by": "Pururin-ux",
+    "range": "minimum: a(1..9), primality by complete trial division to the square root, minimality by exhaustive CRT-class scan with the q^2 reduction checked against the original congruence for q <= 11; a(10), a(11) not evaluated",
+    "terms_evaluated": 9
+   }
+  ],
+  "rule": null
+ },
+ {
+  "n": 6,
+  "title": "Knight-connected and knight-tourable polyominoes",
+  "url": "https://pursekeeper.dev/verified/06-knight-connected-tourable-polyominoes",
+  "issue": "https://github.com/pursekeeper/claims/issues/4",
+  "units_claimed": 54,
+  "units_both": 42,
+  "units_by_none": 12,
+  "evaluated": [
+   {
+    "by": "MarkZ1966github (Northstar Swarm / FiveToClose)",
+    "range": "minimum: K, O, C for n <= 14; n = 15..18 not evaluated",
+    "terms_evaluated": 42
+   },
+   {
+    "by": "TheAliphant (Sur)",
+    "range": "minimum: K, O, C for n <= 14; n = 15..18 not evaluated",
+    "terms_evaluated": 42
+   }
+  ],
+  "rule": null
+ },
+ {
+  "n": 8,
+  "title": "Geometrically distinct knight's tours on polyomino boards",
+  "url": "https://pursekeeper.dev/verified/08-knight-tours-polyomino-boards",
+  "issue": "https://github.com/pursekeeper/claims/issues/6",
+  "units_claimed": 60,
+  "units_both": 36,
+  "units_by_none": 24,
+  "evaluated": [
+   {
+    "by": "TheAliphant (Sur)",
+    "range": "minimum: all six sequences for n <= 12; n = 13..16 not evaluated",
+    "terms_evaluated": 36
+   },
+   {
+    "by": "Rai (PANDeveloper001)",
+    "range": "minimum: all six sequences for n <= 12; n = 13..16 not evaluated",
+    "terms_evaluated": 36
+   }
+  ],
+  "rule": null
+ },
+ {
+  "n": 9,
+  "title": "Polyknights admitting a knight's tour",
+  "url": "https://pursekeeper.dev/verified/09-polyknight-tours",
+  "issue": "https://github.com/pursekeeper/claims/issues/7",
+  "units_claimed": 20,
+  "units_both": 16,
+  "units_by_none": 4,
+  "evaluated": [
+   {
+    "by": "liutingqiu",
+    "range": "minimum: n <= 8 (A030446, PO, PC); n = 9, 10 not yet reproduced",
+    "terms_evaluated": 16
+   },
+   {
+    "by": "MarkZ1966github (Northstar Swarm / FiveToClose)",
+    "range": "minimum: n <= 8 (A030446, PO, PC); n = 9, 10 not evaluated",
+    "terms_evaluated": 16
+   }
+  ],
+  "rule": null
+ },
+ {
+  "n": 10,
+  "title": "Loop number of a polyomino's mirror curve equals the GF(2) nullity of its Laplacian",
+  "url": "https://pursekeeper.dev/verified/10-mirror-curve-loops-gf2-nullity",
+  "issue": "https://github.com/pursekeeper/claims/issues/8",
+  "units_claimed": 19,
+  "units_both": 14,
+  "units_by_none": 5,
+  "evaluated": [
+   {
+    "by": "MarkZ1966github (Northstar Swarm / FiveToClose)",
+    "range": "minimum: part (a) n <= 11 (23,546 shapes, zero mismatches, max L = 4), part (b) n <= 12; n = 13..17 not evaluated",
+    "terms_evaluated": 14
+   },
+   {
+    "by": "liutingqiu",
+    "range": "minimum: part (a) n <= 11 (zero mismatches, max L = 4), part (b) n <= 12; n = 13..17 not evaluated",
+    "terms_evaluated": 14
+   }
+  ],
+  "rule": "19 units: the mismatch count and the maximum L for part (a), 17 terms for part (b)"
+ },
+ {
+  "n": 11,
+  "title": "Spanning-tree statistics of free polyominoes",
+  "url": "https://pursekeeper.dev/verified/11-spanning-tree-statistics-polyominoes",
+  "issue": "https://github.com/pursekeeper/claims/issues/17",
+  "units_claimed": 85,
+  "units_both": 65,
+  "units_by_none": 20,
+  "evaluated": [
+   {
+    "by": "Rai (PANDeveloper001)",
+    "range": "minimum: M, NM, SUM, DIST, UNI for n <= 13 plus the A131482 side condition for n <= 13; n = 14..17 not evaluated",
+    "terms_evaluated": 65
+   },
+   {
+    "by": "Pururin-ux",
+    "range": "minimum: M, NM, SUM, DIST, UNI for n <= 13 plus the A131482 side condition for n <= 13, with an exhaustive edge-subset check of every shape for n <= 8; n = 14..17 not evaluated",
+    "terms_evaluated": 65
+   }
+  ],
+  "rule": null
+ },
+ {
+  "n": 12,
+  "title": "Independent-set and domino-tiling statistics of free polyominoes",
+  "url": "https://pursekeeper.dev/verified/12-independent-sets-domino-tilings-polyominoes",
+  "issue": "https://github.com/pursekeeper/claims/issues/18",
+  "units_claimed": 84,
+  "units_both": 64,
+  "units_by_none": 20,
+  "evaluated": [
+   {
+    "by": "Rai (PANDeveloper001)",
+    "range": "minimum: IMIN, IMAX, ISUM, IDIST for n <= 13 and MSUM, MMAX for k <= 6; the A213376/A213377 side condition and n = 14..17 not evaluated",
+    "terms_evaluated": 64
+   },
+   {
+    "by": "Pururin-ux",
+    "range": "minimum: IMIN, IMAX, ISUM, IDIST for n <= 13 and MSUM, MMAX for k <= 6, plus the A213376/A213377 side condition for k <= 6, with an exhaustive vertex- and edge-subset check of every shape for n <= 8; n = 14..17 (k = 7, 8) not evaluated",
+    "terms_evaluated": 64
+   }
+  ],
+  "rule": null
+ },
+ {
+  "n": 13,
+  "title": "Hamiltonian paths and cycles in the inner duals of polyhexes and polyiamonds",
+  "url": "https://pursekeeper.dev/verified/13-polyhex-polyiamond-inner-dual-hamiltonian",
+  "issue": "https://github.com/pursekeeper/claims/issues/9",
+  "units_claimed": 63,
+  "units_both": 51,
+  "units_by_none": 12,
+  "evaluated": [
+   {
+    "by": "liutingqiu",
+    "range": "minimum: P6, C6 for n <= 12; P3, C3 for n <= 18; both side conditions; remaining terms not evaluated",
+    "terms_evaluated": 51
+   },
+   {
+    "by": "TheAliphant (Sur)",
+    "range": "minimum: P6, C6 for n <= 12; P3, C3 for n <= 18; both side conditions; remaining terms not evaluated",
+    "terms_evaluated": 51
+   }
+  ],
+  "rule": null
+ },
+ {
+  "n": 14,
+  "title": "Hamiltonian induced subgraphs of the honeycomb lattice with more than one Hamiltonian cycle",
+  "url": "https://pursekeeper.dev/verified/14-honeycomb-unique-hamiltonian-cycle",
+  "issue": "https://github.com/pursekeeper/claims/issues/10",
+  "units_claimed": 5,
+  "units_both": 3,
+  "units_by_none": 2,
+  "evaluated": [
+   {
+    "by": "liutingqiu",
+    "range": "minimum: part (b) in full (49 edges, 16+22 degrees, 2 cycles), part (a) max 1 cycle through 30 vertices; 36 and uniqueness at 38 not evaluated",
+    "terms_evaluated": 3
+   },
+   {
+    "by": "TheAliphant (Sur)",
+    "range": "minimum: part (b) in full (49 edges, 16+22 degrees, 2 cycles), part (a) max 1 cycle through 30 vertices; 36 and uniqueness at 38 not evaluated",
+    "terms_evaluated": 3
+   }
+  ],
+  "rule": "5 named outputs: 3 for part (b), 2 for part (a); part (a) to 30 vertices is a partial of one output and does not count"
+ }
+]
